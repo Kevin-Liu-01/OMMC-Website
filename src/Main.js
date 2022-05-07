@@ -211,53 +211,53 @@ function Main() {
         </div>
         <main className="flex place-content-center ">
           <div className=" self-center max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-            <ol className="relative border-l border-gray-300 dark:border-gray-700">
+            <ol className="relative border-l border-gray-300 ">
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
                 <h3 className="text-lg font-semibold text-gray-900 ">
                   Start
                 </h3>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800 dark:text-gray-500">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-800 ">
                   May 27 - June 5
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900">
                   Contest Dates
                 </h3>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-gray-500">
                   The OMMC contest will be held through these days.
                 </p>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800  dark:text-gray-500">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-800  ">
                   June 6
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 ">
                   OMMC discussion opened
                 </h3>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-gray-500">
                   Participants will be allowed to discuss the competition.
                 </p>
               </li>
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800  dark:text-gray-500">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-800  ">
                   Late June - Early July
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 ">
                   Conclusion of competition
                 </h3>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="text-base font-normal text-gray-500 ">
                   Solutions are released, winners announced, and prizes
                   sent out.
                 </p>
               </li>
               <li className="ml-4">
-                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <h3 className="text-lg font-semibold text-gray-900 ">
                   End
                 </h3>
               </li>
