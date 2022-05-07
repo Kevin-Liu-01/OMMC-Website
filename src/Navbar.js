@@ -34,7 +34,7 @@ function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="h-10 w-auto"
+                    className="hidden lg:block h-10 w-auto"
                     src="https://cdn.discordapp.com/attachments/760189295067004962/917951890690547712/ommc_fixup.png"
                     alt="OMMCLogo"
                     href="/"

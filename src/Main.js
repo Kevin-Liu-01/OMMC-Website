@@ -214,7 +214,7 @@ function Main() {
             <ol className="relative border-l border-gray-300 dark:border-gray-700">
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-gray-900 ">
                   Start
                 </h3>
               </li>
@@ -223,7 +223,7 @@ function Main() {
                 <time className="mb-1 text-sm font-normal leading-none text-red-800 dark:text-gray-500">
                   May 27 - June 5
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-gray-900">
                   Contest Dates
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
@@ -235,7 +235,7 @@ function Main() {
                 <time className="mb-1 text-sm font-normal leading-none text-red-800  dark:text-gray-500">
                   June 6
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-gray-900 ">
                   OMMC discussion opened
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -247,7 +247,7 @@ function Main() {
                 <time className="mb-1 text-sm font-normal leading-none text-red-800  dark:text-gray-500">
                   Late June - Early July
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-gray-900 ">
                   Conclusion of competition
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
