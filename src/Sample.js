@@ -10,8 +10,8 @@ function Sample() {
         </div>
       </header>
       <main className="rows-2 bg-slate-200">
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0">
+      <div className="max-w-7xl mx-auto py-3 pt-7 sm:px-6 lg:px-8">
+          <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96">
                 <iframe
                   src="https://drive.google.com/file/d/1p3RhXHcfPYCvm0oAAYodsUujbMPVwOR8/preview"
@@ -22,8 +22,8 @@ function Sample() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0">
+        <div className="max-w-7xl mx-auto py-4 pb-7 sm:px-6 lg:px-8">
+          <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96">
                 <iframe
                   src="https://drive.google.com/file/d/1VWXcQy5waWyRwuG8J64LxkJUETCPTvC4/preview"
@@ -41,8 +41,8 @@ function Sample() {
         </div>
       </header>
       <main className="rows-2 bg-slate-200">
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0">
+        <div className="max-w-7xl mx-auto py-3 pt-7 sm:px-6 lg:px-8">
+          <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96">
                 <iframe
                   src="https://drive.google.com/file/d/1CZKocvVETJW7p0_bQLMWfkWCo8kEuJYr/preview"
@@ -53,8 +53,8 @@ function Sample() {
             </div>
           </div>
         </div>
-        <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-          <div className="px-4 py-6 sm:px-0">
+        <div className="max-w-7xl mx-auto py-4 pb-7 sm:px-6 lg:px-8">
+          <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96">
                 <iframe
                   src="https://drive.google.com/file/d/1NDweAK-Os3m9M4b3Pp2Mf_x7wDUTjPsr/preview"

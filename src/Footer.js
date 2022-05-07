@@ -79,7 +79,7 @@ function Footer() {
       </div>
 
       <div class="text-center text-gray-800 p-4 bg-slate-400">
-        © 2021 Copyright: {""}
+        © 2022 Copyright: {""}
         <a class="text-gray-800" href="/">
           OMMC™
         </a>
