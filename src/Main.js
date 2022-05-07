@@ -34,7 +34,7 @@ function Main() {
             </div>
             <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
               <a
-                href="#"
+                href="https://artofproblemsolving.com/community/c5h2837951"
                 className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-red-800 bg-white hover:bg-indigo-50"
               >
                 Learn more
@@ -159,7 +159,7 @@ function Main() {
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
-                      href="https://artofproblemsolving.com/community/c5h2837951"
+                      href="/sample"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10"
                     >
                       See sample problems
@@ -287,7 +287,7 @@ function Main() {
                   Conclusion of competition
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Solutions are released, winners are announced, and prizes are
+                  Solutions are released, winners announced, and prizes
                   sent out.
                 </p>
               </li>
@@ -301,7 +301,7 @@ function Main() {
           </div>
         </main>
       </div>
-      <div className="py-12 bg-slate-200">
+      <div className="py-12 bg-slate-200 align-center">
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex">
             <div className="self-center ">
@@ -343,8 +343,8 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="flex bg-slate-100  place-content-center ">
-        <div className="ml-10 place-content-center shadow-lg mr-10 mt-10 mb-10">
+      <div className="flex bg-slate-100 place-content-center  ">
+        <div className="ml-10 shadow-lg mr-10 mt-10 mb-10 ">
           <iframe
             className="shadow-xl	"
             src="https://discord.com/widget?id=796756256022200350&theme=dark"
@@ -388,15 +388,7 @@ function Main() {
           </dt>
         </div>
       </div>
-      <footer className="text-center text-white bg-slate-100">
-
-        <div className="text-center text-gray-700 p-4 bg-slate-200">
-          © 2021 Copyright:{" "}
-          <a className="text-gray-800" href="https://tailwind-elements.com/">
-            OMMC{" "}
-          </a>
-        </div>
-      </footer>
+      
     </>
   );
 }

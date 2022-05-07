@@ -4,11 +4,10 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
+  { name: "Home", href: "/", current: true },
 
-  { name: "Temporary Sample", href: "#", current: true },
+  { name: "Sample Problems", href: "/sample", current: true },
   { name: "Future Tab", href: "#", current: true },
-
 ];
 
 function classNames(...classes) {
@@ -36,12 +35,13 @@ function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
+                    className="h-10 w-auto"
                     src="https://cdn.discordapp.com/attachments/760189295067004962/917951890690547712/ommc_fixup.png"
                     alt="OMMCLogo"
+                    href="/"
                   />
                   <img
-                    className="hidden lg:block h-8 w-auto "
+                    className="block lg:hidden h-10 w-auto"
                     src="https://cdn.discordapp.com/attachments/760189295067004962/917951890690547712/ommc_fixup.png"
                     alt="OMMCLogo"
                   />
@@ -67,8 +67,7 @@ function Navbar() {
                 </div>
               </div>
             </div>
-          
-            </div>
+          </div>
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
@@ -92,7 +91,7 @@ function Navbar() {
         </>
       )}
     </Disclosure>
-  )
+  );
 }
 
 export default Navbar;
