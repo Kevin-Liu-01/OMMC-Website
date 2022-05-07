@@ -2,7 +2,7 @@ import "./App.css";
 
 function Footer() {
   return (
-    <footer class="text-center text-white bg-slate-200">
+    <footer class="text-center text-white bg-slate-300">
       <div class=" pt-9">
         <div class="flex justify-center mb-9">
           <a href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng" class="mr-9 text-gray-800">
@@ -78,7 +78,7 @@ function Footer() {
         </div>
       </div>
 
-      <div class="text-center text-gray-700 p-4 bg-slate-300">
+      <div class="text-center text-gray-800 p-4 bg-slate-400">
         © 2021 Copyright: {""}
         <a class="text-gray-800" href="/">
           OMMC™
