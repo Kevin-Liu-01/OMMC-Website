@@ -157,8 +157,8 @@ function Main() {
                 who serve as the directors.
               </p>
             </div>
-            <div className="inline-block">
-            <div className=" mb-5">
+            <div className="md:flex">
+            <div className="mt-8">
               <div className="absolute flex items-center justify-center mb-2 h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
@@ -168,7 +168,7 @@ function Main() {
                 math education.
               </p>
             </div>
-            <div className="mb-5">
+            <div className="mt-8">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
@@ -178,7 +178,7 @@ function Main() {
                 program.
               </p>
             </div>
-            <div className="">
+            <div className="mt-8">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
