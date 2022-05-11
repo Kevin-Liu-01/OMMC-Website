@@ -14,9 +14,9 @@ import {
 
 function Main() {
   return (
-    <>
+    <div className="min-h-screen bg-slate-100 ">
       
-      <div className="relative bg-white overflow-hidden">
+      <div className="relative bg-white overflow-hidden ">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
             <svg
@@ -157,7 +157,8 @@ function Main() {
                 who serve as the directors.
               </p>
             </div>
-            <div className="self-center">
+            <div className="inline-block">
+            <div className=" mb-5">
               <div className="absolute flex items-center justify-center mb-2 h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
@@ -167,7 +168,7 @@ function Main() {
                 math education.
               </p>
             </div>
-            <div className="self-center">
+            <div className="mb-5">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
@@ -177,7 +178,7 @@ function Main() {
                 program.
               </p>
             </div>
-            <div className="self-center">
+            <div className="">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-6 w-6" aria-hidden="true" />
               </div>
@@ -187,6 +188,8 @@ function Main() {
                 creative, and inspirational.
               </p>
             </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -266,9 +269,9 @@ function Main() {
         </main>
       </div>
       <div className="py-12 bg-slate-200 align-center">
-        <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-          <div className="flex">
-            <div className="self-center ">
+        <div className="justify-center flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+          <div className="flex mb-5">
+            <div className="self-center">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
                 Prizes
               </h2>
@@ -276,13 +279,14 @@ function Main() {
                 What do participants gain?
               </p>
             </div>
+            </div>
 
-            <div className="columns-2">
-              <div className="self-center">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+            <div className="md:flex">
+              <div className="mt-5">
+                <div className="absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                   <GiftIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
-                <p className="ml-16 max-w-2xl  text-gray-500">
+                <p className="ml-16 max-w-2xl  text-gray-500 ">
                   Prizes shouldn’t be the main reason someone takes OMMC, but in
                   previous years we have been sponsored by organizations such as
                   AoPS, Maplesoft, and Wolfram Alpha, who have provided hundreds
@@ -290,8 +294,8 @@ function Main() {
                   be no different.
                 </p>
               </div>
-              <div className="self-center">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+              <div className=" mt-5">
+                <div className="absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                   <UsersIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 max-w-2xl  text-gray-500">
@@ -304,23 +308,20 @@ function Main() {
                 </p>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div className="flex bg-slate-100 place-content-center  ">
-        <div className="ml-10 shadow-lg mr-10 mt-10 mb-10 ">
+      <div className="flex bg-slate-100 place-content-center">
+        <div className="ml-10 shadow-lg mr-10 mt-10 mb-10 h-96">
           <iframe
-            className="shadow-xl	"
             src="https://discord.com/widget?id=796756256022200350&theme=dark"
-            width="350"
-            height="500"
+            class="w-full h-full"
             allowtransparency="true"
             frameBorder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
           ></iframe>
         </div>
 
-        <div className="mr-10 ml-10 place-content-center mt-10 mb-10">
+        <div className="mr-10 ml-10 place-content-center mt-10 mb-10 ">
           <p className=" text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Get in touch
           </p>
@@ -329,7 +330,7 @@ function Main() {
             latest updates on OMMC. There is no sign up process for OMMC this
             year.
           </p>
-          <dt>
+          <div>
             <div className="absolute mt-1 flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
               <ClockIcon className="h-6 w-6" aria-hidden="true" />
             </div>
@@ -339,7 +340,7 @@ function Main() {
               submission. The test portal will be linked on this page during the
               testing period.
             </p>
-          </dt>
+          </div>
           <dt>
             <div className="absolute  flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
               <UserIcon className=" h-6 w-6" aria-hidden="true" />
@@ -353,7 +354,7 @@ function Main() {
         </div>
       </div>
       
-    </>
+    </div>
   );
 }
 

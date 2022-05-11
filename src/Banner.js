@@ -10,7 +10,7 @@ function Banner(){
     const [banner, setBanner]=useState(false)
 
     return(<>{banner?<></>:
-    <div className="bg-red-700">
+    <div className="bg-red-700 ">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
@@ -40,7 +40,7 @@ function Banner(){
               type="button"
               className="-mr-1 flex p-2 rounded-md hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
             >
-              <span className="sr-only">Dismiss</span>
+              <span className="sr-only ">Dismiss</span>
               <XIcon onClick={()=>setBanner(true)} className="h-6 w-6 text-white" aria-hidden="true" />
             </button>
           </div>
