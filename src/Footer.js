@@ -2,8 +2,8 @@ import "./App.css";
 
 function Footer() {
   return (
-    <footer class="text-center text-white bg-slate-300">
-      <div class=" pt-9 ">
+    <footer class="text-center text-white bg-slate-200">
+      <div class=" pt-11 ">
         <div class="flex justify-center mb-5">
           <a
             href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng"
@@ -81,12 +81,14 @@ function Footer() {
         </div>
       </div>
 
-      <div class="text-center text-gray-800 pb-4 bg-slate-300 ">
+      <div class="text-center text-gray-800 pb-8 bg-slate-200 ">
+     
         <div class="mb-3">
-          © 2022 Copyright: {""}
-          <a class="text-gray-800 " href="/">
-            OMMC™
-          </a>
+          <div class="text-gray-800">© 2022 Copyright: OMMC™</div>
+          
+          <p class="text-gray-800 text-xs mt-3 ">
+            Made by Kevin Liu for OMMC
+          </p>
         </div>
       </div>
     </footer>

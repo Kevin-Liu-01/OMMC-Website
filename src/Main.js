@@ -142,7 +142,7 @@ function Main() {
           />
         </div>
       </div>
-      <div className="py-12 bg-slate-200">
+      <div className="py-12 bg-slate-100">
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex">
             <div className="self-center">
@@ -193,7 +193,7 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="flex place-content-center bg-slate-100">
+      <div className="flex place-content-center bg-white">
         <div className="py-12 self-center mt-2 mb-2">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="self-center ">
@@ -268,7 +268,7 @@ function Main() {
           </div>
         </main>
       </div>
-      <div className="py-12 bg-slate-200 align-center">
+      <div className="py-12 bg-slate-100 align-center">
         <div className="justify-center flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex mb-5">
             <div className="self-center">
@@ -310,7 +310,7 @@ function Main() {
             </div>
         </div>
       </div>
-      <div className="flex bg-slate-100 place-content-center">
+      <div className="flex bg-white place-content-center">
         <div className="ml-10 shadow-lg mr-10 mt-10 mb-10 h-96">
           <iframe
             src="https://discord.com/widget?id=796756256022200350&theme=dark"
