@@ -24,8 +24,9 @@ const sponsors = [
   },
   {
     id: 4,
-    href:"https://www.wolframalpha.com/",
-    imageSrc:"https://content.wolfram.com/uploads/sites/10/2016/06/wolfram-language-text-logo.png",
+    href: "https://www.wolframalpha.com/",
+    imageSrc:
+      "https://content.wolfram.com/uploads/sites/10/2016/06/wolfram-language-text-logo.png",
     imageAlt: "Wolfram",
   },
 ];
@@ -38,21 +39,21 @@ export default function Sponsors() {
           <h1 className="text-3xl font-bold text-gray-900">Sponsors</h1>
         </div>
       </header>
-        <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="sr-only">Sponsors</h2>
+      <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h2 className="sr-only">Sponsors</h2>
 
-          <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
-            {sponsors.map((sponsor) => (
-              <a key={sponsor.id} href={sponsor.href} className="group">
-                <div className="self-center w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                  <img
-                    src={sponsor.imageSrc}
-                    alt={sponsor.imageAlt}
-                    className="w-full h-full object-center object-cover group-hover:opacity-75"
-                  />
-                </div>
-              </a>
-            ))}
+        <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+          {sponsors.map((sponsor) => (
+            <a key={sponsor.id} href={sponsor.href} className="group">
+              <div className="self-center w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+                <img
+                  src={sponsor.imageSrc}
+                  alt={sponsor.imageAlt}
+                  className="w-full h-full object-center object-cover group-hover:opacity-75"
+                />
+              </div>
+            </a>
+          ))}
         </div>
       </div>
     </div>
