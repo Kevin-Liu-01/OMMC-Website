@@ -1,4 +1,4 @@
-const products = [
+const members = [
   {
     id: 1,
     name: "Evan Chang",
@@ -41,14 +41,14 @@ export default function Example() {
       </header>
       <div className="w-full min-h-screen mx-auto max-w-7xl  px-10 pt-10">
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {products.map((product) => (
+          {members.map((member) => (
             <div role="listitem" class="flex relative mt-16 mb-16 w-full">
               <div class="rounded overflow-hidden shadow-md bg-white dark:bg-gray-900">
                 <div class="absolute -mt-20 w-full flex justify-center">
                   <div class="h-32 w-32">
                     <img
-                      src={product.imageSrc}
-                      alt={product.imageAlt}
+                      src={member.imageSrc}
+                      alt={member.imageAlt}
                       role="img"
                       class="rounded-full object-cover h-full w-full shadow-md"
                     />
@@ -56,13 +56,13 @@ export default function Example() {
                 </div>
                 <div class="px-6 mt-16 overflow-auto">
                   <h1 class="font-bold dark:text-white text-3xl text-center mb-1">
-                    {product.name}
+                    {member.name}
                   </h1>
                   <p class="text-gray-800 dark:text-white text-sm text-center">
-                    {product.role}
+                    {member.role}
                   </p>
                   <p class="text-center text-gray-600 dark:text-gray-200 text-base pt-3 font-normal pb-6">
-                    {product.bio}
+                    {member.bio}
                   </p>
                   {/* <div class="w-full flex self-end justify-center inset-x-0 bottom-0  pt-5 pb-5">
                     <a href="javascript:void(0)" class="mx-5">
