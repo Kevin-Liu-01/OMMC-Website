@@ -31,7 +31,7 @@ function Main() {
 
             <Popover>
               <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
-                <nav
+                {/* <nav
                   className="relative flex items-center justify-between sm:h-10 lg:justify-start"
                   aria-label="Global"
                 >
@@ -52,7 +52,7 @@ function Main() {
                       </div>
                     </div>
                   </div>
-                </nav>
+                </nav> */}
               </div>
 
               <Transition
@@ -283,7 +283,7 @@ function Main() {
 
             <div className="md:flex">
               <div className="mt-5">
-                <div className="absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+                <div className="ml-5 absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                   <GiftIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 max-w-2xl  text-gray-500 ">
@@ -295,7 +295,7 @@ function Main() {
                 </p>
               </div>
               <div className=" mt-5">
-                <div className="absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+                <div className="ml-5 absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                   <UsersIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 max-w-2xl  text-gray-500">
