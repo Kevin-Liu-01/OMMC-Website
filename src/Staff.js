@@ -11,13 +11,13 @@ const members = [
   },
   {
     id: 2,
-    name: "Ishaan Akula",
+    name: "Kevin Liu",
     href: "#",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/760189295067004962/974655072543842345/unknown.png",
-    imageAlt: "Ishaan Akula",
-    role: "Administrator",
-    bio: "Ishaan is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as an administrator for OMMC and handles the website/social media aspect of the competition. He works as a coder for the OMMC website, and the manager for OMMC’s social media pages. In elementary school, he was a finalist in the National Scripps Spelling Bee. ",
+      "https://cdn.discordapp.com/attachments/753798704082714715/975243427077849118/unknown.png",
+    imageAlt: "Kevin Liu",
+    role: "Lead Developer",
+    bio: "Kevin is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
   {
     id: 3,

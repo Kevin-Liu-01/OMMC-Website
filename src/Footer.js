@@ -82,13 +82,10 @@ function Footer() {
       </div>
 
       <div class="text-center text-gray-800 pb-8 bg-slate-200 ">
-     
         <div class="mb-3">
           <div class="text-gray-800">© 2022 Copyright: OMMC™</div>
-          
-          <p class="text-gray-800 text-xs mt-3 ">
-            Made by Kevin Liu for OMMC
-          </p>
+
+          <p class="text-gray-800 text-xs mt-3 ">Made by Kevin Liu for OMMC</p>
         </div>
       </div>
     </footer>
