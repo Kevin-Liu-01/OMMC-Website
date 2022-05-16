@@ -29,6 +29,14 @@ const sponsors = [
       "https://content.wolfram.com/uploads/sites/10/2016/06/wolfram-language-text-logo.png",
     imageAlt: "Wolfram",
   },
+  {
+    id: 5,
+    href: "https://www.3blue1brown.com/",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/753798704082714715/975569527930781696/unknown.png",
+    imageAlt: "3blue1brown",
+  },
+  
 ];
 
 export default function Sponsors() {
@@ -45,7 +53,7 @@ export default function Sponsors() {
         <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
           {sponsors.map((sponsor) => (
             <a key={sponsor.id} href={sponsor.href} className="group">
-              <div className="self-center w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <div className="self-center w-full aspect-w-1 aspect-h-1  rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
                   src={sponsor.imageSrc}
                   alt={sponsor.imageAlt}
