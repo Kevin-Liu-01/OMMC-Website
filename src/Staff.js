@@ -11,13 +11,13 @@ const members = [
   },
   {
     id: 2,
-    name: "Kevin Liu",
+    name: "Ishaan Akula",
     href: "#",
     imageSrc:
-      "https://cdn.discordapp.com/attachments/753798704082714715/975416571839270952/unknown.png",
-    imageAlt: "Kevin Liu",
-    role: "Lead Developer",
-    bio: "Kevin is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
+      "https://cdn.discordapp.com/attachments/760189295067004962/974655072543842345/unknown.png",
+    imageAlt: "Ishaan Akula",
+    role: "Administrator",
+    bio: "Ishaan is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as an administrator for OMMC and handles the website/social media aspect of the competition. He works as a coder for the OMMC website, and the manager for OMMC’s social media pages. In elementary school, he was a finalist in the National Scripps Spelling Bee.",
   },
   {
     id: 3,
@@ -28,6 +28,16 @@ const members = [
     imageAlt: "Bill Fei",
     role: "Administrator",
     bio: "Bill Fei is a sophomore at West Lafayette Jr./Sr. High School in West Lafayette, Indiana. He is an administrator for OMMC. He participates in competitive programming and competition math. He is a USACO Gold Medalist, a three-time AIME qualifier, and has achieved Distinguished Honor Roll on the AMC 10. He won first place in the ICTM math competition in Indiana, and coaches his school’s MATHCOUNTS team. Besides math, he does many other things in his spare time. He enjoys playing the viola and has been in the Indiana All-State Orchestra 2 years in a row and was the sectional principle of the viola section for both his years in the Indiana Junior All-State Orchestra. He also studies piano and has won awards at the Indiana State Fair piano competition. In addition, he enjoys being on his school’s debate team. He was on his school’s state Public Forum debate roster, and placed 5th at his district’s Congressional Debate. In his free time, he enjoys procrastinating and sleeping.",
+  },
+  {
+    id: 4,
+    name: "Kevin Liu",
+    href: "#",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/753798704082714715/975416571839270952/unknown.png",
+    imageAlt: "Kevin Liu",
+    role: "Lead Developer",
+    bio: "Kevin is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
 ];
 
