@@ -17,20 +17,27 @@ const sponsors = [
   },
   {
     id: 3,
+    href: "https://www.janestreet.com/",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/760189295067004962/976149016087756800/unknown.png",
+    imageAlt: "Jane Street",
+  },
+  {
+    id: 4,
     href: "https://artofproblemsolving.com/?utm_source=google&utm_medium=cpc&utm_campaign=&cmid=15593084286&agid=130908271813&search_keyword=aops&search_type=e&netid=g&adid=570025226859&adpos=&dvt=&ptid=&gclid=CjwKCAjw9-KTBhBcEiwAr19ig5zqOPfgTA0t67MDU_L08vklZ7FVHIaEoJP-ojcUrDLBWjeR6_YyMxoC_7sQAvD_BwE",
     imageSrc:
       "https://cdn.discordapp.com/attachments/710679539558121482/973275946721370193/unknown.png",
     imageAlt: "AoPS",
   },
   {
-    id: 4,
+    id: 5,
     href: "https://www.wolframalpha.com/",
     imageSrc:
       "https://content.wolfram.com/uploads/sites/10/2016/06/wolfram-language-text-logo.png",
     imageAlt: "Wolfram",
   },
   {
-    id: 5,
+    id: 6,
     href: "https://www.3blue1brown.com/",
     imageSrc:
       "https://cdn.discordapp.com/attachments/753798704082714715/975569527930781696/unknown.png",
