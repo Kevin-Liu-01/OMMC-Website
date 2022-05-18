@@ -38,6 +38,13 @@ const sponsors = [
   },
   {
     id: 6,
+    href: "https://www.maplesoft.com/",
+    imageSrc:
+      "https://www.maplesoft.com/media/logos/Maplesoft_Logo/Maplesoft_logo.jpg",
+    imageAlt: "Maplesoft",
+  },
+  {
+    id: 7,
     href: "https://www.3blue1brown.com/",
     imageSrc:
       "https://cdn.discordapp.com/attachments/753798704082714715/975569527930781696/unknown.png",
