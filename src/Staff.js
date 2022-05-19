@@ -39,6 +39,26 @@ const members = [
     role: "Lead Developer",
     bio: "Kevin is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
+  {
+    id: 5,
+    name: "Vivian Loh",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/709828147004047400/976857724098846770/Screen_Shot_2022-05-19_at_10.43.32_AM.png",
+    imageAlt: "Vivian Loh",
+    role: "Content Creator",
+    bio: "Vivian Loh is a sophomore at Winchester Thurston School in Pittsburgh, PA. She is a testsolver for OMMC. She received USAJMO winner and an EGMO gold medal in 2022, and has qualified for MOP twice. She has been participating in math contests since 5th grade, qualifying for AIME five times and USAJMO twice, and is particularly enthusiastic about geometry, which she often spends her free time doing. She is also very active on AoPS and Discord (she can be found under the username v4913), and likes biking and talking with friends."
+  },
+  {
+    id: 6,
+    name: "Serena Xu",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/709828147004047400/976857380497281064/Screen_Shot_2022-05-19_at_10.42.18_AM.png",
+    imageAlt: "Serena Xu",
+    role: "Content Creator",
+    bio: "Serena Xu is a junior who started math competitions at 7th grade. She attended MOP in 2021 and published Rabbit's Geometry while organizing GmathIRL. She contributed problems for OMMC, and test solve MMT. In her free time, she likes reading Naruto, playing video games and listening to Spotify."
+  }, 
 ];
 
 export default function Example() {
