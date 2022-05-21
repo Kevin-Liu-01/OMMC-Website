@@ -59,6 +59,16 @@ const members = [
     role: "Content Creator",
     bio: "Serena Xu is a junior who started math competitions at 7th grade. She attended MOP in 2021 and published Rabbit's Geometry while organizing GmathIRL. She contributed problems for OMMC, and test solve MMT. In her free time, she likes reading Naruto, playing video games and listening to Spotify."
   }, 
+  {
+    id: 7,
+    name: "Vikram Sarkar",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977555001725562900/CT_Vikram_Sarkar_-_Vikram_Sarkar.jpg?width=794&height=840",
+    imageAlt: "Vikram Sarkar",
+    role: "Content Creator",
+    bio: "Vikram Sarkar is a test solver for the OMMC team and is currently an 8th grade. His achievements include 2 times Mathcounts Nationals Qualifier (top 56 / top 25% this year), and USAJMO Winner. He likes listening to EDM and various artists, and also likes video games."
+  },
 ];
 
 export default function Example() {

@@ -3,7 +3,7 @@ import "./App.css";
 function Footer() {
   return (
     <footer class="text-center text-white bg-slate-200">
-      <div class=" pt-11 ">
+      <div class=" pt-11 align-center">
         <div class="flex justify-center mb-5">
           <a
             href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng"
@@ -84,7 +84,7 @@ function Footer() {
           </a>
           <a
             href="https://www.instagram.com/ommcofficial/"
-            className="group text-gray-800"
+            className="mr-4 group text-gray-800"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -219,8 +219,8 @@ function Footer() {
         </div>
       </div>
 
-      <div class="text-center text-gray-800 pb-8 bg-slate-200 ">
-        <div class="mb-3">
+      <div class="justify-center text-center text-gray-800 pb-8 bg-slate-200 ">
+        <div class="mb-3 justify-center">
           <div class="text-gray-800">© 2022 Copyright: OMMC™</div>
 
           <p class="text-gray-800 text-xs mt-3 ">Made by Kevin Liu for OMMC</p>
