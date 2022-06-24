@@ -36,9 +36,19 @@ const members = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/753798704082714715/975416571839270952/unknown.png",
     imageAlt: "Kevin Liu",
-    role: "Lead Developer",
+    role: "Lead Website Developer",
     bio: "Kevin is a sophomore at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
+  {
+    id: 5,
+    name: "Vinay Singamsetty",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Advika Vuppala",
+    role: "Website Developer",
+    bio: "Vinay is a freshman in California. He is a developer for OMMC and contributed greatly to the testing portal and website. He is an avid developer and is skilled at developing web applications focused on responsive design, positive UX/UI, SEO and more. He is fluent in React/Next, Vue/Nuxt, JS/HTML/CSS, Sass and general purpose languages like Node JS, Python, C++, C, C#, Java, and more. He's good at developing algorithms and vital coding concepts such as control flow, program structure, versioning, debugging, and formatting. He is also a math enthusiast, achieving honor roll on AMC 8 previously and is currently working on honing his math skills.    "
+  }, 
   {
     id: 5,
     name: "Vivian Loh",
@@ -61,6 +71,16 @@ const members = [
   }, 
   {
     id: 7,
+    name: "Isaac Chen",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/978105620496527410/Screen_Shot_2022-05-22_at_9.21.40_PM.png",
+    imageAlt: "Isaac Chen",
+    role: "Content Creator",
+    bio: "Isaac Chen is a freshman at Princeton Day School in Princeton, NJ. He contributes problems to OMMC and other contests such as the Online Youth Mathematics Competition. Isaac is a one-time USAJMO qualifier, one-time AMC 10 DHR awardee, and two-time AIME qualifier. He also placed 17th overall at CMIMC Math 2022 and 5th overall at 2021 NJ MATHCOUNTS States. Outside of math, Isaac spends his time playing and watching basketball, coding, and walking around Princeton University’s beautiful campus with his friends."
+  }, 
+  {
+    id: 8,
     name: "Vikram Sarkar",
     href: "#",
     imageSrc:
@@ -69,11 +89,90 @@ const members = [
     role: "Content Creator",
     bio: "Vikram Sarkar is a test solver for the OMMC team and is currently an 8th grade. His achievements include 2 times Mathcounts Nationals Qualifier (top 56 / top 25% this year), and USAJMO Winner. He likes listening to EDM and various artists, and also likes video games."
   },
+  {
+    id: 9,
+    name: "Alexander Wang",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Alexander Wang",
+    role: "Content Creator",
+    bio: "Alexander Wang is a 8th grader who works as a content creator for OMMC, and has contributed problems to the competition. He has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator."
+  },
+  {
+    id: 10,
+    name: "Calvin Wang",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Calvin Wang",
+    role: "Content Creator",
+    bio: "Calvin is an 8th grader in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord."
+  }, 
+  {
+    id: 11,
+    name: "Justin Lee",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Justin Lee",
+    role: "Problem Committee",
+    bio: "Justin is a sophomore at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games."
+  }, 
+  {
+    id: 12,
+    name: "Mahith Gottipati",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Mahith Gottipati",
+    role: "Problem Committee",
+    bio: "Mahith Gottipati is an 8th grader at Quail Valley Middle School. He is a member of the Problem Committee for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess under the handle mathimathz on lichess."
+  }, 
+  {
+    id: 13,
+    name: "Tanishq Pauskar",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Tanishq Pauskar",
+    role: "Content Creation",
+    bio: "Tanishq Pauskar is a sophomore who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4."
+  }, 
+  {
+    id: 14,
+    name: "Ritwin Narra",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Ritwin Narra",
+    role: "Content Creation",
+    bio: "Ritwin is currently a freshman in California. He is a Test Solver for OMMC. He has qualified for the AIME since 7th grade, and his math accomplishments include a 72 on USAMTS and a 24 on BAMO (one point under Honorable Mention). In school, he teaches both programming and math. Apart from math, he loves coding: he's a USACO Platinum participant and reached Codeforces Master. Also, he likes cubing, especially the Square-1, and aims for a sub-20 3x3 average."
+  }, 
+  {
+    id: 15,
+    name: "Ananya Vuppala",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Ananya Vuppala",
+    role: "Outreach",
+    bio: "Ananya is currently a sophomore at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!"
+  }, 
+  {
+    id: 16,
+    name: "Advika Vuppala",
+    href: "#",
+    imageSrc:
+      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+    imageAlt: "Advika Vuppala",
+    role: "Outreach",
+    bio: "Advika Vuppala is a sophomore at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking."
+  }, 
 ];
-
 export default function Example() {
   return (
-    <div className="bg-gray-100 dark:bg-gray-800">
+    <div className="bg-slate-200 dark:bg-gray-800">
       <header className="bg-white shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">Staff</h1>

@@ -8,6 +8,10 @@ const navigation = [
   { name: "Staff", href: "/staff", current: true },
   { name: "Sample Problems", href: "/sample", current: true },
   { name: "Sponsors", href: "/sponsors", current: true },
+  { name: "Leaderboard", href: "/leaderboard", current: true },
+  { name: "Test Docs", href: "/testDocs", current: true },
+  // { name: "Portal", href: "/portal", current: true },
+  // { name: "Retreival", href: "/retreival", current: true },
 
 ];
 

@@ -2,7 +2,7 @@ import "./App.css";
 
 function Footer() {
   return (
-    <footer class="text-center text-white bg-slate-200">
+    <footer class="text-center text-white bg-slate-100">
       <div class=" pt-11 align-center">
         <div class="flex justify-center mb-5">
           <a
@@ -219,11 +219,11 @@ function Footer() {
         </div>
       </div>
 
-      <div class="justify-center text-center text-gray-800 pb-8 bg-slate-200 ">
+      <div class="justify-center text-center text-gray-800 pb-8 bg-slate-100 ">
         <div class="mb-3 justify-center">
           <div class="text-gray-800">© 2022 Copyright: OMMC™</div>
 
-          <p class="text-gray-800 text-xs mt-3 ">Made by Kevin Liu for OMMC</p>
+          <p class="text-gray-800 text-xs mt-3 ">Made by Kevin Liu and Vinay Singamsetty for OMMC</p>
         </div>
       </div>
     </footer>
