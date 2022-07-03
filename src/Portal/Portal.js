@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Constants from "./config.js";
+import Constants from "../config.js";
 
 const Create = (props) => {
   const [stateObj = {}, _objSet] = useState({

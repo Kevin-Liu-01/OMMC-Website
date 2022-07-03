@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import { useState } from "react";
 import { XIcon, SpeakerphoneIcon } from "@heroicons/react/outline";
 

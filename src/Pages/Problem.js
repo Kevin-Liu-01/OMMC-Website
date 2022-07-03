@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import { IGEmbed } from 'react-ig-embed';
 
 function Problem() {

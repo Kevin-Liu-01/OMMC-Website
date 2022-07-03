@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // This will require to npm install axios
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Constants from "./config.js";
+import Constants from "../config.js";
 import Fuse from "fuse.js";
 
 let Latex = require("react-latex");

@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import { Disclosure } from "@headlessui/react";
 import {MenuIcon, XIcon } from "@heroicons/react/outline";
 
@@ -9,7 +9,7 @@ const navigation = [
   { name: "Sponsors", href: "/sponsors", current: true },
   { name: "Leaderboard", href: "/leaderboard", current: true },
   { name: "Test Docs", href: "/testDocs", current: true },
-  {name: "POTM", href:"/problem-of-the-day", current: true}
+  {name: "POTM", href:"/problem-of-the-month", current: true}
   // { name: "Portal", href: "/portal", current: true },
   // { name: "Retreival", href: "/retreival", current: true },
 

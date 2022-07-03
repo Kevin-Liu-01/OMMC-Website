@@ -1,16 +1,16 @@
 import './App.css';
-import Main from './Main.js'
-import Navbar from './Navbar.js'
-import Footer from './Footer.js'
-import Sample from './Sample.js'
-import Banner from './Banner.js'
-import Sponsors from './Sponsors.js'
-import Staff from './Staff.js'
-import Leaderboard from './Leaderboard.js'
-import TestDocs from './TestDocs.js'
-import Portal from './Portal.js'
-import Retreival from './Retreival.js'
-import Problem from './Problem.js'
+import Main from './Pages/Main.js'
+import Navbar from './Reusable-Elements/Navbar.js'
+import Footer from './Reusable-Elements/Footer.js'
+import Sample from './Pages/Sample.js'
+import Banner from './Reusable-Elements/Banner.js'
+import Sponsors from './Pages/Sponsors.js'
+import Staff from './Pages/Staff.js'
+import Leaderboard from './Pages/Leaderboard.js'
+import TestDocs from './Pages/TestDocs.js'
+import Portal from './Portal/Portal.js'
+import Retreival from './Portal/Retreival.js'
+import Problem from './Pages/Problem.js'
 
 
 import { Routes, Route } from "react-router-dom";
@@ -33,7 +33,7 @@ function App() {
       <Route path="testdocs" element={<TestDocs/>}></Route>
       <Route path="portal" element={<Portal/>}></Route>
       <Route path="retreival" element={<Retreival/>}></Route>
-      <Route path="problem-of-the-day" element={<Problem/>}></Route>
+      <Route path="problem-of-the-month" element={<Problem/>}></Route>
 
       </Routes> 
       <Footer></Footer>

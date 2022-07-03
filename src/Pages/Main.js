@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
