@@ -1,7 +1,6 @@
 import "./App.css";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import {MenuIcon, XIcon } from "@heroicons/react/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -10,6 +9,7 @@ const navigation = [
   { name: "Sponsors", href: "/sponsors", current: true },
   { name: "Leaderboard", href: "/leaderboard", current: true },
   { name: "Test Docs", href: "/testDocs", current: true },
+  {name: "POTM", href:"/problem-of-the-day", current: true}
   // { name: "Portal", href: "/portal", current: true },
   // { name: "Retreival", href: "/retreival", current: true },
 

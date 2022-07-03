@@ -1,6 +1,6 @@
 import "./App.css";
 
-function Sample() {
+function TestDocs() {
 
   return (
     <div className="bg-slate-200 min-h-screen">
@@ -14,6 +14,7 @@ function Sample() {
           <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96 shadow-lg ">
                 <iframe
+                  title="test"
                   src="https://drive.google.com/file/d/1eE5VRCuH5qBoGlfqo1zarOPA0kiFSbsx/preview"
                   class="w-full h-full"
                   allow="autoplay"
@@ -34,6 +35,7 @@ function Sample() {
           <div className="px-4 sm:px-0">
             <div className="border-4 border-dashed border-gray-400 rounded-lg h-96 shadow-lg ">
                 <iframe
+                  title="tiebreaker"
                   src="https://drive.google.com/file/d/18gzfx_VjCUSvsEFsA8GsHUSwj2e4Gk1q/preview"
                   class="w-full h-full"
                   allow="autoplay"
@@ -48,4 +50,4 @@ function Sample() {
   );
 }
 
-export default Sample;
+export default TestDocs;

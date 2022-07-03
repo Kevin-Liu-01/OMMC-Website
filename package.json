@@ -16,11 +16,14 @@
     "pdfobject": "^2.2.8",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-ig-embed": "^2.0.21",
+    "react-instagram-embed": "^3.0.0",
     "react-latex": "^2.0.0",
     "react-redux": "^7.2.6",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-social-media-embed": "^2.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

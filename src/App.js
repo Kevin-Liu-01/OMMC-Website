@@ -10,6 +10,7 @@ import Leaderboard from './Leaderboard.js'
 import TestDocs from './TestDocs.js'
 import Portal from './Portal.js'
 import Retreival from './Retreival.js'
+import Problem from './Problem.js'
 
 
 import { Routes, Route } from "react-router-dom";
@@ -32,6 +33,7 @@ function App() {
       <Route path="testdocs" element={<TestDocs/>}></Route>
       <Route path="portal" element={<Portal/>}></Route>
       <Route path="retreival" element={<Retreival/>}></Route>
+      <Route path="problem-of-the-day" element={<Problem/>}></Route>
 
       </Routes> 
       <Footer></Footer>

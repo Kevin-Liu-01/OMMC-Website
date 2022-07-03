@@ -188,7 +188,6 @@ export default function Example() {
                     <img
                       src={member.imageSrc}
                       alt={member.imageAlt}
-                      role="img"
                       class="rounded-full object-cover h-full w-full shadow-md"
                     />
                   </div>

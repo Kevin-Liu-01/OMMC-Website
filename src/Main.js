@@ -1,10 +1,8 @@
 import "./App.css";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
-  MenuIcon,
   XIcon,
-  SpeakerphoneIcon,
   ClockIcon,
   UserIcon,
   CheckIcon,
@@ -85,12 +83,6 @@ function Main() {
                       </div>
                     </div>
 
-                    <a
-                      href="#"
-                      className="block w-full px-5 py-3 text-center font-medium text-red-800 bg-gray-50 hover:bg-gray-100"
-                    >
-                      Join OMMC (unavailable)
-                    </a>
                   </div>
                 </Popover.Panel>
               </Transition>
@@ -313,6 +305,7 @@ function Main() {
       <div className="flex bg-white place-content-center">
         <div className="ml-10 shadow-lg mr-10 mt-10 mb-10 h-96">
           <iframe
+            title="DiscordLink"
             src="https://discord.com/widget?id=796756256022200350&theme=dark"
             class="w-full h-full"
             allowtransparency="true"
