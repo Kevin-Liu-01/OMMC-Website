@@ -21,9 +21,12 @@ function Banner() {
                   />
                 </span>
                 <p className="ml-3 font-medium text-white truncate">
-                  <span className="md:hidden">OMMC is back!</span>
+                  <span className="md:hidden">
+                    OMMC results have concluded!
+                  </span>
                   <span className="hidden md:inline">
-                    OMMC Year 2 has concluded, with submissions from more than 100 teams! 
+                    OMMC Year 2 has concluded, with submissions from more than
+                    100 teams!
                   </span>
                 </p>
               </div>

@@ -1,5 +1,43 @@
 import "../App.css";
-import { IGEmbed } from 'react-ig-embed';
+
+const posts = [
+  {
+    igLink:
+      "https://www.instagram.com/p/CfeLT4YLxI2/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CePTUVelhEn/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/Cc_pjWKFdvo/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/Cb3pCJHFmPx/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CanVq_ElJ3m/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CZdR0VLFEvT/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CYP8Dz_lDqx/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CXMt2kVlR5S/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CWjZnwalm71/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+];
 
 function Problem() {
   return (
@@ -14,15 +52,38 @@ function Problem() {
       <main className="bg-slate-200">
         <div className="max-w-7xl mx-auto py-3 pt-7 pb-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0 ">
-            <div className="flex rounded-lg grow place-content-center mt-6 mb-4">
-              <IGEmbed className=" shadow-lg" url="https://www.instagram.com/p/CfeLT4YLxI2/" />
-
+            <div className="flex grid gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 mt-4 mb-6">
+              {posts.map((posts) => (
+                <div className="flex place-content-center grow mt-2">
+                  <div className="shadow-lg grow w-full">
+                    <iframe
+                      class="instagram-media instagram-media-rendered w-full"
+                      title="instagramProblem"
+                      id="instagram-embed-0"
+                      src={posts.igLink}
+                      allowtransparency="true"
+                      allowfullscreen="true"
+                      frameborder="0"
+                      height="650"
+                      data-instgrm-payload-id="instagram-media-payload-0"
+                      scrolling="no"
+                      style={{
+                        backgroundColor: "white",
+                        borderRadius: "3px",
+                        border: "1px solid rgb(219, 219, 219)",
+                        boxShadow: "none",
+                        display: "block",
+                        minWidth: "326px",
+                        padding: "0px;",
+                      }}
+                    ></iframe>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </main>
-    
-     
     </div>
   );
 }
