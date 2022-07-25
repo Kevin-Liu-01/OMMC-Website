@@ -1,4 +1,6 @@
 import "../App.css";
+import Navbar from "../Reusable-Elements/Navbar.js";
+import Banner from "../Reusable-Elements/Banner.js";
 
 const sponsors = [
   {
@@ -61,27 +63,34 @@ const sponsors = [
 
 export default function Sponsors() {
   return (
-    <div className="min-h-screen">
-      <header className="bg-white shadow-lg bg-slate-100">
+    <div className="min-h-screen bg-slate-200">
+      <Navbar page="sponsors" />
+      <Banner />
+      <header className="shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">Sponsors</h1>
         </div>
       </header>
-      <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Sponsors</h2>
-
-        <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
-          {sponsors.map((sponsor) => (
-            <a key={sponsor.id} href={sponsor.href} className="group">
-              <div className="self-center w-full aspect-w-1 aspect-h-1  rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-                <img
-                  src={sponsor.imageSrc}
-                  alt={sponsor.imageAlt}
-                  className="w-full h-full object-center object-cover group-hover:opacity-75"
-                />
-              </div>
-            </a>
-          ))}
+        <div className="bg-white border rounded-lg drop-shadow-lg">
+          <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 p-10">
+            {sponsors.map((sponsor) => (
+              <a
+                key={sponsor.id}
+                href={sponsor.href}
+                className="group overflow-hidden "
+              >
+                <div className="flex self-center w-full justify-center group-hover:scale-105 transform duration-150 ease-in-out rounded-md overflow-hidden object-contain">
+                  <img
+                    src={sponsor.imageSrc}
+                    alt={sponsor.imageAlt}
+                    className="object-contain"
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>

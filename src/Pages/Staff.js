@@ -1,3 +1,5 @@
+import Navbar from "../Reusable-Elements/Navbar.js";
+import Banner from "../Reusable-Elements/Banner.js";
 const members = [
   {
     id: 1,
@@ -173,7 +175,9 @@ const members = [
 export default function Example() {
   return (
     <div className="bg-slate-200 dark:bg-gray-800">
-      <header className=" shadow-lg bg-slate-100">
+      <Navbar page="staff" />
+      <Banner />
+      <header className=" drop-shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold text-gray-900">Staff</h1>
         </div>
@@ -193,10 +197,10 @@ export default function Example() {
                   </div>
                 </div>
                 <div class="px-6 mt-16 overflow-auto">
-                  <h1 class="font-bold dark:text-white text-3xl text-center mb-1">
+                  <h1 class=" dark:text-white text-2xl font-semibold text-center mb-1">
                     {member.name}
                   </h1>
-                  <p class="text-gray-800 dark:text-white text-sm text-center">
+                  <p class="text-gray-800 dark:text-white text-md text-center">
                     {member.role}
                   </p>
                   <p class="text-center text-gray-600 dark:text-gray-200 text-base pt-3 font-normal pb-6">

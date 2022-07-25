@@ -1,5 +1,6 @@
 import "../App.css";
-
+import Navbar from "../Reusable-Elements/Navbar.js";
+import Banner from "../Reusable-Elements/Banner.js";
 const posts = [
   {
     igLink:
@@ -42,7 +43,9 @@ const posts = [
 function Problem() {
   return (
     <div className="bg-slate-200 min-h-screen">
-      <header className="bg-white shadow-lg bg-slate-100">
+      <Navbar page="potm" />
+      <Banner />
+      <header className="drop-shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
           <h1 className="text-3xl font-bold text-gray-900 ">
             Problem of the Month
@@ -52,29 +55,32 @@ function Problem() {
       <main className="bg-slate-200">
         <div className="max-w-7xl mx-auto py-3 pt-7 pb-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0 ">
-            <div className="flex grid gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 mt-4 mb-6">
+            <div className=" grid gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 mt-4 mb-6">
               {posts.map((posts) => (
-                <div className="flex place-content-center grow mt-2">
+                <div
+                  className="flex place-content-center grow mt-2"
+                  key={posts.igLink}
+                >
                   <div className="shadow-lg grow w-full">
                     <iframe
-                      class="instagram-media instagram-media-rendered w-full"
+                      className="instagram-media instagram-media-rendered w-full"
                       title="instagramProblem"
                       id="instagram-embed-0"
                       src={posts.igLink}
                       allowtransparency="true"
-                      allowfullscreen="true"
-                      frameborder="0"
+                      allowFullScreen="true"
+                      frameBorder="0"
                       height="650"
                       data-instgrm-payload-id="instagram-media-payload-0"
                       scrolling="no"
                       style={{
                         backgroundColor: "white",
-                        borderRadius: "3px",
                         border: "1px solid rgb(219, 219, 219)",
+                        borderRadius: "10px",
                         boxShadow: "none",
                         display: "block",
                         minWidth: "326px",
-                        padding: "0px;",
+                        padding: "0px",
                       }}
                     ></iframe>
                   </div>
