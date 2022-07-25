@@ -7,7 +7,7 @@ function Footer() {
         <div class="flex justify-center mb-5">
           <a
             href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng"
-            className="mr-9 text-gray-800 hover:text-[#ff0000] transition duration-150 ease-out hover:scale-105 transform duration-150 ease-in-out"
+            className="mr-9 text-gray-800 hover:text-[#ff0000] hover:scale-105 transform duration-150 ease-in-out"
           >
             <svg
               aria-hidden="true"
@@ -26,7 +26,7 @@ function Footer() {
           </a>
           <a
             href="https://twitter.com/officialommc"
-            className="mr-9 text-gray-800 hover:text-[#1da1f2] transition duration-150 ease-out hover:scale-105 transform duration-150 ease-in-out"
+            className="mr-9 text-gray-800 hover:text-[#1da1f2] hover:scale-105 transform duration-150 ease-in-out"
           >
             <svg
               aria-hidden="true"
