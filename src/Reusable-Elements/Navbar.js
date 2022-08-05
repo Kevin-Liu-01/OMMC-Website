@@ -27,7 +27,7 @@ function Navbar(props) {
   return (
     <Disclosure
       as="nav"
-      className="bg-[#0d0f0e] border border-[#0d0f0e] border-b-red-700 border-b-8 "
+      className="bg-[#111827] border border-[#111827] border-b-red-700 border-b-8 "
     >
       {({ open }) => (
         <>
