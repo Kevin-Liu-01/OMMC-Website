@@ -76,11 +76,7 @@ export default function Sponsors() {
         <div className="bg-white border rounded-lg drop-shadow-lg">
           <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 p-10">
             {sponsors.map((sponsor) => (
-              <a
-                key={sponsor.id}
-                href={sponsor.href}
-                className="group overflow-hidden "
-              >
+              <a key={sponsor.id} href={sponsor.href} className="group  ">
                 <div className="flex self-center w-full justify-center group-hover:scale-105 transform duration-150 ease-in-out rounded-md overflow-hidden object-contain">
                   <img
                     src={sponsor.imageSrc}

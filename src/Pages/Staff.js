@@ -186,7 +186,7 @@ export default function Example() {
         <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {members.map((member) => (
             <div role="listitem" class="flex relative mt-16 mb-16 w-full">
-              <div class="rounded overflow-hidden shadow-md bg-white dark:bg-gray-900">
+              <div class="rounded-xl overflow-hidden shadow-md bg-white dark:bg-gray-900">
                 <div class="absolute -mt-20 w-full flex justify-center">
                   <div class="h-32 w-32">
                     <img

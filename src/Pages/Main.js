@@ -18,7 +18,7 @@ function Main() {
 
       <div className="relative bg-white drop-shadow-md">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 ">
+          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full ">
             <svg
               className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
               fill="currentColor"
@@ -31,14 +31,14 @@ function Main() {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 ">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl pb-3">
+                <h1 className="text-5xl tracking-tight font-extrabold text-gray-900  sm:text-6xl pb-3">
                   <span className=" inline">Welcome to</span>{" "}
                   <span className=" text-red-800 inline ">OMMC</span>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6"></div>
-                <p className="mt-3  text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3  text-gray-500 sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Online Monmouth Math Competition, or OMMC, is a nonprofit
                   organization which aims to give talented high school and
                   middle school students an exciting and engaging way to develop
@@ -243,19 +243,19 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="flex bg-white place-content-center ">
-        <div className="ml-10 md:ml-0 shadow-lg mr-10 my-10 h-96">
+      <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 bg-white place-content-center px-10">
+        <div className="md:ml-0 md:mr-10 my-10">
           <iframe
             title="DiscordLink"
             src="https://discord.com/widget?id=796756256022200350&theme=dark"
-            class="w-[120%] h-full"
+            class="shadow-lg w-full h-full rounded-xl"
             allowtransparency="true"
             frameBorder="0"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
           ></iframe>
         </div>
 
-        <div className="mr-10 ml-5 md:ml-24 place-content-center mt-10 mb-10 ">
+        <div className="md:mr-10 ml-5 md:ml-0 place-content-center mt-10 mb-10 ">
           <div className="mt-auto">
             <p className=" text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Get in touch
@@ -269,7 +269,7 @@ function Main() {
               <div className="absolute mt-1 flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
                 <ClockIcon className="h-6 w-6" aria-hidden="true" />
               </div>
-              <p className="ml-16 max-w-2xl md:text-lg text-gray-500 mt-10">
+              <p className="ml-16 max-w-2xl text-lg  text-gray-500 mt-10">
                 Because the competition is untimed, we have chosen to let teams
                 just fill out their registration information with their final
                 submission. The test portal will be linked on this page during
@@ -280,7 +280,7 @@ function Main() {
               <div className="absolute  flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
                 <UserIcon className=" h-6 w-6" aria-hidden="true" />
               </div>
-              <p className="ml-16 max-w-2xl md:text-lg text-gray-500 mt-10">
+              <p className="ml-16 max-w-2xl text-lg text-gray-500 mt-10">
                 Solo participants are allowed and will be treated simply as one
                 man teams. They will be eligible for the same prizes as teams
                 with multiple people.
