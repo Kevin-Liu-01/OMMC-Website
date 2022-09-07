@@ -243,49 +243,51 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 bg-white place-content-center px-10">
-        <div className="md:ml-0 md:mr-10 my-10">
-          <iframe
-            title="DiscordLink"
-            src="https://discord.com/widget?id=796756256022200350&theme=dark"
-            class="shadow-lg w-full h-full rounded-xl"
-            allowtransparency="true"
-            frameBorder="0"
-            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-          ></iframe>
-        </div>
+      <div className="w-full bg-white">
+        <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto bg-white place-content-center px-8">
+          <div className="md:ml-0 md:mr-10 mt-10 sm:my-10">
+            <iframe
+              title="DiscordLink"
+              src="https://discord.com/widget?id=796756256022200350&theme=dark"
+              class="shadow-lg w-full h-full rounded-xl"
+              allowtransparency="true"
+              frameBorder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+            ></iframe>
+          </div>
 
-        <div className="md:mr-10 ml-5 md:ml-0 place-content-center mt-10 mb-10 ">
-          <div className="mt-auto">
-            <p className=" text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              Get in touch
-            </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 ">
-              We highly recommend competitors join our Community Discord for the
-              latest updates on OMMC. There is no sign up process for OMMC this
-              year.
-            </p>
-            <div>
-              <div className="absolute mt-1 flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
-                <ClockIcon className="h-6 w-6" aria-hidden="true" />
-              </div>
-              <p className="ml-16 max-w-2xl text-lg  text-gray-500 mt-10">
-                Because the competition is untimed, we have chosen to let teams
-                just fill out their registration information with their final
-                submission. The test portal will be linked on this page during
-                the testing period.
+          <div className="md:mr-10 place-content-center mt-10 mb-10 ">
+            <div className="mt-auto">
+              <p className=" text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                Get in touch
               </p>
+              <p className="mt-4 max-w-2xl text-xl text-gray-500 ">
+                We highly recommend competitors join our Community Discord for
+                the latest updates on OMMC. There is no sign up process for OMMC
+                this year.
+              </p>
+              <div>
+                <div className="absolute mt-1 flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
+                  <ClockIcon className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 max-w-2xl text-lg  text-gray-500 mt-10">
+                  Because the competition is untimed, we have chosen to let
+                  teams just fill out their registration information with their
+                  final submission. The test portal will be linked on this page
+                  during the testing period.
+                </p>
+              </div>
+              <dt>
+                <div className="absolute  flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
+                  <UserIcon className=" h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 max-w-2xl text-lg text-gray-500 mt-10">
+                  Solo participants are allowed and will be treated simply as
+                  one man teams. They will be eligible for the same prizes as
+                  teams with multiple people.
+                </p>
+              </dt>
             </div>
-            <dt>
-              <div className="absolute  flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
-                <UserIcon className=" h-6 w-6" aria-hidden="true" />
-              </div>
-              <p className="ml-16 max-w-2xl text-lg text-gray-500 mt-10">
-                Solo participants are allowed and will be treated simply as one
-                man teams. They will be eligible for the same prizes as teams
-                with multiple people.
-              </p>
-            </dt>
           </div>
         </div>
       </div>

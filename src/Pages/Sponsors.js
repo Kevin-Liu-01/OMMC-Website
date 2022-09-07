@@ -73,7 +73,7 @@ export default function Sponsors() {
       </header>
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Sponsors</h2>
-        <div className="bg-white border rounded-lg drop-shadow-lg">
+        <div className="bg-white border rounded-2xl drop-shadow-lg">
           <div className=" grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 p-10">
             {sponsors.map((sponsor) => (
               <a key={sponsor.id} href={sponsor.href} className="group  ">

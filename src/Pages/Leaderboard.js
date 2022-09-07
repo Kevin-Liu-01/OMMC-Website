@@ -14,8 +14,8 @@ function Leaderboard() {
           </h1>
         </div>
       </header>
-      <div className="min-h-screen max-w-7xl mx-auto px-4 bg-slate-200 mt-10 ">
-        <div className="overflow-x-auto drop-shadow-lg sm:rounded-lg bg-slate-500">
+      <div className="min-h-screen max-w-7xl mx-auto px-4  bg-slate-200 mt-10 ">
+        <div className="overflow-x-auto drop-shadow-lg rounded-2xl bg-slate-500">
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead className="text-xs text-gray-700 border-b uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
               <tr>
