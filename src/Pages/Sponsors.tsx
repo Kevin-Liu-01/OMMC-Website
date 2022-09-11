@@ -1,6 +1,7 @@
 import "../App.css";
-import Navbar from "../Reusable-Elements/Navbar.js";
-import Banner from "../Reusable-Elements/Banner.js";
+import Navbar from "../Reusable-Elements/Navbar";
+import Banner from "../Reusable-Elements/Banner";
+import React from "react";
 
 const sponsors = [
   {

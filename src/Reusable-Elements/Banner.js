@@ -1,5 +1,5 @@
 import "../App.css";
-import { useState } from "react";
+import React, { useState } from "react";
 import { XIcon, SpeakerphoneIcon } from "@heroicons/react/outline";
 
 function Banner() {

@@ -1,6 +1,8 @@
 import "../App.css";
-import Navbar from "../Reusable-Elements/Navbar.js";
-import Banner from "../Reusable-Elements/Banner.js";
+import Navbar from "../Reusable-Elements/Navbar";
+import Banner from "../Reusable-Elements/Banner";
+import React from "react";
+
 function TestDocs() {
   return (
     <div className="bg-slate-200 min-h-screen">
@@ -21,7 +23,7 @@ function TestDocs() {
                 <iframe
                   title="test"
                   src="https://drive.google.com/file/d/1eE5VRCuH5qBoGlfqo1zarOPA0kiFSbsx/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -42,7 +44,7 @@ function TestDocs() {
                 <iframe
                   title="tiebreaker"
                   src="https://drive.google.com/file/d/18gzfx_VjCUSvsEFsA8GsHUSwj2e4Gk1q/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -64,7 +66,7 @@ function TestDocs() {
                 <iframe
                   title="solutions"
                   src="https://drive.google.com/file/d/1XqDo3fqmGLzZyswu7ohd0z7DJxBnDa5z/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}

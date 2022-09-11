@@ -1,6 +1,7 @@
 import "../App.css";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import React from "react";
 
 const navigation = [
   { name: "Home", href: "/", current: true, page: "main" },

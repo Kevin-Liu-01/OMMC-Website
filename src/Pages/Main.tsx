@@ -7,8 +7,9 @@ import {
   GiftIcon,
   UsersIcon,
 } from "@heroicons/react/outline";
-import Navbar from "../Reusable-Elements/Navbar.js";
-import Banner from "../Reusable-Elements/Banner.js";
+import Navbar from "../Reusable-Elements/Navbar";
+import Banner from "../Reusable-Elements/Banner";
+import React from "react";
 
 function Main() {
   return (
@@ -249,8 +250,8 @@ function Main() {
             <iframe
               title="DiscordLink"
               src="https://discord.com/widget?id=796756256022200350&theme=dark"
-              class="drop-shadow-lg w-full h-full rounded-xl"
-              allowtransparency="true"
+              className="drop-shadow-lg w-full h-full rounded-xl"
+              allowTransparency={true}
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
             ></iframe>

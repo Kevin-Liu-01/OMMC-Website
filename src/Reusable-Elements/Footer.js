@@ -1,10 +1,11 @@
 import "../App.css";
+import React from "react";
 
 function Footer() {
   return (
-    <footer class="text-center text-white bg-slate-100">
-      <div class=" pt-11 align-center">
-        <div class="flex justify-center mb-5">
+    <footer className="text-center text-white bg-slate-100">
+      <div className=" pt-11 align-center">
+        <div className="flex justify-center mb-5">
           <a
             href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng"
             className="mr-9 text-gray-800 hover:text-[#ff0000] hover:scale-105 transform duration-150 ease-in-out"
@@ -201,11 +202,11 @@ function Footer() {
         </div>
       </div>
 
-      <div class="justify-center text-center text-gray-800 pb-8 bg-slate-100 ">
-        <div class="mb-6 justify-center">
-          <div class="text-gray-800  ">© 2022 Copyright: OMMC™</div>
+      <div className="justify-center text-center text-gray-800 pb-8 bg-slate-100 ">
+        <div className="mb-6 justify-center">
+          <div className="text-gray-800  ">© 2022 Copyright: OMMC™</div>
 
-          <p class="text-gray-800 text-xs my-3 ">
+          <p className="text-gray-800 text-xs my-3 ">
             Made by Kevin Liu and Vinay Singamsetty for OMMC
           </p>
         </div>

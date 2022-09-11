@@ -1,14 +1,14 @@
 import "./App.css";
-import Main from "./Pages/Main.js";
+import Main from "./Pages/Main.tsx";
 import Footer from "./Reusable-Elements/Footer.js";
-import Sample from "./Pages/Sample.js";
-import Sponsors from "./Pages/Sponsors.js";
-import Staff from "./Pages/Staff.js";
-import Leaderboard from "./Pages/Leaderboard.js";
-import TestDocs from "./Pages/TestDocs.js";
+import Sample from "./Pages/Sample.tsx";
+import Sponsors from "./Pages/Sponsors.tsx";
+import Staff from "./Pages/Staff.tsx";
+import Leaderboard from "./Pages/Leaderboard.tsx";
+import TestDocs from "./Pages/TestDocs.tsx";
 import Portal from "./Portal/Portal.js";
 import Retreival from "./Portal/Retreival.js";
-import Problem from "./Pages/Problem.js";
+import Problem from "./Pages/Problem.tsx";
 
 import { Routes, Route } from "react-router-dom";
 

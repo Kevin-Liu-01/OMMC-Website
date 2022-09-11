@@ -1,6 +1,8 @@
 import "../App.css";
-import Navbar from "../Reusable-Elements/Navbar.js";
-import Banner from "../Reusable-Elements/Banner.js";
+import Navbar from "../Reusable-Elements/Navbar";
+import Banner from "../Reusable-Elements/Banner";
+import React from "react";
+
 function Sample() {
   return (
     <div className=" min-h-screen">
@@ -19,7 +21,7 @@ function Sample() {
                 <iframe
                   title="sample1"
                   src="https://drive.google.com/file/d/1p3RhXHcfPYCvm0oAAYodsUujbMPVwOR8/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -33,7 +35,7 @@ function Sample() {
                 <iframe
                   title="sample2"
                   src="https://drive.google.com/file/d/1VWXcQy5waWyRwuG8J64LxkJUETCPTvC4/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -54,7 +56,7 @@ function Sample() {
                 <iframe
                   title="sol1"
                   src="https://drive.google.com/file/d/1CZKocvVETJW7p0_bQLMWfkWCo8kEuJYr/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -68,7 +70,7 @@ function Sample() {
                 <iframe
                   title="sol2"
                   src="https://drive.google.com/file/d/1NDweAK-Os3m9M4b3Pp2Mf_x7wDUTjPsr/preview"
-                  class="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-2 border-gray-400 rounded-lg  drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}

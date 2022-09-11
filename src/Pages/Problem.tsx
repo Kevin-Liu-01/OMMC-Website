@@ -1,6 +1,8 @@
 import "../App.css";
-import Navbar from "../Reusable-Elements/Navbar.js";
-import Banner from "../Reusable-Elements/Banner.js";
+import Navbar from "../Reusable-Elements/Navbar";
+import Banner from "../Reusable-Elements/Banner";
+import React from "react";
+
 const posts = [
   {
     igLink:
@@ -75,8 +77,8 @@ function Problem() {
                       title="instagramProblem"
                       id="instagram-embed-0"
                       src={posts.igLink}
-                      allowtransparency="true"
-                      allowFullScreen="true"
+                      allowTransparency={true}
+                      allowFullScreen={true}
                       frameBorder="0"
                       height="650"
                       data-instgrm-payload-id="instagram-media-payload-0"
