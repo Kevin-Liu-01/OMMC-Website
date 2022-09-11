@@ -245,11 +245,11 @@ function Main() {
       </div>
       <div className="w-full bg-white">
         <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto bg-white place-content-center px-8">
-          <div className="md:ml-0 md:mr-10 mt-10 sm:my-10">
+          <div className="md:ml-0 md:mr-14 mt-10 sm:my-10">
             <iframe
               title="DiscordLink"
               src="https://discord.com/widget?id=796756256022200350&theme=dark"
-              class="shadow-lg w-full h-full rounded-xl"
+              class="drop-shadow-lg w-full h-full rounded-xl"
               allowtransparency="true"
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
