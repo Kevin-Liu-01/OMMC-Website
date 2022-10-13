@@ -69,7 +69,7 @@ export default function Sponsors() {
       <Banner />
       <header className="shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Sponsors</h1>
+          <h1 className="text-4xl font-extrabold text-gray-900">Sponsors</h1>
         </div>
       </header>
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
@@ -82,7 +82,7 @@ export default function Sponsors() {
                   <img
                     src={sponsor.imageSrc}
                     alt={sponsor.imageAlt}
-                    className="object-contain"
+                    className="object-contain "
                   />
                 </div>
               </a>

@@ -191,7 +191,7 @@ export default function Staff() {
       <Banner />
       <header className=" drop-shadow-lg bg-slate-100">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900">Staff</h1>
+          <h1 className="text-4xl font-extrabold text-gray-900">Staff</h1>
         </div>
       </header>
       <div className="w-full min-h-screen mx-auto max-w-7xl  px-10 pt-10">
@@ -209,10 +209,10 @@ export default function Staff() {
                   </div>
                 </div>
                 <div className="px-6 mt-16 overflow-auto">
-                  <h1 className=" dark:text-white text-2xl font-semibold text-center mb-1">
+                  <h1 className=" text-gray-800 text-2xl font-bold text-center mb-1">
                     {member.name}
                   </h1>
-                  <p className="text-gray-800 dark:text-white text-md text-center">
+                  <p className="text-gray-800 dark:text-white  font-semibold  text-md text-center">
                     {member.role}
                   </p>
                   <p className="text-center text-gray-600 dark:text-gray-200 text-base pt-3 font-normal pb-6">

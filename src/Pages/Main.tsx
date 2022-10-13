@@ -13,7 +13,7 @@ import React from "react";
 
 function Main() {
   return (
-    <div className="min-h-screen bg-slate-100  drop-shadow-sm">
+    <div className=" min-h-screen bg-slate-100  drop-shadow-sm">
       <Navbar page="main" />
       <Banner />
 
@@ -32,7 +32,7 @@ function Main() {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 ">
+            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-5xl tracking-tight font-extrabold text-gray-900  sm:text-6xl pb-3">
                   <span className=" inline">Welcome to</span>{" "}

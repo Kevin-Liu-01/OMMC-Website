@@ -14,7 +14,11 @@ module.exports = {
     "./src/Pages/Retreival.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        height: "height",
+      },
+    },
   },
   plugins: [],
 };
