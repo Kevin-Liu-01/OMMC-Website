@@ -32,7 +32,7 @@ function Navbar(props) {
     >
       {({ open }) => (
         <>
-          <div className="max-w-7xl py-4 mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="max-w-7xl py-3 mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16 ">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden ">
                 {/* Mobile menu button*/}
