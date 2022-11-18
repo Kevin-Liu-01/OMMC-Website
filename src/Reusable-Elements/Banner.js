@@ -30,7 +30,7 @@ function Banner() {
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
             <a
               href="https://artofproblemsolving.com/community/c5h2919064_ommc_now_recruiting_501c3_npo"
-              className="hover:scale-105 transform duration-150 ease-in-out  flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-red-800 bg-white hover:bg-indigo-50"
+              className="hover:scale-105 transform duration-150 ease-in-out  flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-red-800 dark:text-white bg-white dark:bg-red-900 "
             >
               Join Us
             </a>

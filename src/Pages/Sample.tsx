@@ -5,20 +5,20 @@ import React from "react";
 
 function Sample() {
   return (
-    <div className=" min-h-screen">
+    <div className=" min-h-screen dark:bg-gray-800">
       <Navbar page="samples" />
       <Banner />
-      <header className="drop-shadow-lg bg-slate-100">
+      <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
-          <h1 className="text-4xl font-extrabold text-gray-900 ">
+          <h1 className="text-4xl font-extrabold text-gray-900  dark:text-white">
             Sample Problems
           </h1>
         </div>
       </header>
-      <main className="bg-slate-200">
+      <main className="">
         <div className="max-w-7xl mx-auto py-3 pt-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 ">
+            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900 ">
               <div className=" w-full h-full overflow-hidden">
                 <iframe
                   title="sample1"
@@ -32,7 +32,7 @@ function Sample() {
         </div>
         <div className="max-w-7xl mx-auto py-4 pb-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 ">
+            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900 ">
               <div className="w-full h-full overflow-hidden">
                 <iframe
                   title="sample2"
@@ -45,15 +45,17 @@ function Sample() {
           </div>
         </div>
       </main>
-      <header className="bg-white drop-shadow-lg">
+      <header className="bg-white drop-shadow-lg dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold text-gray-900 ">Solutions</h1>
+          <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">
+            Solutions
+          </h1>
         </div>
       </header>
-      <main className="rows-2 bg-slate-200">
+      <main className="rows-2 ">
         <div className="max-w-7xl mx-auto py-3 pt-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 ">
+            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900 ">
               <div className=" w-full h-full overflow-hidden">
                 <iframe
                   title="sol1"
@@ -67,7 +69,7 @@ function Sample() {
         </div>
         <div className="max-w-7xl mx-auto py-4 pb-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 ">
+            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900 ">
               <div className="w-full h-full overflow-hidden">
                 <iframe
                   title="sol2"

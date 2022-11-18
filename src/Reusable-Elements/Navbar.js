@@ -28,7 +28,7 @@ function Navbar(props) {
   return (
     <Disclosure
       as="nav"
-      className="relative bg-[#111827] border-0 border-[#111827] border-b-red-700 border-b-8 z-20 transition-height duration-300 ease-in-out"
+      className="relative bg-[#111827] dark:bg-gray-900 border-0 border-[#111827] border-b-red-700 border-b-8 z-20 transition-height duration-300 ease-in-out"
     >
       {({ open }) => (
         <>

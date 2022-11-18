@@ -189,9 +189,11 @@ export default function Staff() {
     <div className="bg-slate-200 dark:bg-gray-800">
       <Navbar page="staff" />
       <Banner />
-      <header className=" drop-shadow-lg bg-slate-100">
+      <header className=" drop-shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold text-gray-900">Staff</h1>
+          <h1 className="text-4xl font-extrabold text-gray-900 dark:text-slate-100">
+            Staff
+          </h1>
         </div>
       </header>
       <div className="w-full min-h-screen mx-auto max-w-7xl  px-10 pt-10">
@@ -209,13 +211,13 @@ export default function Staff() {
                   </div>
                 </div>
                 <div className="px-6 mt-16 overflow-auto">
-                  <h1 className=" text-gray-800 text-2xl font-bold text-center mb-1">
+                  <h1 className=" text-gray-800 dark:text-slate-100 text-2xl font-extrabold text-center mb-1">
                     {member.name}
                   </h1>
-                  <p className="text-gray-800 dark:text-white  font-semibold  text-md text-center">
+                  <p className="text-gray-800 dark:text-gray-300  font-semibold  text-md text-center">
                     {member.role}
                   </p>
-                  <p className="text-center text-gray-600 dark:text-gray-200 text-base pt-3 font-normal pb-6">
+                  <p className="text-center text-gray-600 dark:text-gray-400 text-base pt-3 font-normal pb-6">
                     {member.bio}
                   </p>
                   {/* <div className="w-full flex self-end justify-center inset-x-0 bottom-0  pt-5 pb-5">

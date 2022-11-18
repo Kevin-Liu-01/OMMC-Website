@@ -3,12 +3,12 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="text-center text-white bg-slate-100">
+    <footer className="text-center text-white bg-slate-100 dark:bg-gray-900">
       <div className=" pt-11 align-center">
         <div className="flex justify-center mb-5">
           <a
             href="https://www.youtube.com/channel/UCyphrZpMeuA1ATGPzlStsng"
-            className="mr-9 text-gray-800 hover:text-[#ff0000] hover:scale-105 transform duration-150 ease-in-out"
+            className="mr-9 text-gray-800 dark:text-gray-400 dark:text-[#ff0000] hover:text-[#ff0000] hover:scale-105 transform duration-150 ease-in-out"
           >
             <svg
               aria-hidden="true"
@@ -27,7 +27,7 @@ function Footer() {
           </a>
           <a
             href="https://twitter.com/officialommc"
-            className="mr-9 text-gray-800 hover:text-[#1da1f2] hover:scale-105 transform duration-150 ease-in-out"
+            className="mr-9 text-gray-800 dark:text-gray-400 dark:text-[#1da1f2]  hover:text-[#1da1f2] hover:scale-105 transform duration-150 ease-in-out"
           >
             <svg
               aria-hidden="true"
@@ -47,7 +47,7 @@ function Footer() {
           </a>
           <a
             href="mailto:ommcofficial@gmail.com"
-            className="group mr-9 text-gray-800 hover:scale-105 transform duration-150 ease-in-out "
+            className="group mr-9 text-gray-800 dark:text-gray-400 hover:scale-105 transform duration-150 ease-in-out "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,35 +57,36 @@ function Footer() {
               width="16"
             >
               <path
-                className="group-hover:text-[#4285f4] transition duration-150 ease-out"
+                className="group-hover:text-[#4285f4] dark:text-[#4285f4] transition duration-150 ease-out"
                 fill="currentColor"
                 d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"
               />
               <path
-                className="group-hover:text-[#34a853] transition duration-150 ease-out"
+                className="group-hover:text-[#34a853] dark:text-[#34a853] transition duration-150 ease-out"
                 fill="currentColor"
                 d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"
               />
               <path
-                className="group-hover:text-[#fbbc04] transition duration-150 ease-out"
+                className="group-hover:text-[#fbbc04] dark:text-[#fbbc04] transition duration-150 ease-out"
                 fill="currentColor"
                 d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"
               />
               <path
-                className="group-hover:text-[#ea4335] transition duration-150 ease-out"
+                className="group-hover:text-[#ea4335] dark:text-[#ea4335] transition duration-150 ease-out"
                 fill="currentColor"
                 d="M72 74V48l24 18 24-18v26L96 92"
               />
               <path
-                className="group-hover:text-[#c5221f] transition duration-150 ease-out"
+                className="group-hover:text-[#c5221f] dark:text-[#c5221f] transition duration-150 ease-out"
                 fill="currentColor"
                 d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"
               />
             </svg>
           </a>
+
           <a
             href="https://www.instagram.com/ommcofficial/"
-            className="mr-4 group text-gray-800 hover:scale-105 transform duration-150 ease-in-out"
+            className="mr-4 group text-gray-800 dark:text-gray-300 hover:scale-105 transform duration-150 ease-in-out"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +94,7 @@ function Footer() {
               height="17.5"
               width="17.5"
               viewBox="-8.093805 -13.489675 70.14631 80.93805"
-              className="absolute z-10 opacity-0 group-hover:opacity-100 transition duration-150 ease-out"
+              className="absolute z-10 opacity-0 dark:opacity-100 group-hover:opacity-100 transition duration-150 ease-out"
             >
               <defs>
                 <linearGradient
@@ -202,11 +203,11 @@ function Footer() {
         </div>
       </div>
 
-      <div className="justify-center text-center text-gray-800 pb-8 bg-slate-100 ">
+      <div className="justify-center text-center text-gray-800 dark:text-gray-300 pb-8 bg-slate-100 dark:bg-gray-900">
         <div className="mb-6 justify-center">
-          <div className="text-gray-800  ">© 2022 Copyright: OMMC™</div>
+          <div className="">© 2022 Copyright: OMMC™</div>
 
-          <p className="text-gray-800 text-xs my-3 ">
+          <p className=" text-xs my-3 ">
             Made by Kevin Liu and Vinay Singamsetty for OMMC
           </p>
         </div>
