@@ -34,7 +34,7 @@ function Main() {
 
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 dark:text-red-600 bg-clip-text bg-gradient-to-r from-red-600 to-red-700 sm:text-6xl pb-3">
+                <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 sm:text-6xl pb-3">
                   <span className=" inline ">Welcome to</span>{" "}
                   <span className="  text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-800  inline ">
                     OMMC
@@ -265,8 +265,8 @@ function Main() {
 
           <div className="md:mr-10 place-content-center mt-10 mb-10 ">
             <div className="mt-auto">
-              <p className=" text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
-                Get in Touch
+              <p className="text-gray-900 text-3xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:to-red-800  sm:text-4xl">
+                Get in touch
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 ">
                 We highly recommend competitors join our Community Discord for
