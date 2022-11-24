@@ -88,9 +88,9 @@ function Navbar(props) {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start ">
-                <div className="flex-shrink-0 flex items-center select-none">
+                <div className="flex-shrink-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 ">
                   <img
-                    className="w-14 transform duration-150 ease-in-out hover:scale-105 "
+                    className="w-14 "
                     src="https://cdn.discordapp.com/attachments/760189295067004962/917951890690547712/ommc_fixup.png"
                     alt="OMMCLogo"
                     href="/"
@@ -170,14 +170,14 @@ function Navbar(props) {
                 </div>
                 <div className=" flex-shrink-0 ml-auto hidden md:flex justify-self-end items-center select-none">
                   <button
-                    class="flex bg-gray-800 rounded-xl px-1 py-1"
+                    class="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
                     onClick={() => props.setDark(!props.dark)}
                   >
                     <div class="h-9 w-9 flex items-center justify-center">
                       {props.dark ? (
                         <MoonIcon class="h-6 w-6  text-red-600"></MoonIcon>
                       ) : (
-                        <SunIcon class="h-6 w-6  text-gray-400"></SunIcon>
+                        <SunIcon class="h-6 w-6 "></SunIcon>
                       )}
                     </div>
                   </button>

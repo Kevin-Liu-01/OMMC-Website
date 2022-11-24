@@ -42,20 +42,20 @@ function Main(props) {
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-600"></div>
                 <p className="mt-3  text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Online Monmouth Math Competition, or OMMC, is a 501c3 accredited nonprofit
-                  organization which aims to give talented high school and
-                  middle school students an exciting and engaging way to develop
-                  their skills in mathematics. We provide an annual original
-                  high-quality math competition, in addition to various
-                  educational materials and a community Discord server. Our
-                  competition is available to all students who are 18 or
-                  younger.
+                  Online Monmouth Math Competition, or OMMC, is a 501c3
+                  accredited nonprofit organization which aims to give talented
+                  high school and middle school students an exciting and
+                  engaging way to develop their skills in mathematics. We
+                  provide an annual original high-quality math competition, in
+                  addition to various educational materials and a community
+                  Discord server. Our competition is available to all students
+                  who are 18 or younger.
                 </p>
                 <div className="mt-5 sm:mt-12 sm:flex sm:justify-center lg:justify-start ">
                   <div className="rounded-md shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See our latest competition
                     </a>
@@ -63,7 +63,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See sample problems
                     </a>
@@ -75,7 +75,7 @@ function Main(props) {
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
           <img
-            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full "
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
             src="https://wallpaperaccess.com/full/931292.png"
             alt=""
           />
@@ -256,7 +256,7 @@ function Main(props) {
             <iframe
               title="DiscordLink"
               src="https://discord.com/widget?id=796756256022200350&theme=dark"
-              className="drop-shadow-lg w-full h-full rounded-xl"
+              className="drop-shadow-lg w-full h-full rounded-xl select-none"
               allowTransparency={true}
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
@@ -303,4 +303,3 @@ function Main(props) {
 }
 
 export default Main;
-

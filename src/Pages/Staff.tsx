@@ -191,7 +191,7 @@ const members = [
       "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
-    bio: "Bryan Guo is a problem contributer for the OMMC team and is currently in the 9th grade. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord."    ,
+    bio: "Bryan Guo is a problem contributer for the OMMC team and is currently in the 9th grade. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
   {
     id: 20,
@@ -201,7 +201,7 @@ const members = [
       "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
-    bio: "Srinivas Arun is a junior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. He received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching."    ,
+    bio: "Srinivas Arun is a junior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. He received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching.",
   },
   {
     id: 21,
@@ -211,7 +211,7 @@ const members = [
       "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
-    bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_."    ,
+    bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
   },
 ];
 export default function Staff(props) {
@@ -238,7 +238,7 @@ export default function Staff(props) {
                     <img
                       src={member.imageSrc}
                       alt={member.imageAlt}
-                      className="rounded-full object-cover h-full w-full shadow-md"
+                      className="rounded-full object-cover h-full w-full shadow-md select-none"
                     />
                   </div>
                 </div>
