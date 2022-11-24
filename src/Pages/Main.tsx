@@ -42,11 +42,11 @@ function Main(props) {
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-600"></div>
                 <p className="mt-3  text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Online Monmouth Math Competition, or OMMC, is a nonprofit
+                  Online Monmouth Math Competition, or OMMC, is a 501c3 accredited nonprofit
                   organization which aims to give talented high school and
                   middle school students an exciting and engaging way to develop
                   their skills in mathematics. We provide an annual original
-                  high quality math competition, in addition to various
+                  high-quality math competition, in addition to various
                   educational materials and a community Discord server. Our
                   competition is available to all students who are 18 or
                   younger.
@@ -57,7 +57,7 @@ function Main(props) {
                       href="https://artofproblemsolving.com/community/c5h2837951"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                     >
-                      Visit our AoPS
+                      See our latest competition
                     </a>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
@@ -164,19 +164,19 @@ function Main(props) {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-800 ">
-                  May 27 - June 5
+                  Late May - Early June
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   Contest Dates
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-500">
-                  The OMMC contest will be held through these days.
+                  The OMMC contest is held.
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-800  ">
-                  June 6
+                  Early June
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   OMMC discussion opened
@@ -303,3 +303,4 @@ function Main(props) {
 }
 
 export default Main;
+
