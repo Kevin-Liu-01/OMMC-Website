@@ -91,11 +91,11 @@ function Navbar(props) {
                 <div className="flex-shrink-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 ">
                   <img
                     className="w-14 "
-                    src="https://cdn.discordapp.com/attachments/760189295067004962/917951890690547712/ommc_fixup.png"
+                    src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
                     alt="OMMCLogo"
                     href="/"
                   />
-                  <div className="my-2">
+                  <div className="ml-2 my-2">
                     <span className="text-2xl font-extrabold text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-700 dark:to-red-800 ">
                       OMMC
                     </span>

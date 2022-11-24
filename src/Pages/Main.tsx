@@ -74,6 +74,9 @@ function Main(props) {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
+          <div className="w-12 absolute h-56  overflow-hidden lg:hidden inline-block">
+            <div className=" h-56 bg-white rotate-45 transform origin-top-right"></div>
+          </div>
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
             src="https://wallpaperaccess.com/full/931292.png"
@@ -153,7 +156,7 @@ function Main(props) {
           </div>
         </div>
         <main className="md:flex place-content-center">
-          <div className=" self-center max-w-7xl mx-auto py-6 px-6 lg:px-8">
+          <div className=" self-center max-w-7xl mx-auto md:pt-6 pb-6 px-6 lg:px-8">
             <ol className="relative border-l border-gray-300 my-6">
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>

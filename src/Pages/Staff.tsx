@@ -228,8 +228,8 @@ export default function Staff(props) {
           </h1>
         </div>
       </header>
-      <div className="w-full min-h-screen mx-auto max-w-7xl  px-10 pt-10">
-        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+      <div className="w-full min-h-screen mx-auto max-w-7xl px-4 md:px-10 pt-10">
+        <div className="mt-6 grid grid-cols-1 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {members.map((member) => (
             <div role="listitem" className="flex relative mt-16 mb-16 w-full">
               <div className="rounded-xl overflow-hidden shadow-md bg-white dark:bg-gray-900">
@@ -249,7 +249,7 @@ export default function Staff(props) {
                   <p className="text-gray-800 dark:text-gray-300  font-semibold  text-md text-center">
                     {member.role}
                   </p>
-                  <p className="text-center text-gray-600 dark:text-gray-400 text-base pt-3 font-normal pb-6">
+                  <p className="text-center text-gray-600 dark:text-gray-400 text-base pt-3 font-normal pb-6 md:my-0 md:px-0 px-5 my-6 max-h-64 md:max-h-[100%] overflow-auto">
                     {member.bio}
                   </p>
                   {/* <div className="w-full flex self-end justify-center inset-x-0 bottom-0  pt-5 pb-5">
