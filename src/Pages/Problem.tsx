@@ -58,10 +58,15 @@ const posts = [
   },
 ];
 
-function Problem() {
+function Problem(props) {
   return (
-    <div className="bg-slate-200 dark:bg-gray-800 min-h-screen">
-      <Navbar page="potm" />
+    <div
+      className={
+        (props.dark ? "dark" : "") +
+        "bg-slate-200 dark:bg-gray-800 min-h-screen"
+      }
+    >
+      <Navbar page="potm" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">

@@ -62,10 +62,15 @@ const sponsors = [
   },
 ];
 
-export default function Sponsors() {
+export default function Sponsors(props) {
   return (
-    <div className="min-h-screen bg-slate-200 dark:bg-gray-800">
-      <Navbar page="sponsors" />
+    <div
+      className={
+        (props.dark ? "dark" : "") +
+        "bg-slate-200 min-h-screen dark:bg-gray-800"
+      }
+    >
+      <Navbar page="sponsors" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">

@@ -184,10 +184,12 @@ const members = [
     bio: "Advika Vuppala is a sophomore at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
   },
 ];
-export default function Staff() {
+export default function Staff(props) {
   return (
-    <div className="bg-slate-200 dark:bg-gray-800">
-      <Navbar page="staff" />
+    <div
+      className={(props.dark ? "dark" : "") + "bg-slate-200 dark:bg-gray-800"}
+    >
+      <Navbar page="staff" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className=" drop-shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">

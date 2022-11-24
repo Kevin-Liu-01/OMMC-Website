@@ -11,10 +11,10 @@ import Navbar from "../Reusable-Elements/Navbar";
 import Banner from "../Reusable-Elements/Banner";
 import React from "react";
 
-function Main() {
+function Main(props) {
   return (
-    <div className=" min-h-screen   drop-shadow-sm">
-      <Navbar page="main" />
+    <div className={(props.dark ? "dark" : "") + "min-h-screen drop-shadow-sm"}>
+      <Navbar page="main" dark={props.dark} setDark={props.setDark} />
       <Banner />
 
       <div className="relative bg-white dark:bg-gray-800 drop-shadow-md">

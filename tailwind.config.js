@@ -1,4 +1,6 @@
 module.exports = {
+  darkMode: "class",
+
   content: [
     "./src/Pages/Main.tsx",
     "./src/App.js",

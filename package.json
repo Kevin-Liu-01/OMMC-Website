@@ -1,6 +1,6 @@
 {
-  "name": "sponsorships",
-  "version": "0.1.0",
+  "name": "Online Monmouth Math Competition Website",
+  "version": "5.0",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.4.3",

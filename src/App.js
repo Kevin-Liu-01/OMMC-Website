@@ -12,22 +12,53 @@ import Problem from "./Pages/Problem.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
+import { useState } from "react";
+
 function App() {
+  const [dark, setDark] = useState(false);
+
   return (
-    <>
+    <div class={dark ? "dark" : ""}>
       <Routes>
-        <Route path="/" element={<Main />}></Route>
-        <Route path="sample" element={<Sample />}></Route>
-        <Route path="sponsors" element={<Sponsors />}></Route>
-        <Route path="staff" element={<Staff />}></Route>
-        <Route path="leaderboard" element={<Leaderboard />}></Route>
-        <Route path="testdocs" element={<TestDocs />}></Route>
-        <Route path="portal" element={<Portal />}></Route>
-        <Route path="retreival" element={<Retreival />}></Route>
-        <Route path="problem-of-the-month" element={<Problem />}></Route>
+        <Route
+          path="/"
+          element={<Main dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="sample"
+          element={<Sample dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="sponsors"
+          element={<Sponsors dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="staff"
+          element={<Staff dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="leaderboard"
+          element={<Leaderboard dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="testdocs"
+          element={<TestDocs dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="portal"
+          element={<Portal dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="retreival"
+          element={<Retreival dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="problem-of-the-month"
+          element={<Problem dark={dark} setDark={setDark} />}
+        ></Route>
       </Routes>
       <Footer></Footer>
-    </>
+    </div>
   );
 }
 

@@ -3,10 +3,15 @@ import Navbar from "../Reusable-Elements/Navbar";
 import Banner from "../Reusable-Elements/Banner";
 import React from "react";
 
-function Sample() {
+function Sample(props) {
   return (
-    <div className=" min-h-screen dark:bg-gray-800">
-      <Navbar page="samples" />
+    <div
+      className={
+        (props.dark ? "dark" : "") +
+        " min-h-screen bg-slate-200 dark:bg-gray-800"
+      }
+    >
+      <Navbar page="samples" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
