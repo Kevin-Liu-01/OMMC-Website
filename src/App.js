@@ -57,7 +57,7 @@ function App() {
           element={<Problem dark={dark} setDark={setDark} />}
         ></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

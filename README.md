@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Original Monmouth Math Competition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+OMMC is a 501c3 accredited organization that provides accessible,
+high-quality mathematics materials and educational projects online.
+
+The OMMC Official website is written in Javascript utilizing React, TypeScript, and Tailwind.css.
+The website can be found here: http://www.ommcofficial.org/
+
+Directory
+
+- Pages: All pages as seen on site
+- Reusable Elements: Navbar, Banner, Footer that appear on each page
+- Portal: Test-taking portal
+
+Created by Kevin Liu for OMMC.
 
 ## Available Scripts
 
