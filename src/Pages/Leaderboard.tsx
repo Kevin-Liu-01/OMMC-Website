@@ -11,7 +11,7 @@ function Leaderboard(props) {
       <Navbar page="leaderboard" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className=" shadow-lg bg-slate-100 dark:bg-gray-900">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:sm:px-6 px-3 lg:px-8">
+        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900">
             <p className="text-red-800 dark:text-red-700 inline">OMMC 2022 </p>{" "}
             Leaderboard
@@ -146,7 +146,12 @@ function Leaderboard(props) {
                 >
                   <div className="font-bold ml-2 inline-block">10. </div>{" "}
                   <div className="inline-block text-xs">
-                    <span>bluelinfish tries to...</span>
+                    <span className="hidden md:inline">
+                      bluelinfish tries to beat teams
+                    </span>
+                    <span className="inline md:hidden">
+                      bluelinfish tries to...
+                    </span>
                   </div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">Andrew Lin</td>
