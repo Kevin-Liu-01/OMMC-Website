@@ -171,14 +171,14 @@ function Navbar(props) {
                 </div>
                 <div className=" flex-shrink-0 ml-auto hidden md:flex justify-self-end items-center select-none">
                   <button
-                    class="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
+                    className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
                     onClick={() => props.setDark(!props.dark)}
                   >
-                    <div class="h-9 w-9 flex items-center justify-center">
+                    <div className="h-9 w-9 flex items-center justify-center">
                       {props.dark ? (
-                        <MoonIcon class="h-6 w-6  text-red-600"></MoonIcon>
+                        <MoonIcon className="h-6 w-6  text-red-600"></MoonIcon>
                       ) : (
-                        <SunIcon class="h-6 w-6 "></SunIcon>
+                        <SunIcon className="h-6 w-6 "></SunIcon>
                       )}
                     </div>
                   </button>
@@ -187,14 +187,14 @@ function Navbar(props) {
 
               <div className="mr-2 flex-shrink-0 ml-auto flex md:hidden justify-self-end items-center select-none">
                 <button
-                  class="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
+                  className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
                   onClick={() => props.setDark(!props.dark)}
                 >
-                  <div class="h-9 w-9 flex items-center justify-center">
+                  <div className="h-9 w-9 flex items-center justify-center">
                     {props.dark ? (
-                      <MoonIcon class="h-6 w-6  text-red-600"></MoonIcon>
+                      <MoonIcon className="h-6 w-6  text-red-600"></MoonIcon>
                     ) : (
-                      <SunIcon class="h-6 w-6 "></SunIcon>
+                      <SunIcon className="h-6 w-6 "></SunIcon>
                     )}
                   </div>
                 </button>

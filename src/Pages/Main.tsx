@@ -84,8 +84,8 @@ function Main(props) {
           </div>
         </div>
         <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
-          <div className="w-12 absolute h-56  overflow-hidden lg:hidden inline-block">
-            <div className=" h-56 bg-white dark:bg-gray-800 rotate-45 transform origin-top-right"></div>
+          <div className="w-11 absolute overflow-hidden lg:hidden inline-block">
+            <div className=" h-16 bg-white dark:bg-gray-800 rotate-45 transform origin-top-right"></div>
           </div>
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
@@ -97,7 +97,7 @@ function Main(props) {
           </div>
         </div>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-gray-900 relative z-20 dark:border-gray-900 border">
+      <div className="py-12 bg-slate-100 dark:bg-gray-900 relative z-20">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -230,7 +230,7 @@ function Main(props) {
           </div>
         </main>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-gray-900 align-center border dark:border-gray-900">
+      <div className="py-12 bg-slate-100 dark:bg-gray-900 align-center">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -276,7 +276,7 @@ function Main(props) {
         </div>
       </div>
       <div className="w-full bg-white dark:bg-gray-800">
-        <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-8">
+        <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8">
           <div className="md:ml-0 md:mr-14 mt-10 sm:my-10">
             <iframe
               title="DiscordLink"

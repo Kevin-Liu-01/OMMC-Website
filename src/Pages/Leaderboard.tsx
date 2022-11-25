@@ -20,7 +20,7 @@ function Leaderboard(props) {
       </header>
       <div className="min-h-screen max-w-7xl mx-auto md:px-8 px-4 pb-10 bg-slate-200 mt-10 dark:bg-gray-800">
         <div className="overflow-x-auto drop-shadow-lg rounded-2xl bg-slate-500">
-          <table className="w-full  text-sm text-left text-gray-500 dark:text-gray-400">
+          <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-gray-100 dark:bg-gray-900 dark:text-gray-400">
               <tr>
                 <th scope="" className=" px-6 py-4 ">
@@ -121,7 +121,7 @@ function Leaderboard(props) {
                   className="px-6 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
                   <div className="font-bold ml-2 inline-block">8. </div>{" "}
-                  <div className="inline-block">672+1586-1586=665 </div>
+                  <div className="inline-block text-xs">672+1586-1586=665 </div>
                 </th>
                 <td className="px-6 py-5">
                   Feodor Yevtushenko, Arnav Iyengar, Jiahe Liu, Andrew Xie
@@ -145,7 +145,7 @@ function Leaderboard(props) {
                   className="px-6 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
                   <div className="font-bold ml-2 inline-block">10. </div>{" "}
-                  <div className="inline-block truncate">
+                  <div className="inline-block text-xs">
                     <span>bluelinfish tries to...</span>
                   </div>
                 </th>
@@ -157,7 +157,9 @@ function Leaderboard(props) {
                   className="px-6 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
                 >
                   <div className="font-bold ml-2 inline-block">11. </div>{" "}
-                  <div className="inline-block">Synthetic geo sucks </div>
+                  <div className="inline-block text-xs sm:text-sm">
+                    Synthetic geo sucks{" "}
+                  </div>
                 </th>
                 <td className="px-6 py-5">Peter Powell</td>
               </tr>
