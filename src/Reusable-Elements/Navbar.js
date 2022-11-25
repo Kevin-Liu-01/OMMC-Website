@@ -88,7 +88,10 @@ function Navbar(props) {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start ">
-                <div className="flex-shrink-0 ml-6 md:ml-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 ">
+                <a
+                  href="/"
+                  className="flex-shrink-0 ml-6 md:ml-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 "
+                >
                   <img
                     className="w-14 "
                     src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
@@ -103,7 +106,7 @@ function Navbar(props) {
                       Version 5.1.0
                     </div>
                   </div>
-                </div>
+                </a>
                 <div className="hidden my-auto md:block md:ml-4 lg:ml-10 select-none">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
