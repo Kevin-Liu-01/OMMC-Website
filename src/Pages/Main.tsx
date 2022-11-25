@@ -13,7 +13,12 @@ import React from "react";
 
 function Main(props) {
   return (
-    <div className={(props.dark ? "dark" : "") + "min-h-screen drop-shadow-sm"}>
+    <div
+      className={
+        (props.dark ? "dark" : "") +
+        "min-h-screen drop-shadow-sm overflow-hidden "
+      }
+    >
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
       <Banner />
 
@@ -32,16 +37,21 @@ function Main(props) {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
+            <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
-                <h1 className="text-5xl tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 sm:text-6xl pb-3">
-                  <span className=" inline ">Welcome to</span>{" "}
-                  <span className="  text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-800  inline ">
+                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 sm:text-6xl sm:pb-3">
+                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-900">
+                    Welcome to
+                  </span>{" "}
+                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-800  inline ">
                     OMMC
                   </span>
+                  <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
+                    <div className=" h-24 bg-red-700 -rotate-45 transform origin-top-right"></div>
+                  </div>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-600"></div>
-                <p className="mt-3  text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="pb-4 md:pb-0 mt-3  text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Online Monmouth Math Competition, or OMMC, is a 501c3
                   accredited nonprofit organization which aims to give talented
                   high school and middle school students an exciting and
@@ -73,18 +83,24 @@ function Main(props) {
             </main>
           </div>
         </div>
-        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
+        <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
           <div className="w-12 absolute h-56  overflow-hidden lg:hidden inline-block">
-            <div className=" h-56 bg-white rotate-45 transform origin-top-right"></div>
+            <div className=" h-56 bg-white dark:bg-gray-800 rotate-45 transform origin-top-right"></div>
           </div>
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
             src="https://wallpaperaccess.com/full/931292.png"
             alt=""
           />
+          <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
+            <div className=" h-16  bg-slate-100 dark:bg-gray-900 rotate-45 transform origin-bottom-left"></div>
+          </div>
         </div>
       </div>
       <div className="py-12 bg-slate-100 dark:bg-gray-900 relative z-20 dark:border-gray-900 border">
+        <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
+          <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
+        </div>
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="md:flex">
             <div className="self-center">
@@ -136,6 +152,9 @@ function Main(props) {
       </div>
       <div className="md:flex place-content-center bg-white dark:bg-gray-800">
         <div className="py-12 self-center md:mt-2 mb-2">
+          <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
+            <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
+          </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="self-center ">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
@@ -212,9 +231,12 @@ function Main(props) {
         </main>
       </div>
       <div className="py-12 bg-slate-100 dark:bg-gray-900 align-center border dark:border-gray-900">
+        <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
+          <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
+        </div>
         <div className="justify-center md:flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="md:flex mb-5">
-            <div className="self-center">
+            <div className="lg:self-center">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
                 Prizes
               </h2>
@@ -266,10 +288,10 @@ function Main(props) {
             ></iframe>
           </div>
 
-          <div className="md:mr-10 place-content-center mt-10 mb-10 ">
+          <div className="md:mr-10 place-content-center mt-8 md:mt-10 mb-10 ">
             <div className="mt-auto">
-              <p className="text-gray-900 text-3xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:to-red-800  sm:text-4xl">
-                Get in touch
+              <p className="border-l-[10px] pb-2 sm:pb-0 border-red-700 dark:border-red-900 pl-3 text-gray-900 text-[2rem] md:text-4xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:to-red-800 ">
+                Join us on Discord!
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 ">
                 We highly recommend competitors join our Community Discord for

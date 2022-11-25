@@ -88,7 +88,7 @@ function Navbar(props) {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start ">
-                <div className="flex-shrink-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 ">
+                <div className="flex-shrink-0 ml-6 md:ml-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 ">
                   <img
                     className="w-14 "
                     src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
@@ -104,8 +104,8 @@ function Navbar(props) {
                     </div>
                   </div>
                 </div>
-                <div className="hidden my-auto lg:block lg:ml-10 select-none">
-                  <div className="flex  space-x-4">
+                <div className="hidden my-auto md:block md:ml-4 lg:ml-10 select-none">
+                  <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -114,7 +114,7 @@ function Navbar(props) {
                           item.page === props.page
                             ? " text-white  border-0 border-y-2 border-b-red-700 border-t-gray-900 transform duration-150 ease-in-out "
                             : "text-gray-300 hover:bg-gray-800 hover:text-white rounded-t-md transform duration-150 ease-in-out border-red-800 border-t-2 border-t-gray-900 hover:border-b-2 hover:border-b-red-700",
-                          "px-3 py-2 text-md font-medium rounded-t-md"
+                          "px-[10px] lg:px-3 py-2 text-sm lg:text-base font-medium rounded-t-md"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -127,20 +127,21 @@ function Navbar(props) {
                         onClick={() => dropController(!dropdown)}
                         className={
                           dropdown
-                            ? "px-3 py-2 text-md font-medium text-white bg-gray-800 rounded-t-md transform duration-150 ease-in-out border-b-0 border-t-2 border-x-2 border-red-700"
-                            : "px-3 py-2 text-md font-medium text-gray-300 hover:bg-gray-800 hover:text-white rounded-md transform duration-150 ease-in-out border-gray-800 border-b-2 border-t-2 border-x-2  hover:border-red-700"
+                            ? "px-3 py-2 lg:text-base text-sm font-medium text-white bg-gray-800 rounded-t-md transform duration-150 ease-in-out border-b-0 border-t-2 border-x-2 border-red-700"
+                            : "px-3 py-2 lg:text-base text-sm font-medium text-gray-300 hover:bg-gray-800 hover:text-white rounded-md transform duration-150 ease-in-out border-gray-800 border-b-2 border-t-2 border-x-2  hover:border-red-700"
                         }
                       >
                         <div>
-                          Documents{" "}
+                          <span className="md:hidden lg:inline">Documents</span>
+                          <span className="lg:hidden md:inline">Docs</span>
                           {dropdown ? (
                             <ChevronDownIcon
-                              className="h-5 w-5 pt-1 pr-1 inline rotate-180 transform duration-150 ease-in-out"
+                              className=" h-5 w-5 pt-1 pr-1 inline rotate-180 transform duration-150 ease-in-out"
                               aria-hidden="true"
                             />
                           ) : (
                             <ChevronDownIcon
-                              className="h-5 w-5 pb-1 pl-1 inline rotate-0 transform duration-150 ease-in-out"
+                              className=" h-5 w-5 pb-1 pl-1 inline rotate-0 transform duration-150 ease-in-out"
                               aria-hidden="true"
                             />
                           )}
@@ -156,7 +157,7 @@ function Navbar(props) {
                                 item.page === props.page
                                   ? " text-white  transform duration-150 ease-in-out bg-gray-700"
                                   : "text-gray-300 hover:bg-gray-700 hover:text-white transform duration-150 ease-in-out ",
-                                "px-3 py-2 text-md font-medium text-center"
+                                "px-3 py-2 lg:text-base text-[0.75rem] font-medium text-center"
                               )}
                               aria-current={item.current ? "page" : undefined}
                             >
@@ -183,6 +184,21 @@ function Navbar(props) {
                   </button>
                 </div>
               </div>
+
+              <div className="mr-2 flex-shrink-0 ml-auto flex md:hidden justify-self-end items-center select-none">
+                <button
+                  class="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
+                  onClick={() => props.setDark(!props.dark)}
+                >
+                  <div class="h-9 w-9 flex items-center justify-center">
+                    {props.dark ? (
+                      <MoonIcon class="h-6 w-6  text-red-600"></MoonIcon>
+                    ) : (
+                      <SunIcon class="h-6 w-6 "></SunIcon>
+                    )}
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
           <Disclosure.Panel className="lg:hidden ">
@@ -194,7 +210,7 @@ function Navbar(props) {
                   href={item.href}
                   className={classNames(
                     item.page === props.page
-                      ? " text-white  border-t-0 border-l-0 border-r-0 rounded border-b-4 border-red-700 bg-gray-800"
+                      ? " text-white  border-t-0 border-l-0 border-r-0 rounded border-b-4 border-red-700 bg-gradient-to-r from-gray-800 to-gray-900"
                       : "text-gray-300 hover:bg-gray-800 hover:text-white",
                     "block px-3 py-2 text-base font-medium"
                   )}

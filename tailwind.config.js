@@ -20,6 +20,10 @@ module.exports = {
       transitionProperty: {
         height: "height",
       },
+      screens: {
+        tiny: "413px",
+        // => @media (min-width: 576px) { ... }
+      },
     },
   },
   plugins: [],
