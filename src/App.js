@@ -18,7 +18,7 @@ function App() {
   const [dark, setDark] = useState(false);
 
   return (
-    <div class={dark ? "dark" : ""}>
+    <div className={dark ? "dark" : ""}>
       <Routes>
         <Route
           path="/"
