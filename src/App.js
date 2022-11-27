@@ -12,10 +12,18 @@ import Problem from "./Pages/Problem.tsx";
 
 import { Routes, Route } from "react-router-dom";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    setDark(JSON.parse(window.localStorage.getItem("mode")));
+  }, []);
+
+  useEffect(() => {
+    window.localStorage.setItem("mode", dark);
+  }, [dark]);
 
   return (
     <div className={dark ? "dark" : ""}>
