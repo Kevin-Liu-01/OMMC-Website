@@ -51,7 +51,7 @@ function Main(props) {
                   </div>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-600"></div>
-                <p className="pb-4 md:pb-0 mt-3  text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="pb-4 md:pb-0 mt-3  text-gray-500 dark:text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Online Monmouth Math Competition, or OMMC, is a 501c3
                   accredited nonprofit organization which aims to give talented
                   high school and middle school students an exciting and
@@ -65,7 +65,7 @@ function Main(props) {
                   <div className="rounded-md shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See our latest competition
                     </a>
@@ -73,7 +73,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See sample problems
                     </a>
@@ -277,7 +277,7 @@ function Main(props) {
       </div>
       <div className="w-full bg-white dark:bg-gray-800">
         <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8">
-          <div className="md:ml-0 md:mr-14 mt-10 sm:my-10">
+          <div className="md:ml-0 md:mr-24 mt-10 sm:my-10">
             <iframe
               title="DiscordLink"
               src="https://discord.com/widget?id=796756256022200350&theme=dark"
@@ -290,7 +290,7 @@ function Main(props) {
 
           <div className="md:mr-10 place-content-center mt-8 md:mt-10 mb-10 ">
             <div className="mt-auto">
-              <p className="border-l-[10px] pb-2 sm:pb-0 border-red-700 dark:border-red-900 pl-3 text-gray-900 text-[2rem] md:text-4xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:to-red-800 ">
+              <p className="border-l-[10px] pb-2 sm:pb-0 border-[#5865F2] pl-3 text-gray-900 text-[2rem] md:text-4xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-[#5865F2] dark:to-[#3f4fc8] ">
                 Join us on Discord!
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 ">
@@ -299,24 +299,23 @@ function Main(props) {
                 this year.
               </p>
               <div>
-                <div className="absolute mt-1 flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
+                <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br  from-[#5865F2] to-[#3f4fc8]">
                   <ClockIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 max-w-2xl text-lg  text-gray-500 dark:text-gray-400 mt-10">
-                  Because the competition is untimed, we have chosen to let
-                  teams just fill out their registration information with their
-                  final submission. The test portal will be linked on this page
-                  during the testing period.
+                  We will be posting updates and announcements on the Discord,
+                  so make sure to join! We also host special events in addition
+                  to the standard competitions.
                 </p>
               </div>
               <dt>
-                <div className="absolute  flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white ">
+                <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br  from-[#5865F2] to-[#3f4fc8]">
                   <UserIcon className=" h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-16 max-w-2xl text-lg text-gray-500 dark:text-gray-400 mt-10">
-                  Solo participants are allowed and will be treated simply as
-                  one man teams. They will be eligible for the same prizes as
-                  teams with multiple people.
+                  The community Discord is a great way to meet other OMMC
+                  members and interact with the OMMC team. The Discord is a
+                  great place to ask for help or solve a problem.
                 </p>
               </dt>
             </div>

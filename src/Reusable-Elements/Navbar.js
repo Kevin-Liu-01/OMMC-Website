@@ -102,8 +102,8 @@ function Navbar(props) {
                     <span className="text-2xl font-extrabold text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-700 dark:to-red-800 ">
                       OMMC
                     </span>
-                    <div className="text-[0.5rem]  text-white border text-center border-white rounded-full ">
-                      Version 5.1.4
+                    <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 dark:border-gray-700 rounded-full bg-gray-800 bg-gradient-to-r dark:from-red-700 dark:to-red-800 block px-1">
+                      Version 5.2
                     </div>
                   </div>
                 </a>
@@ -174,7 +174,7 @@ function Navbar(props) {
                 </div>
                 <div className=" flex-shrink-0 ml-auto hidden md:flex justify-self-end items-center select-none">
                   <button
-                    className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
+                    className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-yellow-500"
                     onClick={() => props.setDark(!props.dark)}
                   >
                     <div className="h-9 w-9 flex items-center justify-center">
