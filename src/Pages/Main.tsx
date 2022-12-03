@@ -7,8 +7,8 @@ import {
   GiftIcon,
   UsersIcon,
 } from "@heroicons/react/outline";
-import Navbar from "../Reusable-Elements/Navbar";
-import Banner from "../Reusable-Elements/Banner";
+import Navbar from "../Components/Navbar";
+import Banner from "../Components/Banner";
 import React from "react";
 
 function Main(props) {
@@ -65,7 +65,7 @@ function Main(props) {
                   <div className="rounded-md shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-red-800 hover:bg-red-700 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See our latest competition
                     </a>
@@ -73,7 +73,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
                     >
                       See sample problems
                     </a>
@@ -102,9 +102,9 @@ function Main(props) {
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-          <div className="md:flex">
-            <div className="self-center">
-              <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
+          <div className="md:grid grid-cols-4">
+            <div>
+              <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase ">
                 Staff
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
@@ -115,37 +115,35 @@ function Main(props) {
                 who serve as the directors.
               </p>
             </div>
-            <div className="md:flex">
-              <div className="mt-8">
-                <div className="absolute flex items-center justify-center mb-2 h-12 w-12 rounded-md text-red-700 ">
-                  <CheckIcon className="h-7 w-7" aria-hidden="true" />
-                </div>
-                <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
-                  Our staff consists of highly qualified and experienced
-                  individuals who are highly committed to our cause of advancing
-                  math education.
-                </p>
+            <div className="mt-8 ">
+              <div className="absolute flex items-center justify-center mb-2 h-12 w-12 text-red-700">
+                <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <div className="mt-8">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
-                  <CheckIcon className="h-7 w-7" aria-hidden="true" />
-                </div>
-                <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
-                  Staff members have excelled at AMC 10/12, AIME, USAJMO and
-                  USAMO, and some members have attended the prestigious MOP
-                  summer program.
-                </p>
+              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+                Our staff consists of highly qualified and experienced
+                individuals who are highly committed to our cause of advancing
+                math education.
+              </p>
+            </div>
+            <div className="mt-8">
+              <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+                <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <div className="mt-8">
-                <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
-                  <CheckIcon className="h-7 w-7" aria-hidden="true" />
-                </div>
-                <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
-                  Our competition problems have been selectively written, chosen
-                  and reviewed by math students around the world to be original,
-                  creative, and inspirational.
-                </p>
+              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+                Staff members have excelled at AMC 10/12, AIME, USAJMO and
+                USAMO, and some members have attended the prestigious MOP summer
+                program.
+              </p>
+            </div>
+            <div className="mt-8">
+              <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
+                <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
+              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+                Our competition problems have been selectively written, chosen
+                and reviewed by math students around the world to be original,
+                creative, and inspirational.
+              </p>
             </div>
           </div>
         </div>
@@ -161,7 +159,7 @@ function Main(props) {
                 Competition
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl dark:text-gray-300 ">
-                How will it work?
+                How will it Work?
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto dark:text-gray-400 ">
                 <div className="md:mr-12">
@@ -176,53 +174,53 @@ function Main(props) {
         </div>
         <main className="md:flex place-content-center">
           <div className=" self-center max-w-7xl mx-auto md:pt-6 pb-6 px-6 lg:px-8">
-            <ol className="relative border-l border-gray-300 my-6">
+            <ol className="relative border-l-2 border-gray-200 dark:border-gray-600 my-6">
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
+                <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   Start
                 </h3>
               </li>
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800 ">
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700  rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   Late May - Early June
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   Contest Dates
                 </h3>
-                <p className="mb-4 text-base font-normal text-gray-500">
+                <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
                   The OMMC contest is held.
                 </p>
               </li>
-              <li className="mb-10 ml-4">
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800  ">
+                <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   Early June
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   OMMC discussion opened
                 </h3>
-                <p className="text-base font-normal text-gray-500">
+                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   Participants will be allowed to discuss the competition.
                 </p>
               </li>
-              <li className="mb-10 ml-4">
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
-                <time className="mb-1 text-sm font-normal leading-none text-red-800  ">
+                <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   Late June - Early July
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   Conclusion of competition
                 </h3>
-                <p className="text-base font-normal text-gray-500 ">
+                <p className="text-base font-normal text-gray-500  dark:text-gray-400">
                   Solutions are released, winners announced, and prizes sent
                   out.
                 </p>
               </li>
               <li className="ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
+                <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   End
                 </h3>
               </li>
@@ -234,44 +232,41 @@ function Main(props) {
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
-        <div className="justify-center md:flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-          <div className="md:flex mb-5">
+        <div className="justify-center md:grid md:grid-cols-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8">
+          <div className="md:flex mb-5 col-span-1">
             <div className="lg:self-center">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
                 Prizes
               </h2>
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-300 sm:text-4xl">
-                What do participants gain?
+                What do Participants Gain?
               </p>
             </div>
           </div>
 
-          <div className="md:flex ">
-            <div className="mt-8 md:mt-5">
-              <div className="ml-5 absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
-                <GiftIcon className="h-6 w-6" aria-hidden="true" />
-              </div>
-              <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
-                Prizes shouldn’t be the main reason someone takes OMMC, but in
-                previous years we have been sponsored by organizations such as
-                AoPS, Maplesoft, and Wolfram Alpha, who have provided hundreds
-                of dollars to top scoring competitors. We expect this year to be
-                no different.
-              </p>
+          <div className="mt-8 md:mt-5 col-span-2">
+            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
+              <GiftIcon className="h-6 w-6" aria-hidden="true" />
             </div>
-            <div className=" mt-5">
-              <div className="ml-5 absolute items-center justify-center h-12 w-12 rounded-md text-red-700 ">
-                <UsersIcon className="h-6 w-6" aria-hidden="true" />
-              </div>
-              <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
-                Students will have the opportunity to compete in teams,
-                developing valuable teamwork and collaboration skills. In the
-                competition, they will be able to solve thought-provoking
-                challenging mathematics questions. They will also be able to
-                reap the benefits of our educational materials and community
-                Discord server.
-              </p>
+            <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
+              Prizes shouldn’t be the main reason someone takes OMMC, but in
+              previous years we have been sponsored by organizations such as
+              AoPS, Maplesoft, and Wolfram Alpha, who have provided hundreds of
+              dollars to top scoring competitors. We expect this year to be no
+              different.
+            </p>
+          </div>
+          <div className=" mt-5 col-span-2">
+            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
+              <UsersIcon className="h-6 w-6" aria-hidden="true" />
             </div>
+            <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
+              Students will have the opportunity to compete in teams, developing
+              valuable teamwork and collaboration skills. In the competition,
+              they will be able to solve thought-provoking, challenging
+              mathematics questions, and will be able to use our educational
+              materials and community Discord server.
+            </p>
           </div>
         </div>
       </div>

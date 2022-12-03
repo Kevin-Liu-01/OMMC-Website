@@ -102,7 +102,7 @@ function Navbar(props) {
                     <span className="text-2xl font-extrabold text-white dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-700 dark:to-red-800 ">
                       OMMC
                     </span>
-                    <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 dark:border-gray-700 rounded-full bg-gray-800 bg-gradient-to-r dark:from-red-700 dark:to-red-800 block px-1">
+                    <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 rounded-full  bg-gradient-to-r from-gray-700 to-gray-800 block px-1">
                       Version 5.2
                     </div>
                   </div>

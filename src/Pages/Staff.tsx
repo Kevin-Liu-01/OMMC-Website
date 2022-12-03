@@ -1,5 +1,5 @@
-import Navbar from "../Reusable-Elements/Navbar";
-import Banner from "../Reusable-Elements/Banner";
+import Navbar from "../Components/Navbar";
+import Banner from "../Components/Banner";
 import React from "react";
 
 const members = [
