@@ -1,6 +1,6 @@
 import "./App.css";
 import Main from "./Pages/Main.tsx";
-import Footer from "./Reusable-Elements/Footer.js";
+import Footer from "./Components/Footer.js";
 import Sample from "./Pages/Sample.tsx";
 import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
