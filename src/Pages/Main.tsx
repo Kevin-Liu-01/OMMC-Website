@@ -15,8 +15,9 @@ function Main(props) {
   return (
     <div
       className={
-        (props.dark ? "dark" : "") +
-        "min-h-screen drop-shadow-sm overflow-hidden "
+        props.dark
+          ? "dark min-h-screen drop-shadow-sm overflow-hidden bg-gray-800"
+          : "min-h-screen drop-shadow-sm overflow-hidden"
       }
     >
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
@@ -39,18 +40,18 @@ function Main(props) {
 
             <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
-                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-800 sm:text-6xl sm:pb-3">
+                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-600 sm:text-6xl sm:pb-3">
                   <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-900">
                     Welcome to
                   </span>{" "}
-                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-800  inline ">
+                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-700 to-red-800 dark:to-red-700  inline ">
                     OMMC
                   </span>
                   <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
                     <div className=" h-24 bg-red-700 -rotate-45 transform origin-top-right"></div>
                   </div>
                 </h1>
-                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-600"></div>
+                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-700"></div>
                 <p className="pb-4 md:pb-0 mt-3  text-gray-500 dark:text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Online Monmouth Math Competition, or OMMC, is a 501c3
                   accredited nonprofit organization which aims to give talented
@@ -62,10 +63,10 @@ function Main(props) {
                   who are 18 or younger.
                 </p>
                 <div className="mt-5 sm:mt-12 sm:flex sm:justify-center lg:justify-start ">
-                  <div className="rounded-md shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
+                  <div className="shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-10 select-none"
                     >
                       See our latest competition
                     </a>
@@ -73,7 +74,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
                     >
                       See sample problems
                     </a>
