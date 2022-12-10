@@ -40,7 +40,7 @@ function Main(props) {
 
             <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
-                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-600 sm:text-6xl sm:pb-3">
+                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-600 sm:text-6xl sm:pb-3">
                   <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-900">
                     Welcome to
                   </span>{" "}
