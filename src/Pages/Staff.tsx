@@ -48,8 +48,8 @@ const members = [
     name: "Vinay Singamsetty",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
-    imageAlt: "Advika Vuppala",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Vinay Singamsetty",
     role: "Website Developer",
     bio: "Vinay is a sophomore in California. He is a developer for OMMC and contributed greatly to the testing portal and website. He is an avid developer and is skilled at developing web applications focused on responsive design, positive UX/UI, SEO and more. He is fluent in React/Next, Vue/Nuxt, JS/HTML/CSS, Sass and general purpose languages like Node JS, Python, C++, C, C#, Java, and more. He's good at developing algorithms and vital coding concepts such as control flow, program structure, versioning, debugging, and formatting. He is also a math enthusiast, achieving honor roll on AMC 8 previously and is currently working on honing his math skills.    ",
   },
@@ -98,7 +98,7 @@ const members = [
     name: "Alexander Wang",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Alexander Wang",
     role: "Content Creator",
     bio: "Alexander Wang is a 9th grader who works as a content creator for OMMC, and has contributed problems to the competition. He has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
@@ -108,7 +108,7 @@ const members = [
     name: "Calvin Wang",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Calvin Wang",
     role: "Content Creator",
     bio: "Calvin is a 9th grader in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
@@ -118,7 +118,7 @@ const members = [
     name: "Justin Lee",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Justin Lee",
     role: "Problem Committee",
     bio: "Justin is a junior at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games.",
@@ -128,7 +128,7 @@ const members = [
     name: "Neal Yan",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Neal Yan",
     role: "Problem Committee",
     bio: "Neal is a highschool junior and geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. Currently, he is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
@@ -138,7 +138,7 @@ const members = [
     name: "Mahith Gottipati",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Mahith Gottipati",
     role: "Problem Committee",
     bio: "Mahith Gottipati is a 9th grader. He is a member of the Problem Committee for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess under the handle mathimathz on lichess.",
@@ -148,7 +148,7 @@ const members = [
     name: "Tanishq Pauskar",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Tanishq Pauskar",
     role: "Content Creation",
     bio: "Tanishq Pauskar is a sophomore who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
@@ -158,7 +158,7 @@ const members = [
     name: "Ritwin Narra",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Ritwin Narra",
     role: "Content Creation",
     bio: "Ritwin is currently a sophomore in California. He is a Test Solver for OMMC. He has qualified for the AIME since 7th grade, and his math accomplishments include a 72 on USAMTS and a 24 on BAMO (one point under Honorable Mention). In school, he teaches both programming and math. Apart from math, he loves coding: he's a USACO Platinum participant and reached Codeforces Master. Also, he likes cubing, especially the Square-1, and aims for a sub-20 3x3 average.",
@@ -168,7 +168,7 @@ const members = [
     name: "Ananya Vuppala",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Ananya Vuppala",
     role: "Outreach",
     bio: "Ananya is currently a junior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
@@ -178,7 +178,7 @@ const members = [
     name: "Advika Vuppala",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Advika Vuppala",
     role: "Outreach",
     bio: "Advika Vuppala is a junior at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
@@ -188,7 +188,7 @@ const members = [
     name: "Bryan Guo",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
     bio: "Bryan Guo is a problem contributer for the OMMC team and is currently in the 9th grade. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
@@ -198,7 +198,7 @@ const members = [
     name: "Srinivas Arun",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
     bio: "Srinivas Arun is a junior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. He received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching.",
@@ -208,7 +208,7 @@ const members = [
     name: "Rohan Bodke",
     href: "#",
     imageSrc:
-      "https://media.discordapp.net/attachments/751497467329118280/977556703505703012/unknown.png",
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
     imageAlt: "Advika Vuppala",
     role: "Content Contributor",
     bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",

@@ -28,7 +28,7 @@ function Sample(props) {
                 <iframe
                   title="sample1"
                   src="https://drive.google.com/file/d/1p3RhXHcfPYCvm0oAAYodsUujbMPVwOR8/preview"
-                  className="w-full h-full border-4 border-gray-100 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -42,7 +42,7 @@ function Sample(props) {
                 <iframe
                   title="sample2"
                   src="https://drive.google.com/file/d/1VWXcQy5waWyRwuG8J64LxkJUETCPTvC4/preview"
-                  className="w-full h-full border-4 border-gray-100 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -65,7 +65,7 @@ function Sample(props) {
                 <iframe
                   title="sol1"
                   src="https://drive.google.com/file/d/1CZKocvVETJW7p0_bQLMWfkWCo8kEuJYr/preview"
-                  className="w-full h-full border-4 border-gray-100 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -79,7 +79,7 @@ function Sample(props) {
                 <iframe
                   title="sol2"
                   src="https://drive.google.com/file/d/1NDweAK-Os3m9M4b3Pp2Mf_x7wDUTjPsr/preview"
-                  className="w-full h-full border-4 border-gray-100 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}

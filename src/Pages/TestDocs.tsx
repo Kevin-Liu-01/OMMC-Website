@@ -28,7 +28,7 @@ function TestDocs(props) {
                 <iframe
                   title="test"
                   src="https://drive.google.com/file/d/1eE5VRCuH5qBoGlfqo1zarOPA0kiFSbsx/preview"
-                  className="w-full h-full border-4 border-gray-100 bg-gray-300 rounded-lg dark:bg-gray-900 drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -51,7 +51,7 @@ function TestDocs(props) {
                 <iframe
                   title="tiebreaker"
                   src="https://drive.google.com/file/d/18gzfx_VjCUSvsEFsA8GsHUSwj2e4Gk1q/preview"
-                  className="w-full h-full border-4 border-gray-100 bg-gray-300 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
@@ -75,7 +75,7 @@ function TestDocs(props) {
                 <iframe
                   title="solutions"
                   src="https://drive.google.com/file/d/1XqDo3fqmGLzZyswu7ohd0z7DJxBnDa5z/preview"
-                  className="w-full h-full border-4 border-gray-100 bg-gray-300 rounded-lg  drop-shadow-lg"
+                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
                   allow="autoplay"
                 ></iframe>
               </div>{" "}
