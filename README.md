@@ -1,4 +1,4 @@
-# Original Monmouth Math Competition
+# Online Monmouth Math Competition
 
 OMMC is a 501c3 accredited organization that provides accessible,
 high-quality mathematics materials and educational projects online.
