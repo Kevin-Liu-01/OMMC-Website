@@ -1,6 +1,6 @@
-import "../App.css";
-import Navbar from "../Components/Navbar";
-import Banner from "../Components/Banner";
+import "../../App.css";
+import Navbar from "../../Components/Navbar";
+import Banner from "../../Components/Banner";
 import React from "react";
 
 function TestDocs(props) {

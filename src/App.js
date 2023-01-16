@@ -1,14 +1,19 @@
 import "./App.css";
 import Main from "./Pages/Main.tsx";
-import Footer from "./Components/Footer.js";
-import Sample from "./Pages/Sample.tsx";
+import Sample from "./Pages/Documents/Sample.tsx";
 import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
 import Leaderboard from "./Pages/Leaderboard.tsx";
-import TestDocs from "./Pages/TestDocs.tsx";
+import Meme from "./Pages/MEME.tsx";
+
+import TestDocs from "./Pages/Documents/TestDocs.tsx";
+import Problem from "./Pages/Problem.tsx";
+import AMC from "./Pages/Documents/AMC.tsx";
+
 import Portal from "./Portal/Portal.js";
 import Retreival from "./Portal/Retreival.js";
-import Problem from "./Pages/Problem.tsx";
+
+import Footer from "./Components/Footer.js";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -49,8 +54,12 @@ function App() {
           element={<Leaderboard dark={dark} setDark={setDark} />}
         ></Route>
         <Route
-          path="testdocs"
+          path="2022-documents"
           element={<TestDocs dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="ommc-amc"
+          element={<AMC dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="portal"
@@ -63,6 +72,10 @@ function App() {
         <Route
           path="problem-of-the-month"
           element={<Problem dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="meme"
+          element={<Meme dark={dark} setDark={setDark} />}
         ></Route>
       </Routes>
       <Footer />

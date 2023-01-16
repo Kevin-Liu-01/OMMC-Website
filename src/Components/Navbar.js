@@ -19,6 +19,8 @@ const navigation = [
     current: true,
     page: "leaderboard",
   },
+  { name: "MEME", href: "/meme", current: true, page: "meme" },
+
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
 
   // { name: "Portal", href: "/portal", current: true, page: },
@@ -27,12 +29,17 @@ const navigation = [
 
 const solutions = [
   { name: "Sample Problems", href: "/sample", current: true, page: "samples" },
-
   {
-    name: "Test Docs",
-    href: "/testDocs",
+    name: "OMMC 2022",
+    href: "/2022-documents",
     current: true,
     page: "testdocs",
+  },
+  {
+    name: "OMMC AMC",
+    href: "/ommc-amc",
+    current: true,
+    page: "amc",
   },
 ];
 
@@ -47,13 +54,25 @@ const mobileNavigation = [
     page: "leaderboard",
   },
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
+  {
+    name: "Monmouth Exploratory Math Expo",
+    href: "/meme",
+    current: true,
+    page: "meme",
+  },
   { name: "Sample Problems", href: "/sample", current: true, page: "samples" },
 
   {
-    name: "Test Docs",
-    href: "/testDocs",
+    name: "OMMC 2022",
+    href: "/2022-documents",
     current: true,
     page: "testdocs",
+  },
+  {
+    name: "OMMC AMC",
+    href: "/ommc-amc",
+    current: true,
+    page: "amc",
   },
 
   // { name: "Portal", href: "/portal", current: true, page: },
@@ -103,7 +122,7 @@ function Navbar(props) {
                       OMMC
                     </span>
                     <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 rounded-full  bg-gradient-to-r from-gray-700 to-gray-800 block px-1">
-                      Version 5.2
+                      Version 5.3
                     </div>
                   </div>
                 </a>
@@ -213,7 +232,7 @@ function Navbar(props) {
                   href={item.href}
                   className={classNames(
                     item.page === props.page
-                      ? " text-white  border-t-0 border-l-0 border-r-0 rounded border-b-4 border-red-700 bg-gradient-to-r from-gray-800 to-gray-900"
+                      ? " text-white  border-t-0 border-b-0 border-r-0 rounded border-l-4 border-red-700 bg-gradient-to-r from-gray-800 to-gray-900"
                       : "text-gray-300 hover:bg-gray-800 hover:text-white",
                     "block px-3 py-2 text-base font-medium"
                   )}

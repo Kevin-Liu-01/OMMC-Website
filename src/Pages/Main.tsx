@@ -91,7 +91,7 @@ function Main(props) {
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
             src="https://wallpaperaccess.com/full/931292.png"
-            alt=""
+            alt="Formulas"
           />
           <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
             <div className=" h-16  bg-slate-100 dark:bg-gray-800 rotate-45 transform origin-bottom-left"></div>
@@ -164,10 +164,11 @@ function Main(props) {
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto dark:text-gray-400 ">
                 <div className="md:mr-12">
-                  Our current competition consists of 1 round of 25 questions
-                  for a team of up to 4 people, administered over the span of 10
-                  whole days, consisting of questions with similar difficulty as
-                  those posed on the well-established MAA math competitions.
+                  Our competition has two rounds. The main round, open to teams
+                  of up to 4, has 25 questions over 10 days, consisting of
+                  questions similar in difficulty to well-established MAA math
+                  competitions. Top teams advance to the final round, where they
+                  solve 10 challenging proof questions over 4 days.
                 </div>
               </p>
             </div>
@@ -185,25 +186,26 @@ function Main(props) {
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700  rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  Late May - Early June
+                  May 12th - May 21st
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  Contest Dates
+                  Main Round
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
-                  The OMMC contest is held.
+                  The Main Round of the contest is held {"(25 questions)"}
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  Early June
+                  May 26th - May 29th
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  OMMC discussion opened
+                  Final Round
                 </h3>
-                <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-                  Participants will be allowed to discuss the competition.
+                <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
+                  The Final Round of the contest is held
+                  {" (10 questions, proof)"}
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
@@ -212,11 +214,11 @@ function Main(props) {
                   Late June - Early July
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
-                  Conclusion of competition
+                  Conclusion of Competition
                 </h3>
-                <p className="text-base font-normal text-gray-500  dark:text-gray-400">
-                  Solutions are released, winners announced, and prizes sent
-                  out.
+                <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
+                  Discussion opened. Solutions released, winners announced,
+                  <div>and prizes sent out to winners.</div>
                 </p>
               </li>
               <li className="ml-4">
