@@ -11,7 +11,7 @@ function Sample(props) {
         " min-h-screen bg-slate-200 dark:bg-gray-800 "
       }
     >
-      <Navbar page="samples" dark={props.dark} setDark={props.setDark} />
+      <Navbar page="meme" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-[url('https://e7.pngegg.com/pngimages/621/108/png-clipart-orange-and-pink-illustration-red-orange-geometry-orange-colored-background-color-splash-orange.png')] bg-cover">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
