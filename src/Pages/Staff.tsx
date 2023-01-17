@@ -44,6 +44,67 @@ const members = [
     bio: "Kevin is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
   {
+    id: 18,
+    name: "Advika Vuppala",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Advika Vuppala",
+    role: "Head of Logistics",
+    bio: "Advika Vuppala is a junior at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
+  },
+  {
+    id: 12,
+    name: "Justin Lee",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Justin Lee",
+    role: "Head of Content Creation",
+    bio: "Justin is a junior at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games.",
+  },
+  {
+    id: 17,
+    name: "Mahith Gottipati",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Mahith Gottipati",
+    role: "Head of Content Creation",
+    bio: "Mahith Gottipati is an 8th grader at Quail Valley Middle School. He is the head of content creation (along with Justin Lee) for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess.",
+  },
+  {
+    id: 15,
+    name: "Tanishq Pauskar",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Tanishq Pauskar",
+    role: "Head of Content Revision",
+    bio: "Tanishq Pauskar is a sophomore who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
+  },
+  {
+    id: 15,
+    name: "Aprameya Tripathy",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Aprameya Tripathy",
+    role: "Head of Content Revision",
+    bio: "Aprameya Tripathy is a high school freshman who works as a testsolver at OMMC. He is a one time JMO qualifier, and in his free time, you can find him testing out new recipes or exploring geometry configurations. He hopes to bake a croquembouche one day.",
+  },
+  {
+    id: 17,
+    name: "Ananya Vuppala",
+    href: "#",
+    imageSrc:
+      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
+    imageAlt: "Ananya Vuppala",
+    role: "Head of Outreach",
+    bio: "Ananya is currently a junior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
+  },
+
+  {
     id: 5,
     name: "Vinay Singamsetty",
     href: "#",
@@ -113,16 +174,7 @@ const members = [
     role: "Content Creator",
     bio: "Calvin is a 9th grader in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
   },
-  {
-    id: 12,
-    name: "Justin Lee",
-    href: "#",
-    imageSrc:
-      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Justin Lee",
-    role: "Problem Committee",
-    bio: "Justin is a junior at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games.",
-  },
+
   {
     id: 13,
     name: "Neal Yan",
@@ -143,16 +195,7 @@ const members = [
     role: "Problem Committee",
     bio: "Mahith Gottipati is a 9th grader. He is a member of the Problem Committee for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess under the handle mathimathz on lichess.",
   },
-  {
-    id: 15,
-    name: "Tanishq Pauskar",
-    href: "#",
-    imageSrc:
-      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Tanishq Pauskar",
-    role: "Content Creation",
-    bio: "Tanishq Pauskar is a sophomore who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
-  },
+
   {
     id: 16,
     name: "Ritwin Narra",
@@ -163,26 +206,7 @@ const members = [
     role: "Content Creation",
     bio: "Ritwin is currently a sophomore in California. He is a Test Solver for OMMC. He has qualified for the AIME since 7th grade, and his math accomplishments include a 72 on USAMTS and a 24 on BAMO (one point under Honorable Mention). In school, he teaches both programming and math. Apart from math, he loves coding: he's a USACO Platinum participant and reached Codeforces Master. Also, he likes cubing, especially the Square-1, and aims for a sub-20 3x3 average.",
   },
-  {
-    id: 17,
-    name: "Ananya Vuppala",
-    href: "#",
-    imageSrc:
-      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Ananya Vuppala",
-    role: "Outreach",
-    bio: "Ananya is currently a junior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
-  },
-  {
-    id: 18,
-    name: "Advika Vuppala",
-    href: "#",
-    imageSrc:
-      "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Advika Vuppala",
-    role: "Outreach",
-    bio: "Advika Vuppala is a junior at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
-  },
+
   {
     id: 19,
     name: "Bryan Guo",
@@ -249,9 +273,11 @@ export default function Staff(props) {
                   <p className="text-gray-800 dark:text-gray-300  font-semibold  text-md text-center">
                     {member.role}
                   </p>
-                  <p className="text-center text-gray-600 dark:text-gray-400 text-base pt-3 font-normal pb-6 md:my-0 md:px-0 px-5 my-6 max-h-64 md:max-h-[100%] overflow-auto">
-                    {member.bio}
-                  </p>
+                  <div className="bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 text-base rounded-lg border dark:border-gray-900 overflow-hidden my-6">
+                    <p className="max-h-64 overflow-auto pt-3 font-normal pb-6  px-5 scrollbar">
+                      {member.bio}
+                    </p>
+                  </div>
                   {/* <div className="w-full flex self-end justify-center inset-x-0 bottom-0  pt-5 pb-5">
                     <a href="javascript:void(0)" className="mx-5">
                       <div aria-label="Github" role="img">

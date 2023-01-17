@@ -58,3 +58,27 @@ body {
       opacity: 1;
    }
 } */
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+    background: #e8e8e8;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #b2b2b2;
+    border-radius: 0.5rem;
+    border: 3px solid #e8e8e8;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
+}

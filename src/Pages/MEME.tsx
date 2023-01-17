@@ -22,7 +22,7 @@ function Sample(props) {
       </header>
       <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
         <div className="md:grid-cols-6 grid gap-6">
-          <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-xl  bg-cover bg-[url('https://e7.pngegg.com/pngimages/621/108/png-clipart-orange-and-pink-illustration-red-orange-geometry-orange-colored-background-color-splash-orange.png')]">
+          <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-xl  bg-cover bg-[url('https://cdn.discordapp.com/attachments/760189295067004962/1064901339915759706/image.png')]">
             <img
               src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
               className="w-24 selection:"
