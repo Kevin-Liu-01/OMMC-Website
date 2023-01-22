@@ -6,6 +6,14 @@ import React from "react";
 const posts = [
   {
     igLink:
+      "https://www.instagram.com/p/Cm48xFjLHqm/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
+      "https://www.instagram.com/p/CmAVZmarN6R/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
       "https://www.instagram.com/p/Ckb2ESGrrmY/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
   },
   {
@@ -63,12 +71,12 @@ function Problem(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        "bg-slate-200 dark:bg-gray-800 min-h-screen"
+        "bg-slate-200 dark:bg-gray-900 min-h-screen"
       }
     >
       <Navbar page="potm" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-900">
+      <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
             Problem of the Month
@@ -78,7 +86,7 @@ function Problem(props) {
       <main className="">
         <div className="max-w-7xl mx-auto py-3 pt-7 pb-7 sm:px-6 lg:px-8">
           <div className="px-4 sm:px-0 ">
-            <div className=" grid gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 mt-4 mb-6">
+            <div className=" grid gap-y-8 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 mt-4 mb-6">
               {posts.map((posts) => (
                 <div
                   className="flex place-content-center grow mt-2"
@@ -86,7 +94,7 @@ function Problem(props) {
                 >
                   <div className="shadow-lg grow w-full">
                     <iframe
-                      className="instagram-media instagram-media-rendered w-full dark:bg-gray-900 "
+                      className="instagram-media instagram-media-rendered w-full bg-white dark:bg-gray-800 duration-150"
                       title="instagramProblem"
                       id="instagram-embed-0"
                       src={posts.igLink}
@@ -97,13 +105,13 @@ function Problem(props) {
                       data-instgrm-payload-id="instagram-media-payload-0"
                       scrolling="no"
                       style={{
-                        backgroundColor: "white",
                         // border: "1px solid rgb(219, 219, 219)",
-                        borderRadius: "10px",
+                        borderRadius: "15px",
                         boxShadow: "none",
                         display: "block",
                         minWidth: "156px",
                         padding: "0px",
+                        overflow: "hidden",
                       }}
                     ></iframe>
                   </div>

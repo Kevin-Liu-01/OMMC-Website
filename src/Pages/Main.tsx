@@ -40,8 +40,8 @@ function Main(props) {
 
             <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
               <div className="sm:text-center lg:text-left">
-                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-800 to-red-600 sm:text-6xl sm:pb-3">
-                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-900">
+                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-red-700 to-red-600 sm:text-6xl sm:pb-3">
+                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700">
                     Welcome to
                   </span>{" "}
                   <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-700 to-red-800 dark:to-red-700  inline ">
@@ -84,12 +84,12 @@ function Main(props) {
             </main>
           </div>
         </div>
-        <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2  ">
+        <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 ">
           <div className="w-11 absolute overflow-hidden lg:hidden inline-block">
-            <div className=" h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
+            <div className="z-10 h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
           </div>
           <img
-            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none"
+            className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none lg:dark:opacity-60 "
             src="https://wallpaperaccess.com/full/931292.png"
             alt="Formulas"
           />

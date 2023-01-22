@@ -8,7 +8,7 @@ function Sample(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        " min-h-screen bg-slate-200 dark:bg-gray-800 "
+        " min-h-screen bg-slate-200 dark:bg-gray-900 "
       }
     >
       <Navbar page="meme" dark={props.dark} setDark={props.setDark} />
@@ -22,14 +22,14 @@ function Sample(props) {
       </header>
       <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
         <div className="md:grid-cols-6 grid gap-6">
-          <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-xl  bg-cover bg-[url('https://cdn.discordapp.com/attachments/760189295067004962/1064901339915759706/image.png')]">
+          <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-2xl  bg-cover bg-[url('https://cdn.discordapp.com/attachments/760189295067004962/1064901339915759706/image.png')]">
             <img
               src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
               className="w-24 selection:"
               alt="Watercolor Splash"
             />
           </div>
-          <div className=" md:col-span-4 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-300 border border-gray-200 dark:border-gray-800 rounded-xl p-4 drop-shadow-lg">
+          <div className=" md:col-span-4 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 rounded-2xl p-4 drop-shadow-lg">
             <p className="font-extrabold text-2xl text-gray-800 dark:text-gray-300 pb-2">
               What is MEME?
             </p>
@@ -45,23 +45,23 @@ function Sample(props) {
             thinkers, and give them a magical experience with mathematics that
             they will hopefully remember for a lifetime.
           </div>
-          <div className=" md:col-span-3 text-gray-800 dark:text-gray-300 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-700 rounded-xl p-4 drop-shadow-lg ">
+          <div className=" md:col-span-3 text-gray-800 dark:text-gray-400 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-2xl p-4 drop-shadow-lg ">
             <div className="">
               <p className="font-extrabold text-2xl text-gray-800 dark:text-gray-300 pb-2">
                 Where will it be?
               </p>
               <p className="mb-3">
-                Our desired venue is at Brookdale Community College, 765 Newman
-                Springs Rd, Lincroft, NJ 07738. As of now, we are planning for
-                MEME to take place on Sunday, March 19th, 2023. If you are
-                interested in joining us for a day full of meeting other OMMC
-                members and having fun, fill out the form.
+                Our desired venue is at Bell Works, 101 Crawfords Corner Rd,
+                Holmdel, NJ 07733. As of now, we are planning for MEME to take
+                place on Sunday, March 19th, 2023. If you are interested in
+                joining us for a day full of meeting other OMMC members and
+                having fun, fill out the form.
               </p>
               <div>
                 <iframe
-                  title="Brookdale Community College"
+                  title="Bell Works"
                   className="w-full rounded-lg bg-gray-100"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.720507636799!2d-74.13332604906279!3d40.326360068953264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c22de43e6f77d9%3A0x8be5b6e937e426d9!2sBrookdale%20Community%20College!5e0!3m2!1sen!2sus!4v1673888872169!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5416.582754718771!2d-74.17036455300682!3d40.3655342430469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2325e255385d1%3A0x7f2a68b5d5d7da2d!2sBell%20Works!5e0!3m2!1sen!2sus!4v1674356641631!5m2!1sen!2sus"
                   height="320"
                   allowFullScreen={false}
                   loading="lazy"
@@ -71,10 +71,10 @@ function Sample(props) {
             </div>
           </div>
 
-          <div className="md:col-span-3 text-gray-800 border bg-gray-100 dark:bg-gray-700 border-gray-200 dark:border-gray-800 rounded-xl  drop-shadow-lg ">
+          <div className="md:col-span-3 text-gray-800 border bg-gray-100 dark:bg-gray-700 border-gray-200 dark:border-gray-800 rounded-2xl  drop-shadow-lg ">
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLScnsg8Ji2iTe6wXx1Rkf_qIG2LKhZs3t1m8Etu5NCGT0akVRQ/viewform?embedded=true"
-              className="w-full rounded-lg bg-gray-100 "
+              className="w-full rounded-2xl bg-gray-100 "
               height="500"
               title="MEME Form"
             >

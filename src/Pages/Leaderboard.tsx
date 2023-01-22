@@ -6,11 +6,11 @@ import React from "react";
 function Leaderboard(props) {
   return (
     <div
-      className={(props.dark ? "dark" : "") + "bg-slate-200 dark:bg-gray-800"}
+      className={(props.dark ? "dark" : "") + "bg-slate-200 dark:bg-gray-900"}
     >
       <Navbar page="leaderboard" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className=" shadow-lg bg-slate-100 dark:bg-gray-900">
+      <header className=" shadow-lg bg-slate-100 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
             <p className="text-red-800 dark:text-red-700 inline">OMMC 2022 </p>{" "}
@@ -18,10 +18,10 @@ function Leaderboard(props) {
           </h1>
         </div>
       </header>
-      <div className="min-h-screen max-w-7xl mx-auto md:px-8 px-4 pb-10 bg-slate-200 mt-10 dark:bg-gray-800">
+      <div className="min-h-screen max-w-7xl mx-auto md:px-8 px-4 pb-10 mt-10 ">
         <div className="overflow-auto drop-shadow-lg rounded-2xl bg-slate-500">
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-gray-100 dark:bg-gray-900 dark:text-gray-400">
+            <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-gray-100 dark:bg-gray-800 dark:text-gray-400">
               <tr>
                 <th scope="" className=" sm:px-6 px-3 py-4 ">
                   Team Name
@@ -32,7 +32,7 @@ function Leaderboard(props) {
               </tr>
             </thead>
             <tbody>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -44,7 +44,7 @@ function Leaderboard(props) {
                   Melvin Jang, Gary Jang, Ethan Johnson
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -56,7 +56,7 @@ function Leaderboard(props) {
                   Allan Yuan, Channing Yang, Yushen Li, Charles Zhang
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -69,7 +69,7 @@ function Leaderboard(props) {
                   Srinivas Arun
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -81,7 +81,7 @@ function Leaderboard(props) {
                   Kiran Reddy, Liam Reddy, Aarush Khare, Jordan Lefkowitz
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -89,9 +89,11 @@ function Leaderboard(props) {
                   <div className="font-bold ml-2 inline-block">5. </div>{" "}
                   <div className="inline-block text-xs">Anonymous Team </div>
                 </th>
-                <td className="sm:px-6 px-3 py-5 text-gray-300">Anonymous</td>
+                <td className="sm:px-6 px-3 py-5 text-gray-300 dark:text-gray-600">
+                  Anonymous
+                </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -103,7 +105,7 @@ function Leaderboard(props) {
                   Ethan Lee, Sammy Ross, Lucas Qi, Alexander Toker-Katskee
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -115,7 +117,7 @@ function Leaderboard(props) {
                   Neal Yan, Emily Yu, Pranav Choudhary, Lincoln Liu
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -127,7 +129,7 @@ function Leaderboard(props) {
                   Feodor Yevtushenko, Arnav Iyengar, Jiahe Liu, Andrew Xie
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-[#192231] dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -139,7 +141,7 @@ function Leaderboard(props) {
                   Ian Zhang, Aaron Li, Shrey Gupta, Olga Zhukova
                 </td>
               </tr>
-              <tr className="bg-white border-b dark:bg-gray-900 dark:border-gray-700">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
@@ -156,7 +158,7 @@ function Leaderboard(props) {
                 </th>
                 <td className="sm:px-6 px-3 py-5">Andrew Lin</td>
               </tr>
-              <tr className="bg-white dark:bg-gray-900">
+              <tr className="bg-white dark:bg-[#192231]">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"

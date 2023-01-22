@@ -11,7 +11,7 @@ const members = [
       "https://media.discordapp.net/attachments/760189295067004962/974655089920856074/unknown.png?width=584&height=789",
     imageAlt: "Evan Chang",
     role: "Director",
-    bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Ishaan Akula in September of 2020. He works as a Director as well as Head of Content Creation for OMMC. He is a prolific problem writer and staff member in other student-led math nonprofits such as Online Youth Math Competition (OYMC), Gaussian Curvature (GC), Online International Mathematical Cup (OIMC), Metrix Math Olympiad (MMO), and Deciphering the Enigma of Math Olympiads (DEMO). Evan has achieved Distinguished Honor Roll on both the AMC 10 and AMC 12. He has qualified for USAJMO and USAMO and achieved a USAMO bronze medal, qualifying for the MOP summer camp. He is a two-time USAMTS gold medalist. Besides math, Evan currently studies piano and music composition at the Westminster Conservatory of Music Honors Music Program. He is a MTNA Composition Competition National Finalist and a Golden Key Music Festival Composition Competition National Winner.",
+    bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey and student researcher through the prestigious MIT PRIMES-USA program. He cofounded OMMC with Ishaan Akula in September of 2020 and currently serves as director. He has qualified for USAJMO and USAMO and achieved a USAMO bronze medal. He attended the MOP summer camp in 2022. Evan also currently studies piano and music composition at the Westminster Conservatory of Music Honors Music Program. He is a MTNA Composition Competition National Finalist and a Golden Key Music Festival Composition Competition National Winner.",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const members = [
     bio: "Kevin is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the lead website developer for OMMC, handling the online aspect of the competition. He works as the head coder for the OMMC website and OMMC Atlas. He is fluent in Javascript and React in designing, implementing, and testing software, including web and mobile applications development, API design, functional programming, optimization, system administration, databases, and scalability. In addition to web design and application development, he is fluent in Java and Python for Object-Oriented Programming, focusing on problem-solving and algorithm development, along with core concepts and tools, code implementations, testing program code, correcting errors, and documentation.",
   },
   {
-    id: 18,
+    id: 5,
     name: "Advika Vuppala",
     href: "#",
     imageSrc:
@@ -54,7 +54,7 @@ const members = [
     bio: "Advika Vuppala is a junior at High Technology High School in Lincroft, New Jersey. She worked on Marketing and Social Media for OMMC last year, and also helped with content creation for the website. This year, she helped with Outreach and Social Media. Advika served as Marketing and Outreach director for cypHER, and has a lot of experience with managing professional social media accounts. In her free time, she loves playing lacrosse, baking, hiking, and biking.",
   },
   {
-    id: 12,
+    id: 6,
     name: "Justin Lee",
     href: "#",
     imageSrc:
@@ -64,7 +64,7 @@ const members = [
     bio: "Justin is a junior at Spring Valley High School in Las Vegas, Nevada. He is a member of the Problem Committee at OMMC. Additionally, he is a staff member for OYMC, ALP, MMO, and Holiday Problems. He has participated in numerous math competitions such as MathCounts, ARML, and the AMC competition series. He is active on AoPS where you can find him as JustinLee2017. In his free time, he enjoys doing puzzle hunts, hiking, and playing video games.",
   },
   {
-    id: 17,
+    id: 7,
     name: "Mahith Gottipati",
     href: "#",
     imageSrc:
@@ -74,7 +74,7 @@ const members = [
     bio: "Mahith Gottipati is an 8th grader at Quail Valley Middle School. He is the head of content creation (along with Justin Lee) for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess.",
   },
   {
-    id: 15,
+    id: 8,
     name: "Tanishq Pauskar",
     href: "#",
     imageSrc:
@@ -84,7 +84,7 @@ const members = [
     bio: "Tanishq Pauskar is a sophomore who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
   },
   {
-    id: 15,
+    id: 9,
     name: "Aprameya Tripathy",
     href: "#",
     imageSrc:
@@ -94,7 +94,7 @@ const members = [
     bio: "Aprameya Tripathy is a high school freshman who works as a testsolver at OMMC. He is a one time JMO qualifier, and in his free time, you can find him testing out new recipes or exploring geometry configurations. He hopes to bake a croquembouche one day.",
   },
   {
-    id: 17,
+    id: 10,
     name: "Ananya Vuppala",
     href: "#",
     imageSrc:
@@ -105,7 +105,7 @@ const members = [
   },
 
   {
-    id: 5,
+    id: 11,
     name: "Vinay Singamsetty",
     href: "#",
     imageSrc:
@@ -115,7 +115,7 @@ const members = [
     bio: "Vinay is a sophomore in California. He is a developer for OMMC and contributed greatly to the testing portal and website. He is an avid developer and is skilled at developing web applications focused on responsive design, positive UX/UI, SEO and more. He is fluent in React/Next, Vue/Nuxt, JS/HTML/CSS, Sass and general purpose languages like Node JS, Python, C++, C, C#, Java, and more. He's good at developing algorithms and vital coding concepts such as control flow, program structure, versioning, debugging, and formatting. He is also a math enthusiast, achieving honor roll on AMC 8 previously and is currently working on honing his math skills.    ",
   },
   {
-    id: 6,
+    id: 12,
     name: "Vivian Loh",
     href: "#",
     imageSrc:
@@ -125,7 +125,7 @@ const members = [
     bio: "Vivian Loh is a junior at Winchester Thurston School in Pittsburgh, PA. She is a testsolver for OMMC. She received USAJMO winner and an EGMO gold medal in 2022, and has qualified for MOP twice. She has been participating in math contests since 5th grade, qualifying for AIME five times and USAJMO twice, and is particularly enthusiastic about geometry, which she often spends her free time doing. She is also very active on AoPS and Discord (she can be found under the username v4913), and likes biking and talking with friends.",
   },
   {
-    id: 7,
+    id: 13,
     name: "Serena Xu",
     href: "#",
     imageSrc:
@@ -135,7 +135,7 @@ const members = [
     bio: "Serena Xu is a senior who started math competitions at 7th grade. She attended MOP and SUMaC besides winning a silver in APMO for USA in 2022. She published Rabbit's Geometry while organizing GmathIRL. In her free time, she likes reading Naruto, playing video games, producing EDMs and writing massive blogs.    ",
   },
   {
-    id: 8,
+    id: 14,
     name: "Isaac Chen",
     href: "#",
     imageSrc:
@@ -145,7 +145,7 @@ const members = [
     bio: "Isaac Chen is a sophomore at Princeton Day School in Princeton, NJ. He contributes problems to OMMC and other contests such as the Online Youth Mathematics Competition. Isaac is a one-time USAJMO qualifier, one-time AMC 10 DHR awardee, and two-time AIME qualifier. He also placed 17th overall at CMIMC Math 2022 and 5th overall at 2021 NJ MATHCOUNTS States. Outside of math, Isaac spends his time playing and watching basketball, coding, and walking around Princeton University’s beautiful campus with his friends.",
   },
   {
-    id: 9,
+    id: 15,
     name: "Vikram Sarkar",
     href: "#",
     imageSrc:
@@ -155,7 +155,7 @@ const members = [
     bio: "Vikram Sarkar is a test solver for the OMMC team and is currently in 9th grade. His achievements include 2 times Mathcounts Nationals Qualifier (top 56 / top 25% this year), and USAJMO Winner. He likes listening to EDM and various artists, and also likes video games.",
   },
   {
-    id: 10,
+    id: 16,
     name: "Alexander Wang",
     href: "#",
     imageSrc:
@@ -165,7 +165,7 @@ const members = [
     bio: "Alexander Wang is a 9th grader who works as a content creator for OMMC, and has contributed problems to the competition. He has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
   },
   {
-    id: 11,
+    id: 17,
     name: "Calvin Wang",
     href: "#",
     imageSrc:
@@ -176,7 +176,7 @@ const members = [
   },
 
   {
-    id: 13,
+    id: 18,
     name: "Neal Yan",
     href: "#",
     imageSrc:
@@ -186,7 +186,7 @@ const members = [
     bio: "Neal is a highschool junior and geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. Currently, he is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
   },
   {
-    id: 14,
+    id: 19,
     name: "Mahith Gottipati",
     href: "#",
     imageSrc:
@@ -197,7 +197,7 @@ const members = [
   },
 
   {
-    id: 16,
+    id: 20,
     name: "Ritwin Narra",
     href: "#",
     imageSrc:
@@ -208,32 +208,32 @@ const members = [
   },
 
   {
-    id: 19,
+    id: 21,
     name: "Bryan Guo",
     href: "#",
     imageSrc:
       "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Advika Vuppala",
+    imageAlt: "Bryan Guo",
     role: "Content Contributor",
     bio: "Bryan Guo is a problem contributer for the OMMC team and is currently in the 9th grade. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
   {
-    id: 20,
+    id: 21,
     name: "Srinivas Arun",
     href: "#",
     imageSrc:
       "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Advika Vuppala",
+    imageAlt: "Srinivas Arun",
     role: "Content Contributor",
     bio: "Srinivas Arun is a junior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. He received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching.",
   },
   {
-    id: 21,
+    id: 22,
     name: "Rohan Bodke",
     href: "#",
     imageSrc:
       "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png",
-    imageAlt: "Advika Vuppala",
+    imageAlt: "Rohan Bodke",
     role: "Content Contributor",
     bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
   },
@@ -241,11 +241,11 @@ const members = [
 export default function Staff(props) {
   return (
     <div
-      className={(props.dark ? "dark" : "") + "bg-slate-200 dark:bg-gray-800"}
+      className={(props.dark ? "dark" : "") + "bg-slate-200 dark:bg-gray-900"}
     >
       <Navbar page="staff" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className=" drop-shadow-lg bg-slate-100 dark:bg-gray-900">
+      <header className=" drop-shadow-lg bg-slate-100 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-slate-100">
             Staff
@@ -256,7 +256,7 @@ export default function Staff(props) {
         <div className="mt-6 grid grid-cols-1 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {members.map((member) => (
             <div role="listitem" className="flex relative mt-16 mb-16 w-full">
-              <div className="rounded-xl overflow-hidden shadow-md bg-white dark:bg-gray-900">
+              <div className="rounded-2xl overflow-hidden shadow-md bg-white dark:bg-gray-800">
                 <div className="absolute -mt-20 w-full flex justify-center">
                   <div className="h-32 w-32">
                     <img
@@ -273,7 +273,7 @@ export default function Staff(props) {
                   <p className="text-gray-800 dark:text-gray-300  font-semibold  text-md text-center">
                     {member.role}
                   </p>
-                  <div className="bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 text-base rounded-lg border dark:border-gray-900 overflow-hidden my-6">
+                  <div className="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-base rounded-lg border dark:border-gray-700 overflow-hidden my-6">
                     <p className="max-h-64 overflow-auto pt-3 font-normal pb-6  px-5 scrollbar">
                       {member.bio}
                     </p>

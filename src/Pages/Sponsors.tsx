@@ -66,12 +66,12 @@ export default function Sponsors(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        "bg-slate-200 min-h-screen dark:bg-gray-800"
+        "bg-slate-200 min-h-screen dark:bg-gray-900"
       }
     >
       <Navbar page="sponsors" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="shadow-lg bg-slate-100 dark:bg-gray-900">
+      <header className="shadow-lg bg-slate-100 dark:bg-gray-800">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
             Sponsors
@@ -80,7 +80,7 @@ export default function Sponsors(props) {
       </header>
       <div className=" max-w-2xl mx-auto py-16 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="sr-only">Sponsors</h2>
-        <div className="bg-white dark:bg-gray-900 border dark:border-gray-700 rounded-2xl drop-shadow-lg">
+        <div className="bg-white dark:bg-slate-800 border dark:border-slate-900 rounded-2xl drop-shadow-lg">
           <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 pb-6">
             {sponsors.map((sponsor) => (
               <a key={sponsor.id} href={sponsor.href} className="group  ">
