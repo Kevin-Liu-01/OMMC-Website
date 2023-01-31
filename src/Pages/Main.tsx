@@ -7,6 +7,7 @@ import {
   GiftIcon,
   UsersIcon,
   ArrowSmRightIcon,
+  BookOpenIcon,
 } from "@heroicons/react/outline";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
@@ -26,7 +27,7 @@ function Main(props) {
 
       <div className="relative bg-white dark:bg-gray-900 drop-shadow-md">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full ">
+          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
             <svg
               className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
@@ -39,7 +40,7 @@ function Main(props) {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
+            <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-3">
               <div className="">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
                   <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
@@ -53,24 +54,33 @@ function Main(props) {
                   </div>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-700"></div>
-                <p className="pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6 mb-4  lg:mr-6">
-                    Online Monmouth Math Competition, or OMMC, is a 501c3
-                    accredited nonprofit organization which aims to give
-                    talented high school and middle school students an exciting
-                    and engaging way to develop their skills in mathematics.{" "}
+                  <div className="ml-6 mb-4  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-gray-900 dark:bg-gray-800 rounded-xl p-2">
+                    <span className="dark:text-gray-300 font-semibold">
+                      Online Monmouth Math Competition
+                    </span>
+                    , or OMMC, is a 501c3 accredited nonprofit organization
+                    which aims to give talented high school and middle school
+                    students an exciting and engaging way to develop their
+                    skills in mathematics.{" "}
                   </div>
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6  lg:mr-6">
-                    We provide an annual original high-quality math competition,
-                    in addition to various educational materials and a community
-                    Discord server. Our competition is available to all students
-                    who are 18 or younger.
+                  <div className="ml-6  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-gray-900 dark:bg-gray-800 rounded-xl p-2 ">
+                    We provide an annual{" "}
+                    <span className="dark:text-gray-300 font-semibold">
+                      original high-quality math competition,
+                    </span>{" "}
+                    in addition to various educational materials and a community{" "}
+                    <span className="dark:text-gray-300 font-semibold">
+                      Discord server
+                    </span>
+                    . Our competition is available to all students who are 18 or
+                    younger.
                   </div>
                 </p>
                 <div className="mt-5 sm:mt-12 sm:flex ">
@@ -84,12 +94,13 @@ function Main(props) {
                       <ArrowSmRightIcon className="h-5 w-5 my-auto ml-2"></ArrowSmRightIcon>
                     </a>
                   </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
+                  <div className="mt-3 sm:mt-0 sm:ml-1 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
+                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-9 select-none duration-150"
                     >
-                      See sample problems
+                      See sample problems{" "}
+                      <BookOpenIcon className="h-5 w-5 my-auto ml-2"></BookOpenIcon>
                     </a>
                   </div>
                 </div>
@@ -99,13 +110,14 @@ function Main(props) {
         </div>
         <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 ">
           <div className="w-11 absolute overflow-hidden lg:hidden inline-block">
-            <div className="z-10 h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
+            <div className="h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
           </div>
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none lg:dark:opacity-60 "
             src="https://wallpaperaccess.com/full/931292.png"
             alt="Formulas"
           />
+          <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900 "></div>
           <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
             <div className=" h-16  bg-slate-100 dark:bg-gray-800 rotate-45 transform origin-bottom-left"></div>
           </div>
