@@ -29,7 +29,7 @@ function Main(props) {
         <div className="max-w-7xl mx-auto ">
           <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-72 text-white dark:text-gray-900 transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-64 text-white dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
