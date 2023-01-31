@@ -16,7 +16,9 @@ function Leaderboard(props) {
       <header className=" shadow-lg bg-slate-100 dark:bg-[#182133] duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
-            <p className="text-red-800 dark:text-red-700 inline">OMMC 2022 </p>{" "}
+            <p className="text-red-700 dark:text-red-600 inline duration-150">
+              OMMC 2022{" "}
+            </p>{" "}
             Leaderboard
           </h1>
         </div>
