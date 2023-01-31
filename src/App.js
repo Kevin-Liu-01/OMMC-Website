@@ -5,6 +5,7 @@ import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
 import Leaderboard from "./Pages/Leaderboard.tsx";
 import Meme from "./Pages/MEME.tsx";
+import NotFound from "./Pages/Error.tsx";
 
 import TestDocs from "./Pages/Documents/TestDocs.tsx";
 import Problem from "./Pages/Problem.tsx";
@@ -76,6 +77,10 @@ function App() {
         <Route
           path="meme"
           element={<Meme dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="*"
+          element={<NotFound dark={dark} setDark={setDark} />}
         ></Route>
       </Routes>
       <Footer />
