@@ -122,7 +122,7 @@ function Navbar(props) {
                       OMMC
                     </span>
                     <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 rounded-full  bg-gradient-to-r from-gray-700 to-gray-800 block px-1">
-                      Version 5.4
+                      Version 6.0
                     </div>
                   </div>
                 </a>

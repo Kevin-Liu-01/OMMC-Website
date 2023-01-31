@@ -29,7 +29,7 @@ function Main(props) {
         <div className="max-w-7xl mx-auto ">
           <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white dark:text-gray-900 transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-72 text-white dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -53,24 +53,28 @@ function Main(props) {
                     <div className=" h-24 bg-red-700 -rotate-45 transform origin-top-right"></div>
                   </div>
                 </h1>
-                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-700"></div>
+                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-800"></div>
                 <p className="pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6 mb-4  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-gray-900 dark:bg-gray-800 rounded-xl p-2">
+                  <div className="ml-6 mb-4  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
                     <span className="dark:text-gray-300 font-semibold">
                       Online Monmouth Math Competition
                     </span>
-                    , or OMMC, is a 501c3 accredited nonprofit organization
-                    which aims to give talented high school and middle school
-                    students an exciting and engaging way to develop their
-                    skills in mathematics.{" "}
+                    , or{" "}
+                    <span className="dark:text-gray-300 font-semibold">
+                      OMMC
+                    </span>
+                    , is a 501c3 accredited nonprofit organization which aims to
+                    give talented high school and middle school students an
+                    exciting and engaging way to develop their skills in
+                    mathematics.{" "}
                   </div>
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-gray-900 dark:bg-gray-800 rounded-xl p-2 ">
+                  <div className="ml-6  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a] rounded-xl p-2 ">
                     We provide an annual{" "}
                     <span className="dark:text-gray-300 font-semibold">
                       original high-quality math competition,
@@ -88,7 +92,7 @@ function Main(props) {
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
                       className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
-                      rounded-xl shadow text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-9 select-none"
+                      rounded-xl shadow text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg select-none"
                     >
                       See our latest competition{" "}
                       <ArrowSmRightIcon className="h-5 w-5 my-auto ml-2"></ArrowSmRightIcon>
@@ -97,7 +101,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-1 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-9 select-none duration-150"
+                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg select-none duration-150"
                     >
                       See sample problems{" "}
                       <BookOpenIcon className="h-5 w-5 my-auto ml-2"></BookOpenIcon>
@@ -119,11 +123,11 @@ function Main(props) {
           />
           <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900 "></div>
           <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
-            <div className=" h-16  bg-slate-100 dark:bg-gray-800 rotate-45 transform origin-bottom-left"></div>
+            <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
           </div>
         </div>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-gray-800 relative z-20">
+      <div className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -141,34 +145,32 @@ function Main(props) {
                 who serve as the directors.
               </p>
             </div>
-            <div className="mt-8 ">
+            <div className="mt-8 flex bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
               <div className="absolute flex items-center justify-center mb-2 h-12 w-12 text-red-700">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+              <p className=" ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
                 Our staff consists of highly qualified and experienced
                 individuals who are highly committed to our cause of advancing
                 math education.
               </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
               <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
                 Staff members have excelled at AMC 10/12, AIME, USAJMO and
-                USAMO, and some members have attended the prestigious MOP summer
-                program.
+                USAMO, and some have also attended MOP.
               </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
               <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
                 Our competition problems have been selectively written, chosen
-                and reviewed by math students around the world to be original,
-                creative, and inspirational.
+                and reviewed to be original, creative, and inspirational.
               </p>
             </div>
           </div>
@@ -203,13 +205,13 @@ function Main(props) {
           <div className=" self-center max-w-7xl mx-auto md:pt-6 pb-6 px-6 lg:px-8">
             <ol className="relative border-l-2 border-gray-200 dark:border-gray-600 my-6">
               <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   Start
                 </h3>
               </li>
-              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700  rounded-xl p-2">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   May 12th - May 21st
                 </time>
@@ -220,8 +222,8 @@ function Main(props) {
                   The Main Round of the contest is held {"(25 questions)"}
                 </p>
               </li>
-              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   May 26th - May 29th
                 </time>
@@ -233,8 +235,8 @@ function Main(props) {
                   {" (10 questions, proof)"}
                 </p>
               </li>
-              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-gray-700 rounded-xl p-2">
-                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+              <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
+                <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
                   Late June - Early July
                 </time>
@@ -247,7 +249,7 @@ function Main(props) {
                 </p>
               </li>
               <li className="ml-4">
-                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-1.5 border border-white "></div>
+                <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900  "></div>
                 <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   End
                 </h3>
@@ -256,7 +258,7 @@ function Main(props) {
           </div>
         </main>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-gray-800 align-center">
+      <div className="py-12 bg-slate-100 dark:bg-[#182133] align-center">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -272,7 +274,7 @@ function Main(props) {
             </div>
           </div>
 
-          <div className="mt-8 md:mt-5 col-span-2">
+          <div className="mt-8 md:mt-5 col-span-2 rounded-xl bg-[#fcfeff] dark:bg-[#212c42] p-3">
             <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
               <GiftIcon className="h-6 w-6" aria-hidden="true" />
             </div>
@@ -284,7 +286,7 @@ function Main(props) {
               different.
             </p>
           </div>
-          <div className=" mt-5 col-span-2">
+          <div className=" mt-5 col-span-2 rounded-xl bg-[#fcfeff] dark:bg-[#212c42] p-3">
             <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
               <UsersIcon className="h-6 w-6" aria-hidden="true" />
             </div>
@@ -321,26 +323,26 @@ function Main(props) {
                 the latest updates on OMMC. There is no sign up process for OMMC
                 this year.
               </p>
-              <div>
+              <div className="flex rounded-xl bg-gray-100 dark:bg-[#1d263a] p-3 mt-8 border-[1.5px] border-gray-200 dark:border-[#182133]">
                 <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br  from-[#5865F2] to-[#3f4fc8]">
                   <ClockIcon className="h-6 w-6" aria-hidden="true" />
                 </div>
-                <p className="ml-16 max-w-2xl text-lg  text-gray-500 dark:text-gray-400 mt-10">
+                <p className="ml-16 max-w-2xl text-lg  text-gray-500 dark:text-gray-400">
                   We will be posting updates and announcements on the Discord,
                   so make sure to join! We also host special events in addition
                   to the standard competitions.
                 </p>
               </div>
-              <dt>
+              <div className="flex rounded-xl bg-gray-100 dark:bg-[#1d263a] p-3 mt-6 border-[1.5px] border-gray-200 dark:border-[#182133]">
                 <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br  from-[#5865F2] to-[#3f4fc8]">
                   <UserIcon className=" h-6 w-6" aria-hidden="true" />
                 </div>
-                <p className="ml-16 max-w-2xl text-lg text-gray-500 dark:text-gray-400 mt-10">
+                <p className="ml-16 max-w-2xl text-lg text-gray-500 dark:text-gray-400">
                   The community Discord is a great way to meet other OMMC
                   members and interact with the OMMC team. The Discord is a
                   great place to ask for help or solve a problem.
                 </p>
-              </dt>
+              </div>
             </div>
           </div>
         </div>

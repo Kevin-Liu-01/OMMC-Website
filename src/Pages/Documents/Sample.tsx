@@ -11,9 +11,9 @@ function Sample(props) {
         " min-h-screen bg-slate-200 dark:bg-gray-900"
       }
     >
-      <Navbar page="amc" dark={props.dark} setDark={props.setDark} />
+      <Navbar page="samples" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800">
+      <header className="drop-shadow-lg bg-slate-100 dark:bg-[#182133]">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
           <h1 className="text-4xl font-extrabold text-gray-900  dark:text-white">
             Sample Problems
