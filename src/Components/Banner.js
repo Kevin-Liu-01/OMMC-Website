@@ -21,24 +21,25 @@ function Banner() {
               />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Staff Apps are now open!</span>
+              <span className="md:hidden">Find out about MEME!</span>
               <span className="hidden md:inline">
-                Staff Applications are now open!
+                Learn more about our new in-person event, MEME!
               </span>
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="https://artofproblemsolving.com/community/c5h2919064_ommc_now_recruiting_501c3_npo"
-              className="hover:bg-red-100 dark:hover:bg-red-800 transform duration-150 ease-in-out  flex items-center justify-center px-4 py-2 border border-transparent rounded-lg shadow-sm text-sm font-medium text-red-800 dark:text-white bg-white dark:bg-red-900 select-none "
+              href="/MEME"
+              className="hover:bg-red-100 dark:hover:bg-[#921717] transform duration-150 ease-in-out  flex items-center 
+              justify-center px-4 py-2 rounded-lg shadow-sm text-sm font-medium text-red-800 border-transparent dark:text-white bg-white dark:bg-red-800 select-none "
             >
-              Join Us
+              Explore
             </a>
           </div>
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
             <button
               type="button"
-              className="-mr-1 flex p-2 rounded-md hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
+              className="-mr-1 flex p-2 rounded-md duration-150 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
             >
               <span className="sr-only ">Dismiss</span>
               <XIcon

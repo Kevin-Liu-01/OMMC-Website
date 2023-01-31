@@ -6,6 +6,7 @@ import {
   CheckIcon,
   GiftIcon,
   UsersIcon,
+  ArrowSmRightIcon,
 } from "@heroicons/react/outline";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
@@ -39,12 +40,12 @@ function Main(props) {
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
             <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-4">
-              <div className="sm:text-center lg:text-left">
-                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent bg-clip-text bg-gradient-to-r from-red-800 via-red-700 to-red-600 sm:text-6xl sm:pb-3">
-                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700">
+              <div className="">
+                <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
+                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
                     Welcome to
                   </span>{" "}
-                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-700 to-red-800 dark:to-red-700  inline ">
+                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-600 to-red-700 dark:to-red-600  inline ">
                     OMMC
                   </span>
                   <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
@@ -52,29 +53,41 @@ function Main(props) {
                   </div>
                 </h1>
                 <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-700"></div>
-                <p className="pb-4 md:pb-0 mt-3  text-gray-500 dark:text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Online Monmouth Math Competition, or OMMC, is a 501c3
-                  accredited nonprofit organization which aims to give talented
-                  high school and middle school students an exciting and
-                  engaging way to develop their skills in mathematics. We
-                  provide an annual original high-quality math competition, in
-                  addition to various educational materials and a community
-                  Discord server. Our competition is available to all students
-                  who are 18 or younger.
+                <p className="pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  <div className="w-4 absolute  overflow-hidden   inline-block">
+                    <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
+                  </div>
+                  <div className="ml-6 mb-4  lg:mr-6">
+                    Online Monmouth Math Competition, or OMMC, is a 501c3
+                    accredited nonprofit organization which aims to give
+                    talented high school and middle school students an exciting
+                    and engaging way to develop their skills in mathematics.{" "}
+                  </div>
+                  <div className="w-4 absolute  overflow-hidden   inline-block">
+                    <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
+                  </div>
+                  <div className="ml-6  lg:mr-6">
+                    We provide an annual original high-quality math competition,
+                    in addition to various educational materials and a community
+                    Discord server. Our competition is available to all students
+                    who are 18 or younger.
+                  </div>
                 </p>
-                <div className="mt-5 sm:mt-12 sm:flex sm:justify-center lg:justify-start ">
-                  <div className="shadow md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
+                <div className="mt-5 sm:mt-12 sm:flex ">
+                  <div className=" md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-10 select-none"
+                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
+                      rounded-xl shadow text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-9 select-none"
                     >
-                      See our latest competition
+                      See our latest competition{" "}
+                      <ArrowSmRightIcon className="h-5 w-5 my-auto ml-2"></ArrowSmRightIcon>
                     </a>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
+                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10 select-none duration-150"
                     >
                       See sample problems
                     </a>

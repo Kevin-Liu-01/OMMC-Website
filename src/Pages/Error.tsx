@@ -16,7 +16,7 @@ export default function NotFound(props) {
       <header className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 text-center md:text-left md:pt-24">
         <div className="grid md:grid-cols-2 md:gap-8">
           <div className="my-auto ">
-            <div className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white pb-6 lg:pb-8">
+            <div className="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white pb-6 lg:pb-10">
               This page doesn't exist!
             </div>
             <div className="text-lg lg:text-2xl md:max-w-xl font-semibold text-gray-800 dark:text-gray-300 pb-4 lg:pb-8">
@@ -24,7 +24,7 @@ export default function NotFound(props) {
               want to go.
             </div>
             <a href="/" className=" md:mr-4 ">
-              <button className="hover:scale-105 transform duration-150 ease-in-out px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg md:px-10 select-none">
+              <button className="hover:scale-105 transform duration-150 ease-in-out px-8 py-3 border border-transparent text-base font-medium rounded-xl text-white bg-gradient-to-r from-red-600 to-red-700 dark:from-red-700 dark:to-red-800 md:py-4 md:text-lg md:px-10 select-none">
                 Back to home
               </button>
             </a>
