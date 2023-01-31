@@ -8,7 +8,7 @@ function Sample(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        " min-h-screen bg-slate-200 dark:bg-gray-900 "
+        " min-h-screen bg-slate-200 dark:bg-gray-900 duration-150 "
       }
     >
       <Navbar page="meme" dark={props.dark} setDark={props.setDark} />

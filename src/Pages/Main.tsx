@@ -17,19 +17,18 @@ function Main(props) {
   return (
     <div
       className={
-        props.dark
-          ? "dark min-h-screen drop-shadow-sm overflow-hidden bg-gray-800"
-          : "min-h-screen drop-shadow-sm overflow-hidden"
+        (props.dark ? "dark" : "") +
+        " min-h-screen overflow-hidden dark:bg-gray-900 duration-150"
       }
     >
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
       <Banner />
 
-      <div className="relative bg-white dark:bg-gray-900 drop-shadow-md">
+      <div className="relative duration-150">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
+          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-64 text-white dark:text-gray-900 transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-64 text-white  duration-150 dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -43,7 +42,7 @@ function Main(props) {
             <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-3">
               <div className="">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
-                  <span className=" tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
+                  <span className=" duration-150 tiny:text-[3rem] text-5xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
                     Welcome to
                   </span>{" "}
                   <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-600 to-red-700 dark:to-red-600  inline ">
@@ -53,17 +52,17 @@ function Main(props) {
                     <div className=" h-24 bg-red-700 -rotate-45 transform origin-top-right"></div>
                   </div>
                 </h1>
-                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-800"></div>
-                <p className="pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <div className="border border-b-2 border-t-0 border-x-0 mt-3 mb-6 dark:border-gray-800 duration-150"></div>
+                <p className=" duration-150 pb-4 md:pb-0 mt-3 text-gray-500 dark:text-gray-400  z-10 relative sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6 mb-4  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
-                    <span className="dark:text-gray-300 font-semibold">
+                  <div className="ml-6 mb-4  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a]  rounded-xl p-2">
+                    <span className="dark:text-gray-300 font-semibold  duration-150">
                       Online Monmouth Math Competition
                     </span>
                     , or{" "}
-                    <span className="dark:text-gray-300 font-semibold">
+                    <span className="dark:text-gray-300 font-semibold  duration-150">
                       OMMC
                     </span>
                     , is a 501c3 accredited nonprofit organization which aims to
@@ -74,13 +73,13 @@ function Main(props) {
                   <div className="w-4 absolute  overflow-hidden   inline-block">
                     <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
                   </div>
-                  <div className="ml-6  lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a] rounded-xl p-2 ">
+                  <div className="ml-6  duration-150 lg:mr-6 bg-gray-100 border-2 border-gray-200 dark:border-[#182133] dark:bg-[#1d263a] rounded-xl p-2 ">
                     We provide an annual{" "}
-                    <span className="dark:text-gray-300 font-semibold">
+                    <span className="dark:text-gray-300 font-semibold  duration-150">
                       original high-quality math competition,
                     </span>{" "}
                     in addition to various educational materials and a community{" "}
-                    <span className="dark:text-gray-300 font-semibold">
+                    <span className="dark:text-gray-300 font-semibold  duration-150">
                       Discord server
                     </span>
                     . Our competition is available to all students who are 18 or
@@ -127,7 +126,7 @@ function Main(props) {
           </div>
         </div>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20">
+      <div className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20 duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -176,7 +175,7 @@ function Main(props) {
           </div>
         </div>
       </div>
-      <div className="md:flex place-content-center bg-white dark:bg-gray-900">
+      <div className="md:flex place-content-center">
         <div className="py-12 self-center md:mt-2 mb-2">
           <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
             <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
@@ -258,7 +257,7 @@ function Main(props) {
           </div>
         </main>
       </div>
-      <div className="py-12 bg-slate-100 dark:bg-[#182133] align-center">
+      <div className="py-12 bg-slate-100 dark:bg-[#182133] align-center duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -300,7 +299,7 @@ function Main(props) {
           </div>
         </div>
       </div>
-      <div className="w-full bg-white dark:bg-gray-900">
+      <div className="w-full">
         <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8">
           <div className="md:ml-0 md:mr-24 mt-10 sm:my-10">
             <iframe

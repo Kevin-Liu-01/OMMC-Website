@@ -66,12 +66,12 @@ export default function Sponsors(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        "bg-slate-200 min-h-screen dark:bg-gray-900"
+        "bg-slate-200 min-h-screen dark:bg-gray-900 duration-150"
       }
     >
       <Navbar page="sponsors" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="shadow-lg bg-slate-100 dark:bg-[#182133]">
+      <header className="shadow-lg bg-slate-100 dark:bg-[#182133] duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
             Sponsors
