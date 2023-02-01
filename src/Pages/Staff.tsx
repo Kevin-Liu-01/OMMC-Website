@@ -278,7 +278,7 @@ export default function Staff(props) {
                     {member.role}
                   </p>
                   <div className="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-base rounded-lg border dark:border-gray-700 overflow-hidden my-6">
-                    <p className="max-h-64 overflow-auto pt-3 font-normal pb-6  px-5 scrollbar">
+                    <p className="shadow-inner max-h-64 overflow-auto pt-3 font-normal pb-6  px-5 scrollbar">
                       {member.bio}
                     </p>
                   </div>
