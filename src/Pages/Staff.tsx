@@ -10,7 +10,7 @@ const members = [
     imageSrc:
       "https://media.discordapp.net/attachments/760189295067004962/974655089920856074/unknown.png?width=584&height=789",
     imageAlt: "Evan Chang",
-    role: "Founder, Director",
+    role: "Co-Founder, Director",
     bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey and student researcher through the prestigious MIT PRIMES-USA program. He cofounded OMMC with Ishaan Akula in September of 2020 and currently serves as director. He has qualified for USAJMO and USAMO and achieved a USAMO bronze medal. He attended the MOP summer camp in 2022. Evan also currently studies piano and music composition at the Westminster Conservatory of Music Honors Music Program. He is a MTNA Composition Competition National Finalist and a Golden Key Music Festival Composition Competition National Winner.",
   },
   {
@@ -20,7 +20,7 @@ const members = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/760189295067004962/974655072543842345/unknown.png",
     imageAlt: "Ishaan Akula",
-    role: "Cofounder, Assistant Director",
+    role: "Co-Founder, Assistant Director",
     bio: "Ishaan is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as an assistant director for OMMC and handles the digital marketing/social media aspect of the competition. He works as the manager for OMMC’s social media pages and outreach division. In elementary school, he was a finalist in the National Scripps Spelling Bee.",
   },
   {
@@ -30,7 +30,7 @@ const members = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/753798704082714715/975416571839270952/unknown.png",
     imageAlt: "Kevin Liu",
-    role: "Cofounder, CTO",
+    role: "Co-Founder, CTO",
     bio: "Kevin is a junior at High Technology High School in Lincroft, New Jersey and a student at the University Columbia SHP studying algorithms. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the chief technical officer for OMMC, handling the online aspect of the competition. He is the head coder for the official OMMC Website, Test Portal, and OMMC Atlas. He uses the latest frontend/backend languages and technologies including Astro and Next13, and frameworks like Typescript, React, and Tailwind. He also enjoys participating in college hackathons - he has won 1st Place in Hardware at the University of Pennsylvania PennApps XXIII, and 3rd Place Overall at BC Hacks at UBC Okanagan.",
   },
   {
