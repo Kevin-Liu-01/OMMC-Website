@@ -87,7 +87,7 @@ function Main(props) {
                   </div>
                 </p>
                 <div className="mt-5 sm:mt-12 sm:flex ">
-                  <div className=" md:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
+                  <div className=" sm:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
                       className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
