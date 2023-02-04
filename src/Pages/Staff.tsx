@@ -244,7 +244,7 @@ export default function Staff(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        "bg-slate-200 dark:bg-gray-900 duration-150"
+        " min-h-screen bg-slate-200 dark:bg-gray-900 duration-150"
       }
     >
       <Navbar page="staff" dark={props.dark} setDark={props.setDark} />
@@ -256,7 +256,7 @@ export default function Staff(props) {
           </h1>
         </div>
       </header>
-      <div className="w-full min-h-screen mx-auto max-w-7xl px-4 md:px-10 pt-10">
+      <div className="w-full mx-auto max-w-7xl px-4 md:px-10 pt-10">
         <div className="mt-6 grid grid-cols-1 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
           {members.map((member) => (
             <div role="listitem" className="flex relative mt-16 mb-16 w-full">
