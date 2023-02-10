@@ -6,6 +6,7 @@ import Staff from "./Pages/Staff.tsx";
 import Leaderboard from "./Pages/Leaderboard.tsx";
 import Meme from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
+import Sponsorship from "./Pages/Sponsorship.tsx";
 
 import TestDocs from "./Pages/Documents/TestDocs.tsx";
 import Problem from "./Pages/Problem.tsx";
@@ -81,6 +82,11 @@ function App() {
         <Route
           path="*"
           element={<NotFound dark={dark} setDark={setDark} />}
+        ></Route>
+
+        <Route
+          path="sponsorship_prospectus"
+          element={<Sponsorship dark={dark} setDark={setDark} />}
         ></Route>
       </Routes>
       <Footer />
