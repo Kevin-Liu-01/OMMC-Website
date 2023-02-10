@@ -33,7 +33,7 @@ function App() {
   }, [dark]);
 
   return (
-    <div className={dark ? "dark" : ""}>
+    <div className={(dark ? "dark" : "") + "overflow-hidden"}>
       <Routes>
         <Route
           path="/"

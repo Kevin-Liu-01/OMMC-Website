@@ -26,7 +26,7 @@ function Main(props) {
 
       <div className="relative duration-150">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 sm:pb-16 md:pb-20 lg:max-w-[44rem] lg:w-full ">
+          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full ">
             <svg
               className="hidden lg:block absolute right-0 inset-y-0 h-full w-56 text-white  duration-150 dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
@@ -39,7 +39,7 @@ function Main(props) {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-4 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-14 lg:px-8 py-3">
+            <main className="mt-4 mx-auto max-w-7xl px-4 sm:px-6 2xl:mt-14 lg:mt-6 lg:px-8 py-3">
               <div className="relative">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
                   <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
