@@ -45,7 +45,7 @@ function Main(props) {
                   <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
                     Welcome to{" "}
                   </span>
-                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl  text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-600 to-red-700 dark:to-red-600  inline ">
+                  <span className="text-[5rem] tiny:text-[3.5rem] sm:text-5xl font-[900] text-transparent bg-clip-text bg-gradient-to-r from-red-700 dark:from-red-600 to-red-700 dark:to-red-600  inline ">
                     OMMC
                   </span>
                   <div className="w-24 absolute h-40 ml-8 overflow-hidden tiny:hidden inline-block">
@@ -205,7 +205,7 @@ function Main(props) {
             <ol className="relative border-l-2 border-gray-200 dark:border-gray-600 my-6">
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
-                <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
+                <h3 className="text-lg font-semibold text-white bg-gradient-to-tr from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   Start
                 </h3>
               </li>
@@ -249,7 +249,7 @@ function Main(props) {
               </li>
               <li className="ml-4">
                 <div className="absolute w-3 h-3 bg-red-700 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900  "></div>
-                <h3 className="text-lg font-semibold text-white bg-gradient-to-r from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
+                <h3 className="text-lg font-semibold text-white bg-gradient-to-tr from-red-500 to-red-700 dark:from-red-700 dark:to-red-800 rounded-xl inline py-1 px-2">
                   End
                 </h3>
               </li>
@@ -274,7 +274,7 @@ function Main(props) {
           </div>
 
           <div className="mt-8 md:mt-5 col-span-2 rounded-xl bg-[#fcfeff] dark:bg-[#212c42] p-3">
-            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
+            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-600 to-red-700 rounded-xl">
               <GiftIcon className="h-6 w-6" aria-hidden="true" />
             </div>
             <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
@@ -285,11 +285,11 @@ function Main(props) {
               different.
             </p>
           </div>
-          <div className=" mt-5 col-span-2 rounded-xl bg-[#fcfeff] dark:bg-[#212c42] p-3">
-            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-500 to-red-700 rounded-xl">
+          <div className=" mt-5 col-span-2 rounded-xl bg-[#fcfeff] dark:bg-[#212c42] p-3 ">
+            <div className="flex absolute items-center justify-center h-12 w-12 text-white bg-gradient-to-r from-red-600 to-red-700 rounded-xl">
               <UsersIcon className="h-6 w-6" aria-hidden="true" />
             </div>
-            <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400 ">
+            <p className="ml-16 max-w-2xl  text-gray-500 dark:text-gray-400">
               Students will have the opportunity to compete in teams, developing
               valuable teamwork and collaboration skills. In the competition,
               they will be able to solve thought-provoking, challenging
