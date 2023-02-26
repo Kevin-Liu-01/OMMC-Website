@@ -53,9 +53,9 @@ function Sample(props) {
               <p className="mb-3">
                 Our desired venue is at Bell Works, 101 Crawfords Corner Rd,
                 Holmdel, NJ 07733. As of now, we are planning for MEME to take
-                place on Sunday, April 2nd, 2023. If you are interested in
-                joining us for a day full of meeting other OMMC members and
-                having fun, fill out the form.
+                place on Sunday, April 2nd, 2023, at 7-8 PM EST. If you are
+                interested in joining us for a day full of meeting other OMMC
+                members and having fun, fill out the form.
               </p>
               <div>
                 <iframe
