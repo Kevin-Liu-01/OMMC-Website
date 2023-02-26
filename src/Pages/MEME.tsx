@@ -25,7 +25,7 @@ function Sample(props) {
           <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-2xl  bg-cover bg-[url('https://cdn.discordapp.com/attachments/760189295067004962/1064901339915759706/image.png')]">
             <img
               src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
-              className="w-24 selection:"
+              className="w-24 my-4"
               alt="Watercolor Splash"
             />
           </div>
@@ -53,7 +53,7 @@ function Sample(props) {
               <p className="mb-3">
                 Our desired venue is at Bell Works, 101 Crawfords Corner Rd,
                 Holmdel, NJ 07733. As of now, we are planning for MEME to take
-                place on Sunday, March 19th, 2023. If you are interested in
+                place on Sunday, April 2nd, 2023. If you are interested in
                 joining us for a day full of meeting other OMMC members and
                 having fun, fill out the form.
               </p>
