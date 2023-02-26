@@ -88,7 +88,7 @@ export default function Sponsors(props) {
                   <img
                     src={sponsor.imageSrc}
                     alt={sponsor.imageAlt}
-                    className="w-64 h-36 md:h-40 object-contain "
+                    className="w-64 h-36 md:h-40 object-contain rounded-xl"
                   />
                 </div>
               </a>
