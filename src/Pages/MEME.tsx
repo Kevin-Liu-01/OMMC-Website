@@ -33,15 +33,15 @@ function Sample(props) {
             <p className="font-extrabold text-2xl text-gray-800 dark:text-gray-300 pb-2">
               What is MEME?
             </p>
-            This spring, OMMC plans to host the Monmouth Exploratory Math Expo
-            (MEME) event, presenting various speakers in mathematics, holding
-            conferences and panels, and providing a hub for people all over to
-            learn and enjoy. Previous OMMC events have all been online, due to
-            the reach of the COVID-19 pandemic. At OMMC, we are deeply
-            passionate about advancing math and problem solving education by
-            creating exciting, engaging, and inspirational events and resources.
-            This year, we intend to host an in-person event in order to reach
-            and motivate people in our local community to become better
+            This spring, OMMC is hosting the Monmouth Exploratory Math Expo
+            (MEME) event, where we will be presenting various speakers in
+            mathematics, holding conferences and panels, and providing a hub for
+            people all over to learn and enjoy. Previous OMMC events have all
+            been online, due to the reach of the COVID-19 pandemic. At OMMC, we
+            are deeply passionate about advancing math and problem solving
+            education by creating exciting, engaging, and inspirational events
+            and resources. This year, we are hosting an in-person event in order
+            to reach and motivate people in our local community to become better
             thinkers, and give them a magical experience with mathematics that
             they will hopefully remember for a lifetime.
           </div>
@@ -51,11 +51,11 @@ function Sample(props) {
                 Where will it be?
               </p>
               <p className="mb-3">
-                Our desired venue is at Bell Works, 101 Crawfords Corner Rd,
-                Holmdel, NJ 07733. As of now, we are planning for MEME to take
-                place on Sunday, April 2nd, 2023, at 4-8 PM EST. If you are
-                interested in joining us for a day full of meeting other OMMC
-                members and having fun, fill out the form.
+                Our venue is at Bell Works, 101 Crawfords Corner Rd, Holmdel, NJ
+                07733. MEME to take place on Sunday, April 2nd, 2023, from 4-8
+                PM EST. If you are interested in joining us for a day full of
+                meeting other OMMC members and having fun, fill out the
+                registration form!
               </p>
               <div>
                 <iframe
