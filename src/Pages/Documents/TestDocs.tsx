@@ -14,10 +14,15 @@ function TestDocs(props) {
       <Navbar page="testdocs" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800 duration-150 ">
-        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
-          <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
+        <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2">
+          <div className="text-4xl font-extrabold text-gray-900 dark:text-white  ">
             OMMC 2022 Test Documents
-          </h1>
+          </div>
+          <a href="/leaderboard" className="lg:ml-auto mt-2 lg:mt-0">
+            <button className="bg-red-700 hover:bg-red-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
+              See the leaderboard
+            </button>
+          </a>
         </div>
       </header>
       <main className="">

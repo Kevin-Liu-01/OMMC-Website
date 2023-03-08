@@ -87,7 +87,7 @@ function Main(props) {
                   </div>
                 </p>
                 <div className="mt-5 sm:mt-12 sm:flex ">
-                  <div className=" sm:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
+                  <div className="sm:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="https://artofproblemsolving.com/community/c5h2837951"
                       className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
@@ -131,7 +131,7 @@ function Main(props) {
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
         <div className="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-          <div className="md:grid grid-cols-4">
+          <div className="lg:grid grid-cols-4">
             <div>
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase ">
                 Staff
@@ -148,26 +148,26 @@ function Main(props) {
               <div className="absolute flex items-center justify-center mb-2 h-12 w-12 text-red-700">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <p className=" ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+              <p className=" ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 pr-2">
                 Our staff consists of highly qualified and experienced
-                individuals who are highly committed to our cause of advancing
-                math education.
+                individuals who are committed to our cause of advancing math
+                education.
               </p>
             </div>
             <div className="mt-8 bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 pr-2">
                 Staff members have excelled at AMC 10/12, AIME, USAJMO and
-                USAMO, and some have also attended MOP.
+                USAMO, and some have also attended the MOP program.
               </p>
             </div>
             <div className="mt-8 bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
               <div className="absolute flex items-center justify-center h-12 w-12 rounded-md text-red-700 ">
                 <CheckIcon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 ">
+              <p className="ml-16 max-w-2xl text-[17px] text-gray-500 dark:text-gray-400 pr-2">
                 Our competition problems have been selectively written, chosen
                 and reviewed to be original, creative, and inspirational.
               </p>
@@ -261,7 +261,7 @@ function Main(props) {
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
-        <div className="justify-center md:grid md:grid-cols-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8">
+        <div className="justify-center lg:grid lg:grid-cols-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 gap-8">
           <div className="md:flex mb-5 col-span-1">
             <div className="lg:self-center">
               <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">

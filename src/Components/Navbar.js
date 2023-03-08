@@ -13,13 +13,18 @@ const navigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
   { name: "Sponsors", href: "/sponsors", current: true, page: "sponsors" },
+  // {
+  //   name: "Leaderboard",
+  //   href: "/leaderboard",
+  //   current: true,
+  //   page: "leaderboard",
+  // },
   {
-    name: "Leaderboard",
-    href: "/leaderboard",
+    name: "Shop",
+    href: "https://www.bonfire.com/store/ommc-merch/",
     current: true,
-    page: "leaderboard",
   },
-  { name: "MEME", href: "/meme", current: true, page: "meme" },
+  { name: "MEME", href: "/MEME", current: true, page: "meme" },
 
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
 
@@ -47,16 +52,21 @@ const mobileNavigation = [
   { name: "Home", href: "/", current: true, page: "main" },
   { name: "Staff", href: "/staff", current: true, page: "staff" },
   { name: "Sponsors", href: "/sponsors", current: true, page: "sponsors" },
+  // {
+  //   name: "Leaderboard",
+  //   href: "/leaderboard",
+  //   current: true,
+  //   page: "leaderboard",
+  // },
   {
-    name: "Leaderboard",
-    href: "/leaderboard",
+    name: "Shop",
+    href: "https://www.bonfire.com/store/ommc-merch/",
     current: true,
-    page: "leaderboard",
   },
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
   {
     name: "Monmouth Exploratory Math Expo",
-    href: "/meme",
+    href: "/MEME",
     current: true,
     page: "meme",
   },
@@ -109,7 +119,7 @@ function Navbar(props) {
               <div className="flex-1 flex items-center justify-center lg:items-stretch lg:justify-start ">
                 <a
                   href="/"
-                  className="flex-shrink-0 ml-6 md:ml-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 "
+                  className="flex-shrink-0 ml-6 lg:ml-0 flex items-center select-none transform duration-150 ease-in-out hover:scale-105 "
                 >
                   <img
                     className="w-14 "
@@ -126,7 +136,7 @@ function Navbar(props) {
                     </div>
                   </div>
                 </a>
-                <div className="hidden my-auto md:block md:ml-4 lg:ml-10 select-none">
+                <div className="hidden my-auto lg:block md:ml-4 lg:ml-10 select-none">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
@@ -136,7 +146,7 @@ function Navbar(props) {
                           item.page === props.page
                             ? " text-white  border-0 border-y-2 border-b-red-700 border-t-gray-900 transform duration-150 ease-in-out "
                             : "text-gray-300 hover:bg-gray-800 hover:text-white rounded-t-md transform duration-150 ease-in-out border-red-800 border-t-2 border-t-gray-900 hover:border-b-2 hover:border-b-red-700",
-                          "px-[10px] lg:px-3 py-2 text-sm lg:text-base font-medium rounded-t-md"
+                          "px-[10px] lg:px-3 py-2 text-xs md:text-sm lg:text-base font-medium rounded-t-md"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -191,7 +201,7 @@ function Navbar(props) {
                     </div>
                   </div>
                 </div>
-                <div className=" flex-shrink-0 ml-auto hidden md:flex justify-self-end items-center select-none">
+                <div className=" flex-shrink-0 ml-auto hidden lg:flex justify-self-end items-center select-none">
                   <button
                     className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-yellow-500"
                     onClick={() => props.setDark(!props.dark)}
@@ -207,7 +217,7 @@ function Navbar(props) {
                 </div>
               </div>
 
-              <div className="mr-2 flex-shrink-0 ml-auto flex md:hidden justify-self-end items-center select-none">
+              <div className="mr-2 flex-shrink-0 ml-auto flex lg:hidden justify-self-end items-center select-none">
                 <button
                   className="flex bg-gray-800 rounded-xl px-1 py-1 hover:bg-gray-700 duration-150 ease-in-out text-gray-400 hover:text-gray-300"
                   onClick={() => props.setDark(!props.dark)}
