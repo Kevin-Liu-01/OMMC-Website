@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="text-center text-white bg-slate-100 dark:bg-gray-900">
+    <footer className="text-center text-white bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto flex justify-center flex-row-1">
         <div className="my-auto flex flex-col mr-4 md:mr-5 relative">
           <img
@@ -212,7 +212,7 @@ function Footer() {
             </a>
           </div>
 
-          <div className="text-gray-800 dark:text-gray-300 pb-8 bg-slate-100 dark:bg-gray-900">
+          <div className="text-gray-800 dark:text-gray-300 pb-8 ">
             <div className="mb-6">
               <div className="font-semibold">© 2023 Copyright: OMMC™</div>
 

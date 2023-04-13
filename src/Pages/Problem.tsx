@@ -6,6 +6,10 @@ import React from "react";
 const posts = [
   {
     igLink:
+      "https://www.instagram.com/p/CqvT7VeMuCM/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
+  },
+  {
+    igLink:
       "https://www.instagram.com/p/CpWLrCEs_7b/embed/?cr=1&amp;v=14&amp;wp=489&amp;rd=http%3A%2F%2Fwww.ommcofficial.org&amp;rp=%2FPOTM#%7B%22ci%22%3A0%2C%22os%22%3A314.20000000298023%2C%22ls%22%3A289.20000000298023%2C%22le%22%3A307.79999999701977%7D",
   },
   {

@@ -12,9 +12,6 @@ import TestDocs from "./Pages/Documents/TestDocs.tsx";
 import Problem from "./Pages/Problem.tsx";
 import AMC from "./Pages/Documents/AMC.tsx";
 
-import Portal from "./Portal/Portal.js";
-import Retreival from "./Portal/Retreival.js";
-
 import Footer from "./Components/Footer.js";
 
 import { Routes, Route } from "react-router-dom";
@@ -62,14 +59,6 @@ function App() {
         <Route
           path="ommc-amc"
           element={<AMC dark={dark} setDark={setDark} />}
-        ></Route>
-        <Route
-          path="portal"
-          element={<Portal dark={dark} setDark={setDark} />}
-        ></Route>
-        <Route
-          path="retreival"
-          element={<Retreival dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="problem-of-the-month"

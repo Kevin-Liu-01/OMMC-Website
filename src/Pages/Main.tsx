@@ -8,6 +8,8 @@ import {
   UsersIcon,
   ArrowSmRightIcon,
   BookOpenIcon,
+  LightningBoltIcon,
+  UserGroupIcon,
 } from "@heroicons/react/outline";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
@@ -119,7 +121,9 @@ function Main(props) {
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none lg:dark:opacity-60 "
             src="https://wallpaperaccess.com/full/931292.png"
             alt="Formulas"
+            loading="lazy"
           />
+
           <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900 "></div>
           <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
             <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
@@ -300,12 +304,12 @@ function Main(props) {
         </div>
       </div>
       <div className="w-full">
-        <div className="grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8">
+        <div className="md:grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8 md:pt-0 pt-4">
           <div className="md:ml-0 md:mr-24 mt-10 sm:my-10">
             <iframe
               title="DiscordLink"
               src="https://discord.com/widget?id=796756256022200350&theme=dark"
-              className="drop-shadow-lg w-full h-full rounded-xl select-none"
+              className="drop-shadow-lg w-full h-full rounded-xl select-none min-h-[25rem]"
               allowTransparency={true}
               frameBorder="0"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
@@ -344,6 +348,63 @@ function Main(props) {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="w-full bg-slate-100 dark:bg-[#182133]">
+        <div className="md:grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8 md:pt-0 pt-4">
+          <div className="md:mr-10 place-content-center mt-8 md:mt-10 mb-10">
+            <div className="mt-auto">
+              <p className=" pb-2 sm:pb-0 text-gray-900 text-[2rem] md:text-4xl leading-8 font-extrabold tracking-tight dark:text-transparent bg-clip-text bg-gradient-to-r dark:from-red-600 dark:to-red-700 ">
+                OMMC Atlas
+              </p>
+              <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400">
+                OMMC Atlas is a comprehensive database of all OMMC Year 1
+                questions. Use it to practice and prepare for your next OMMC
+                competition!
+              </p>
+              <div className="flex rounded-xl  bg-[#fcfeff] dark:bg-[#212c42] p-3 mt-8 border-[1.5px] border-gray-200 dark:border-[#182133]">
+                <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br  from-red-600 to-red-700">
+                  <LightningBoltIcon className="h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 max-w-2xl text-lg  text-gray-500 dark:text-gray-400">
+                  OMMC Atlas is lightning-fast when it comes to studying and
+                  preparing for the OMMC competition. Stay ahead of the game
+                  with the latest OMMC Year 1 materials.
+                </p>
+              </div>
+              <div className="flex rounded-xl  bg-[#fcfeff] dark:bg-[#212c42] p-3 mt-6 border-[1.5px] border-gray-200 dark:border-[#182133]">
+                <div className="absolute flex items-center justify-center h-12 w-12  text-white rounded-xl mb-4 bg-gradient-to-br from-red-600 to-red-700">
+                  <UserGroupIcon className=" h-6 w-6" aria-hidden="true" />
+                </div>
+                <p className="ml-16 max-w-2xl text-lg text-gray-500 dark:text-gray-400">
+                  OMMC Atlas is a community-driven resource, with contributions
+                  from OMMC competitors and organizers alike. Join the community
+                  and start contributing today!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="https://ommc-atlas.vercel.app/"
+            className="flex justify-center items-center md:mx-10 p-4 md:p-8  rounded-2xl md:rounded-3xl mt-10 sm:my-10 bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500 dark:from-red-900 dark:via-red-700 dark:to-red-500 duration-150 ease-in-out drop-shadow-md"
+          >
+            <img
+              src="/ommc-atlas.png"
+              alt="OMMC Atlas"
+              className="h-full w-full object-contain md:object-cover rounded-lg "
+            />
+            <div className="absolute">
+              <a
+                href="https://ommc-atlas.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative z-10 rounded-lg py-3 px-4 dark:text-white font-semibold bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 bg-opacity-40 dark:to-gray-900 hover:bg-opacity-50 hover:scale-105 duration-150"
+              >
+                Visit OMMC Atlas
+              </a>
+            </div>
+          </a>
         </div>
       </div>
     </div>
