@@ -20,8 +20,8 @@ const members = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/760189295067004962/974655072543842345/unknown.png",
     imageAlt: "Ishaan Akula",
-    role: "Co-Founder, Assistant Director",
-    bio: "Ishaan is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as an assistant director for OMMC and handles the digital marketing/social media aspect of the competition. He works as the manager for OMMC’s social media pages and outreach division. In elementary school, he was a finalist in the National Scripps Spelling Bee.",
+    role: "Co-Founder, Director",
+    bio: "Ishaan is a junior at High Technology High School in Lincroft, New Jersey. He cofounded OMMC with Evan Chang in September of 2020, and currently works as a director for OMMC and handles the partnership and impact aspect of the competition, including work with sponsors, partners, and donors. He was awarded Honorable Mention for Environmental Science in the Jersey Shore Science Fair. He won 1st place at the state-wide regional bee, qualifying for the National Scripps Spelling Bee. He specializes in UI/UX design and mobile app development using Flutter programming.",
   },
   {
     id: 3,
