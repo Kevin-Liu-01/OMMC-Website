@@ -11,7 +11,7 @@ const members = [
       "https://cdn.discordapp.com/attachments/710679539558121482/1091424533648527461/0b456d381022cdbfd3ad6349f9361257.png",
     imageAlt: "Evan Chang",
     role: "Co-Founder, Director",
-    bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey and student researcher through the prestigious MIT PRIMES-USA program. He cofounded OMMC with Ishaan Akula in September of 2020 and currently serves as director. He has qualified for USAJMO and USAMO and achieved a USAMO bronze medal. He attended the MOP summer camp in 2022. Evan also currently studies piano and music composition at the Westminster Conservatory of Music Honors Music Program. He is a MTNA Composition Competition National Finalist and a Golden Key Music Festival Composition Competition National Winner.",
+    bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey and student researcher through the MIT PRIMES-USA program. In 2023, he was a USAMO Gold Medalist and placed 12th out of all students nationwide.  He was a MOP camper in 2022 and 2023 and is a SPARC camper in 2023. He is an intern for LIVE by Po Shen Loh. Evan also currently studies piano and music composition.",
   },
   {
     id: 2,

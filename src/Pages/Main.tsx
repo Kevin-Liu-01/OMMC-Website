@@ -103,7 +103,7 @@ function Main(props) {
                   <div className="mt-3 sm:mt-0 sm:ml-1 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
                       href="/sample"
-                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg select-none duration-150"
+                      className="shadow flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-xl text-red-700 dark:text-red-800 bg-red-100 dark:bg-red-200 hover:bg-red-200 dark:hover:bg-red-300 md:py-4 md:text-lg select-none duration-150"
                     >
                       See sample problems{" "}
                       <BookOpenIcon className="h-5 w-5 my-auto ml-2"></BookOpenIcon>
@@ -351,7 +351,7 @@ function Main(props) {
           </div>
         </div>
       </div>
-      <div className="w-full bg-slate-100 dark:bg-[#182133]">
+      <div className="w-full bg-slate-100 dark:bg-[#182133] pb-4 md:pb-0">
         <div className="md:grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8 md:pt-0 pt-4">
           <div className="md:mr-10 place-content-center mt-8 md:mt-10 mb-10">
             <div className="mt-auto">
