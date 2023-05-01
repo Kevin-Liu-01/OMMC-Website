@@ -196,7 +196,7 @@ function Main(props) {
               <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto dark:text-gray-400 ">
                 <div className="md:mr-12">
                   Our competition has two rounds. The main round, open to teams
-                  of up to 4, has 25 questions over 10 days, consisting of
+                  of up to 4, has 25 questions over 12 days, consisting of
                   questions similar in difficulty to well-established MAA math
                   competitions. Top teams advance to the final round, where they
                   solve 10 challenging proof questions over 4 days.
