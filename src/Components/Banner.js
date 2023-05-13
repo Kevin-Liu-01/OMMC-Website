@@ -25,10 +25,8 @@ function Banner() {
               />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">OMMC Year 3 is coming!</span>
-              <span className="hidden md:inline">
-                OMMC Year 3 is coming on May 12th!
-              </span>
+              <span className="md:hidden">OMMC Year 3 has begun!</span>
+              <span className="hidden md:inline">OMMC Year 3 has begun!</span>
             </p>
           </div>
           <div className="order-3 grid grid-cols-2 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto sm:flex sm:flex-row">
