@@ -54,6 +54,20 @@ const sponsors = [
   },
   {
     id: 8,
+    href: "https://www.taskade.com/",
+    imageSrc:
+      "https://www.taskade.com/static_images/taskade-circle-logo-full-black.png",
+    imageAlt: "Taskade",
+  },
+  {
+    id: 9,
+    href: "https://brilliant.org/",
+    imageSrc:
+      "https://s3.amazonaws.com/media.thecrimson.com/photos/2021/08/22/234751_1350991.png",
+    imageAlt: "Brilliant",
+  },
+  {
+    id: 10,
     href: "https://thebeautyofmath.net/pages/home",
     imageSrc:
       "https://cdn.shopify.com/s/files/1/0536/6651/3088/files/unnamed_180x.jpg?v=1612934980",
