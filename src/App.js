@@ -3,7 +3,8 @@ import Main from "./Pages/Main.tsx";
 import Sample from "./Pages/Documents/Sample.tsx";
 import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
-import Leaderboard from "./Pages/Leaderboard.tsx";
+import Leaderboard22 from "./Pages/Leaderboard22.tsx";
+import Leaderboard23 from "./Pages/Leaderboard23.tsx";
 import Meme from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
 import Sponsorship from "./Pages/Sponsorship.tsx";
@@ -49,8 +50,12 @@ function App() {
           element={<Staff dark={dark} setDark={setDark} />}
         ></Route>
         <Route
-          path="leaderboard"
-          element={<Leaderboard dark={dark} setDark={setDark} />}
+          path="2022-leaderboard"
+          element={<Leaderboard22 dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="2023-leaderboard"
+          element={<Leaderboard23 dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="2022-documents"
