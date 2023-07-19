@@ -158,9 +158,17 @@ const members = [
     role: "Content Creator",
     bio: "Calvin is a 9th grader in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
   },
-
   {
     id: 18,
+    name: "Chris Bao",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Chris Bao",
+    role: "Problem Committee",
+    bio: "Chris Bao is a rising junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
+  },
+  {
+    id: 19,
     name: "Neal Yan",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -169,7 +177,7 @@ const members = [
     bio: "Neal is a highschool junior and geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. Currently, he is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
   },
   {
-    id: 19,
+    id: 20,
     name: "Mahith Gottipati",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -179,7 +187,7 @@ const members = [
   },
 
   {
-    id: 20,
+    id: 21,
     name: "Ritwin Narra",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -189,7 +197,7 @@ const members = [
   },
 
   {
-    id: 21,
+    id: 22,
     name: "Bryan Guo",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -198,7 +206,7 @@ const members = [
     bio: "Bryan Guo is a problem contributer for the OMMC team and is currently in the 9th grade. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
   {
-    id: 21,
+    id: 23,
     name: "Srinivas Arun",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -207,22 +215,13 @@ const members = [
     bio: "Srinivas Arun is a junior at Cherry Creek High School in Denver, Colorado. He is a testsolver for OMMC. He received a bronze medal on USAMO 2022, qualifying for MOP. He has participated in math competitions since 6th grade, qualifying for the AIME four times and the USA(J)MO three times. He has also qualified for MathCounts Nationals, representing Colorado, and he was the 3rd place individual at ARML 2021. Outside of math, he enjoys competitive programming, biking, and teaching.",
   },
   {
-    id: 22,
+    id: 24,
     name: "Rohan Bodke",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Rohan Bodke",
     role: "Content Contributor",
     bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
-  },
-  {
-    id: 23,
-    name: "Chris Bao",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Chris Bao",
-    role: "Content Contributor",
-    bio: "Chris Bao is a rising junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
   },
 ];
 export default function Staff(props) {
