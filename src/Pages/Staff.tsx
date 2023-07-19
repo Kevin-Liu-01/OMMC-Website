@@ -215,6 +215,15 @@ const members = [
     role: "Content Contributor",
     bio: "Rohan is a sophomore in California who works for OMMC as a content contributor. He started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
   },
+  {
+    id: 23,
+    name: "Chris Bao",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Chris Bao",
+    role: "Content Contributor",
+    bio: "Chris Bao is a rising junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
+  },
 ];
 export default function Staff(props) {
   return (
