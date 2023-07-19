@@ -18,7 +18,7 @@ function TestDocs(props) {
           <div className="text-4xl font-extrabold text-gray-900 dark:text-white  ">
             OMMC 2022 Test Documents
           </div>
-          <a href="/leaderboard" className="lg:ml-auto mt-2 lg:mt-0">
+          <a href="/2022-leaderboard" className="lg:ml-auto mt-2 lg:mt-0">
             <button className="bg-red-700 hover:bg-red-800 rounded-xl   hover:scale-105 duration-150 text-white font-bold py-2 px-4">
               See the leaderboard
             </button>
