@@ -38,7 +38,13 @@ const solutions = [
     name: "OMMC 2022",
     href: "/2022-documents",
     current: true,
-    page: "testdocs",
+    page: "testdocs22",
+  },
+  {
+    name: "OMMC 2023",
+    href: "/2023-documents",
+    current: true,
+    page: "testdocs23",
   },
   {
     name: "OMMC AMC",
@@ -76,7 +82,13 @@ const mobileNavigation = [
     name: "OMMC 2022",
     href: "/2022-documents",
     current: true,
-    page: "testdocs",
+    page: "testdocs22",
+  },
+  {
+    name: "OMMC 2023",
+    href: "/2023-documents",
+    current: true,
+    page: "testdocs23",
   },
   {
     name: "OMMC AMC",

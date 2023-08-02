@@ -9,7 +9,9 @@ import Meme from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
 import Sponsorship from "./Pages/Sponsorship.tsx";
 
-import TestDocs from "./Pages/Documents/TestDocs.tsx";
+import Test22 from "./Pages/Documents/Test_22.tsx";
+import Test23 from "./Pages/Documents/Test_23.tsx";
+
 import Problem from "./Pages/Problem.tsx";
 import AMC from "./Pages/Documents/AMC.tsx";
 
@@ -59,7 +61,11 @@ function App() {
         ></Route>
         <Route
           path="2022-documents"
-          element={<TestDocs dark={dark} setDark={setDark} />}
+          element={<Test22 dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="2023-documents"
+          element={<Test23 dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="ommc-amc"

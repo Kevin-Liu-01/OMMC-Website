@@ -11,7 +11,7 @@ function TestDocs(props) {
         "bg-slate-200 min-h-screen dark:bg-gray-900 duration-150"
       }
     >
-      <Navbar page="testdocs" dark={props.dark} setDark={props.setDark} />
+      <Navbar page="testdocs22" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800 duration-150 ">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2">
