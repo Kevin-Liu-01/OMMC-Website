@@ -1,9 +1,64 @@
 import "../App.css";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
-import React from "react";
+import {
+  UserGroupIcon,
+  VariableIcon,
+  LocationMarkerIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+} from "@heroicons/react/outline";
+import React, { useEffect, useCallback } from "react";
+
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
+import AutoHeight from "embla-carousel-auto-height";
+// import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
+
+const MEMEImages = [
+  {
+    src: "/meme/meme1.jpg",
+    caption: "MEME Stage at Bell Works",
+  },
+  {
+    src: "/meme/meme2.jpg",
+    caption: "How to Learn (and love) Probabilistic Thinking by Dr. Min Xu",
+  },
+  {
+    src: "/meme/meme3.jpg",
+    caption: "The Beauty Of Math speaking virtually",
+  },
+  {
+    src: "/meme/meme4.jpg",
+    caption: "Students participate in the Estimathon",
+  },
+  {
+    src: "/meme/meme5.jpg",
+    caption: "The OMMC team and speakers at MEME!",
+  },
+];
 
 function Sample(props) {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay(),
+    AutoHeight(),
+    // WheelGesturesPlugin(),
+  ]);
+
+  useEffect(() => {
+    if (emblaApi) {
+      console.log(emblaApi.slideNodes()); // Access API
+    }
+  }, [emblaApi]);
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
   return (
     <div
       className={
@@ -13,73 +68,100 @@ function Sample(props) {
     >
       <Navbar page="meme" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="drop-shadow-lg bg-[url('https://e7.pngegg.com/pngimages/621/108/png-clipart-orange-and-pink-illustration-red-orange-geometry-orange-colored-background-color-splash-orange.png')] bg-cover">
+      <header className="drop-shadow-lg bg-[url('/public/meme/meme-bg.png')] bg-cover">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
-          <h1 className="text-4xl font-extrabold text-white text-center">
+          <h1 className="text-4xl lg:text-5xl font-extrabold text-white text-center">
             Monmouth Exploratory Math Expo
           </h1>
         </div>
       </header>
-      <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
+      <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="md:grid-cols-6 grid gap-6">
-          <div className="drop-shadow-lg md:col-span-2 flex justify-center items-center border border-gray-200 dark:border-gray-800 rounded-2xl  bg-cover bg-[url('https://cdn.discordapp.com/attachments/760189295067004962/1064901339915759706/image.png')]">
+          <div className="drop-shadow-lg md:col-span-2 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-cover bg-[url('/public/meme/meme-header.jpg')]">
             <img
-              src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
-              className="w-24 my-4"
-              alt="Watercolor Splash"
+              src="/favicon.png"
+              className="w-12 mt-36 md:mt-0 sm:w-24 m-4"
+              alt="OMMC Logo"
             />
           </div>
-          <div className=" md:col-span-4 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 rounded-2xl p-4 drop-shadow-lg">
-            <p className="font-extrabold text-2xl text-gray-800 dark:text-gray-300 pb-2">
-              What is MEME?
-            </p>
-            This spring, OMMC is hosting the Monmouth Exploratory Math Expo
-            (MEME) event, where we will be presenting various speakers in
-            mathematics, holding conferences and panels, and providing a hub for
-            people all over to learn and enjoy. Previous OMMC events have all
-            been online, due to the reach of the COVID-19 pandemic. At OMMC, we
-            are deeply passionate about advancing math and problem solving
-            education by creating exciting, engaging, and inspirational events
-            and resources. This year, we are hosting an in-person event in order
-            to reach and motivate people in our local community to become better
-            thinkers, and give them a magical experience with mathematics that
-            they will hopefully remember for a lifetime.
-          </div>
-          <div className=" md:col-span-3 text-gray-800 dark:text-gray-400 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-2xl p-4 drop-shadow-lg ">
-            <div className="">
-              <p className="font-extrabold text-2xl text-gray-800 dark:text-gray-300 pb-2">
-                Where will it be?
-              </p>
-              <p className="mb-3">
-                Our venue is at Bell Works, 101 Crawfords Corner Rd, Holmdel, NJ
-                07733. MEME to take place on Sunday, April 2nd, 2023, from 4-8
-                PM EST. If you are interested in joining us for a day full of
-                meeting other OMMC members and having fun, fill out the
-                registration form!
-              </p>
+          <div className="flex flex-col md:col-span-4 text-gray-900 dark:text-gray-200 gap-4">
+            <p className="font-extrabold text-4xl">What is MEME?</p>
+            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+                <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
+              </div>
               <div>
-                <iframe
-                  title="Bell Works"
-                  className="w-full rounded-lg bg-gray-100"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5416.582754718771!2d-74.17036455300682!3d40.3655342430469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2325e255385d1%3A0x7f2a68b5d5d7da2d!2sBell%20Works!5e0!3m2!1sen!2sus!4v1674356641631!5m2!1sen!2sus"
-                  height="320"
-                  allowFullScreen={false}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                Every spring, OMMC hosts the Monmouth Exploratory Math Expo
+                (MEME) event, where we present various speakers in mathematics,
+                holding conferences and panels, and provide a hub for people all
+                over to learn and enjoy.
+              </div>
+            </div>
+            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+                <VariableIcon className="h-8 w-8" aria-hidden="true" />
+              </div>
+              <div>
+                Previous OMMC events have all been online, due to the COVID-19
+                pandemic. At OMMC, we are deeply passionate about advancing math
+                and problem solving education by creating exciting, engaging,
+                and inspirational events and resources.
+              </div>
+            </div>
+            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+                <LocationMarkerIcon className="h-8 w-8" aria-hidden="true" />
+              </div>
+              <div>
+                This year, we hosted an in-person event in order to reach and
+                motivate people in our local community to become better
+                thinkers, and give them a magical experience with mathematics
+                that they will hopefully remember for a lifetime.
               </div>
             </div>
           </div>
-
-          <div className="md:col-span-3 text-gray-800 border bg-gray-100 dark:bg-gray-700 border-gray-200 dark:border-gray-800 rounded-2xl  drop-shadow-lg ">
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLScnsg8Ji2iTe6wXx1Rkf_qIG2LKhZs3t1m8Etu5NCGT0akVRQ/viewform?embedded=true"
-              className="w-full rounded-2xl bg-gray-100 "
-              height="500"
-              title="MEME Form"
-            >
-              Loading…
-            </iframe>
+          <div className=" md:col-span-6 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg ">
+            <div className=" text-gray-800 dark:text-gray-200">
+              <p className="font-extrabold text-3xl  pb-2">MEME 2023</p>
+              <p className="mb-3">
+                MEME 2023 was held at Bell Works, in Holmdel, on Sunday, April
+                2nd, 2023, from 4-8 PM EST. Events included several breakout
+                sessions and games like an Estimathon, and guest speakers
+                included Dr. Min Xu, The Beauty Of Math, and our surprise
+                impromptu speaker Po Shen Loh!
+              </p>
+              <div className="relative px-0 py-4 overflow-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg max-w-7xl  ">
+                <div className="w-full embla " ref={emblaRef}>
+                  <div className="flex flex-row items-start gap-4 px-4 embla__container ">
+                    {MEMEImages.map((image: any) => (
+                      <div className="  bg-red-100 dark:bg-red-900  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
+                        <img
+                          src={image.src}
+                          alt={image.src}
+                          key={image.src}
+                          className="flex flex-row items-center gap-2 mt-1 text-xl font-extrabold sm:text-2xl sm:tracking-tight rounded-md"
+                        />
+                        <p className="mt-2 dark:text-white text-black font-bold">
+                          {image.caption}
+                        </p>
+                      </div>
+                    ))}{" "}
+                  </div>
+                  <button
+                    className="absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-700 hover:text-gray-100 hover:bg-gray-400 dark:hover:bg-gray-600 top-1/2 left-2 "
+                    onClick={scrollPrev}
+                  >
+                    <ArrowLeftIcon className="h-6 w-6" />
+                  </button>
+                  <button
+                    className="absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-700 hover:text-gray-100 hover:bg-gray-400 dark:hover:bg-gray-600 top-1/2 right-2 "
+                    onClick={scrollNext}
+                  >
+                    <ArrowRightIcon className="h-6 w-6" />
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>
