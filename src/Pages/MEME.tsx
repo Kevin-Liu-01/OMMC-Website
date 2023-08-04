@@ -76,8 +76,8 @@ function Sample(props) {
         </div>
       </header>
       <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="md:grid-cols-6 grid gap-6">
-          <div className="drop-shadow-lg md:col-span-2 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-cover bg-[url('/public/meme/meme-header.jpg')]">
+        <div className="md:grid-cols-6 flex-col flex md:grid gap-6">
+          <div className="drop-shadow-lg md:col-span-2 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-center bg-cover bg-[url('/public/meme/meme-hero.jpg')]">
             <img
               src="/favicon.png"
               className="w-12 mt-36 md:mt-0 sm:w-24 m-4"
@@ -120,7 +120,7 @@ function Sample(props) {
               </div>
             </div>
           </div>
-          <div className=" md:col-span-6 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg ">
+          <div className="  md:col-span-6 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg ">
             <div className=" text-gray-800 dark:text-gray-200">
               <p className="font-extrabold text-3xl  pb-2">MEME 2023</p>
               <p className="mb-3">
@@ -130,11 +130,11 @@ function Sample(props) {
                 included Dr. Min Xu, The Beauty Of Math, and our surprise
                 impromptu speaker Po Shen Loh!
               </p>
-              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg max-w-7xl  ">
+              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto ">
                 <div className="w-full embla " ref={emblaRef}>
-                  <div className="flex flex-row items-start gap-4 px-4 embla__container ">
+                  <div className="flex flex-row items-start gap-4 px-4 embla__container">
                     {MEMEImages.map((image: any) => (
-                      <div className="  bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
+                      <div className=" bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
