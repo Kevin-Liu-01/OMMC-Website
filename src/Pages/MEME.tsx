@@ -87,7 +87,7 @@ function Sample(props) {
           <div className="flex flex-col md:col-span-4 text-gray-900 dark:text-gray-200 gap-4">
             <p className="font-extrabold text-4xl">What is MEME?</p>
             <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
                 <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
               </div>
               <div>
@@ -98,7 +98,7 @@ function Sample(props) {
               </div>
             </div>
             <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
                 <VariableIcon className="h-8 w-8" aria-hidden="true" />
               </div>
               <div>
@@ -109,7 +109,7 @@ function Sample(props) {
               </div>
             </div>
             <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-red-600 rounded-lg text-white">
+              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
                 <LocationMarkerIcon className="h-8 w-8" aria-hidden="true" />
               </div>
               <div>
@@ -130,11 +130,11 @@ function Sample(props) {
                 included Dr. Min Xu, The Beauty Of Math, and our surprise
                 impromptu speaker Po Shen Loh!
               </p>
-              <div className="relative px-0 py-4 overflow-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg max-w-7xl  ">
+              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg max-w-7xl  ">
                 <div className="w-full embla " ref={emblaRef}>
                   <div className="flex flex-row items-start gap-4 px-4 embla__container ">
                     {MEMEImages.map((image: any) => (
-                      <div className="  bg-red-100 dark:bg-red-900  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
+                      <div className="  bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
@@ -148,13 +148,13 @@ function Sample(props) {
                     ))}{" "}
                   </div>
                   <button
-                    className="absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-700 hover:text-gray-100 hover:bg-gray-400 dark:hover:bg-gray-600 top-1/2 left-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 left-2 "
                     onClick={scrollPrev}
                   >
                     <ArrowLeftIcon className="h-6 w-6" />
                   </button>
                   <button
-                    className="absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-700 hover:text-gray-100 hover:bg-gray-400 dark:hover:bg-gray-600 top-1/2 right-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 right-2 "
                     onClick={scrollNext}
                   >
                     <ArrowRightIcon className="h-6 w-6" />
