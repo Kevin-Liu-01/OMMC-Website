@@ -9,7 +9,7 @@ const members = [
     href: "#",
     imageSrc: "/staff/evan.png",
     imageAlt: "Evan Chang",
-    role: "Co-Founder, Director",
+    role: "Co-Founder, CEO",
     bio: "Evan Chang is a junior at High Technology High School in Lincroft, New Jersey and student researcher through the MIT PRIMES-USA program. In 2023, he was a USAMO Gold Medalist and placed 12th out of all students nationwide.  He was a MOP camper in 2022 and 2023 and is a SPARC camper in 2023. He is an intern for LIVE by Po Shen Loh. Evan also currently studies piano and music composition.",
   },
   {
@@ -36,7 +36,7 @@ const members = [
     href: "#",
     imageSrc: "/staff/bill.png",
     imageAlt: "Bill Fei",
-    role: "Assistant Director",
+    role: "Director",
     bio: "Bill Fei is a junior at West Lafayette Jr./Sr. High School in West Lafayette, Indiana. He is an assistant director for OMMC. He participates in competitive programming and competition math. He is a USACO Gold Medalist, a three-time AIME qualifier, and has achieved Distinguished Honor Roll on the AMC 10. He won first place in the ICTM math competition in Indiana, and coaches his school’s MATHCOUNTS team. Besides math, he does many other things in his spare time. He enjoys playing the viola and has been in the Indiana All-State Orchestra 2 years in a row and was the sectional principle of the viola section for both his years in the Indiana Junior All-State Orchestra. He also studies piano and has won awards at the Indiana State Fair piano competition. In addition, he enjoys being on his school’s debate team. He was on his school’s state Public Forum debate roster, and placed 5th at his district’s Congressional Debate. In his free time, he enjoys procrastinating and sleeping.",
   },
 
