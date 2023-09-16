@@ -6,7 +6,7 @@ import {
   SpeakerphoneIcon,
 } from "@heroicons/react/outline";
 
-function Banner() {
+export default function Banner() {
   const [banner, setBanner] = useState(false);
 
   return (
@@ -65,5 +65,3 @@ function Banner() {
     </div>
   );
 }
-
-export default Banner;

@@ -16,7 +16,7 @@ import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
 import React from "react";
 
-function Main(props) {
+export default function Main(props) {
   return (
     <div
       className={
@@ -27,7 +27,7 @@ function Main(props) {
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
       <Banner />
 
-      <div className="relative duration-150">
+      <section className="relative duration-150">
         <div className="max-w-7xl mx-auto ">
           <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full ">
             <svg
@@ -42,7 +42,7 @@ function Main(props) {
 
             <div className="relative pt-1 px-4 sm:px-6 lg:px-8 "></div>
 
-            <main className="mt-4 mx-auto max-w-7xl px-4 sm:px-6 2xl:mt-14 lg:mt-6 lg:px-8 py-3">
+            <section className="mt-4 mx-auto max-w-7xl px-4 sm:px-6 2xl:mt-14 lg:mt-6 lg:px-8 py-3">
               <div className="relative">
                 <h1 className="tracking-tight font-extrabold text-gray-900 dark:text-transparent  sm:text-6xl sm:pb-3">
                   <span className=" duration-150 tiny:text-[3rem] text-4xl sm:text-6xl inline lg:border-l-[10px] lg:pl-3 border-red-700 dark:border-red-700 bg-clip-text bg-gradient-to-l from-red-600 via-red-700 to-red-700">
@@ -111,7 +111,7 @@ function Main(props) {
                   </div>
                 </div>
               </div>
-            </main>
+            </section>
           </div>
         </div>
         <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 ">
@@ -130,8 +130,8 @@ function Main(props) {
             <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
           </div>
         </div>
-      </div>
-      <div className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20 duration-150">
+      </section>
+      <section className="py-12 bg-slate-100 dark:bg-[#182133] relative z-20 duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -179,8 +179,8 @@ function Main(props) {
             </div>
           </div>
         </div>
-      </div>
-      <div className="md:flex place-content-center">
+      </section>
+      <section className="md:flex place-content-center">
         <div className="py-12 self-center md:mt-2 mb-2">
           <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
             <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
@@ -261,8 +261,8 @@ function Main(props) {
             </ol>
           </div>
         </main>
-      </div>
-      <div className="py-12 bg-slate-100 dark:bg-[#182133] align-center duration-150">
+      </section>
+      <section className="py-12 bg-slate-100 dark:bg-[#182133] align-center duration-150">
         <div className="w-4 absolute ml-[-5px] overflow-hidden lg:hidden inline-block">
           <div className=" h-16 bg-red-700 rotate-45 transform origin-top-left"></div>
         </div>
@@ -303,8 +303,8 @@ function Main(props) {
             </p>
           </div>
         </div>
-      </div>
-      <div className="w-full">
+      </section>
+      <section className="w-full">
         <div className="md:grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8 md:pt-0 pt-4">
           <div className="md:ml-0 md:mr-24 mt-10 sm:my-10">
             <iframe
@@ -350,8 +350,8 @@ function Main(props) {
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-full bg-slate-100 dark:bg-[#182133] pb-4 md:pb-0">
+      </section>
+      <section className="w-full bg-slate-100 dark:bg-[#182133] pb-4 md:pb-0">
         <div className="md:grid grid-rows-2 md:grid-rows-1 sm:py-5 md:grid-cols-2 max-w-7xl mx-auto place-content-center px-4 md:px-8 md:pt-0 pt-4">
           <div className="md:mr-10 place-content-center mt-8 md:mt-10 mb-10">
             <div className="mt-auto">
@@ -404,9 +404,7 @@ function Main(props) {
             </div>
           </a>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
-
-export default Main;

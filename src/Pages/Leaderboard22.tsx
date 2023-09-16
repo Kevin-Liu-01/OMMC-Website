@@ -3,17 +3,17 @@ import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
 import React from "react";
 
-function Leaderboard22(props) {
+export default function Leaderboard22(props) {
   return (
     <div
       className={
         (props.dark ? "dark" : "") +
-        "min-h-screen bg-slate-200 dark:bg-gray-900 duration-150"
+        "min-h-screen bg-slate-100 dark:bg-gray-900 duration-150"
       }
     >
       <Navbar page="leaderboard" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className=" shadow-lg bg-slate-100 dark:bg-[#182133] duration-150">
+      <header className=" shadow-lg bg-white dark:bg-[#182133] duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
             <p className="text-red-700 dark:text-red-600 inline duration-150">
@@ -24,9 +24,9 @@ function Leaderboard22(props) {
         </div>
       </header>
       <div className="max-w-7xl mx-auto md:px-8 px-4 pb-10 mt-10 ">
-        <div className="overflow-auto drop-shadow-lg rounded-2xl bg-slate-500">
+        <div className="overflow-auto drop-shadow-lg rounded-2xl bg-slate-500 border border-slate-300">
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-            <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-gray-100 dark:bg-gray-800 dark:text-gray-400">
+            <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-slate-50 dark:bg-gray-800 dark:text-gray-400">
               <tr>
                 <th scope="" className=" sm:px-6 px-3 py-4 ">
                   Team Name
@@ -182,5 +182,3 @@ function Leaderboard22(props) {
     </div>
   );
 }
-
-export default Leaderboard22;

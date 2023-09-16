@@ -1,9 +1,9 @@
 import "../App.css";
 import React from "react";
 
-function Footer() {
+export default function Footer() {
   return (
-    <footer className="text-center text-white bg-white dark:bg-gray-900">
+    <footer className="text-center text-white bg-slate-100 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto flex justify-center flex-row-1">
         <div className="my-auto flex flex-col mr-4 md:mr-5 relative">
           <img
@@ -226,5 +226,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

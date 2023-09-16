@@ -105,7 +105,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-function Navbar(props) {
+export default function Navbar(props) {
   const [dropdown, dropController] = useState(false);
 
   return (
@@ -144,7 +144,7 @@ function Navbar(props) {
                       OMMC
                     </span>
                     <div className="font-mono text-[0.6rem] text-gray-200 border text-center border-gray-600 rounded-full  bg-gradient-to-r from-gray-700 to-gray-800 block px-1">
-                      Version 3.0
+                      Version 3.14
                     </div>
                   </div>
                 </a>
@@ -270,5 +270,3 @@ function Navbar(props) {
     </Disclosure>
   );
 }
-
-export default Navbar;

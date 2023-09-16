@@ -1,19 +1,20 @@
 import "../../App.css";
 import Navbar from "../../Components/Navbar";
 import Banner from "../../Components/Banner";
+import PDFViewer from "../../Components/PDFViewer";
 import React from "react";
 
-function TestDocs(props) {
+export default function TestDocs(props) {
   return (
     <div
       className={
         (props.dark ? "dark" : "") +
-        "bg-slate-200 min-h-screen dark:bg-gray-900 duration-150"
+        "bg-slate-100 min-h-screen dark:bg-gray-900 duration-150"
       }
     >
       <Navbar page="testdocs23" dark={props.dark} setDark={props.setDark} />
       <Banner />
-      <header className="drop-shadow-lg bg-slate-100 dark:bg-gray-800 duration-150 ">
+      <header className="drop-shadow-lg bg-white dark:bg-gray-800 duration-150 ">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2">
           <div className="text-4xl font-extrabold text-gray-900 dark:text-white  ">
             OMMC 2023 Test Documents
@@ -25,22 +26,16 @@ function TestDocs(props) {
           </a>
         </div>
       </header>
-      <main className="">
+      <section className="">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900">
-              <div className=" w-full h-full overflow-hidden">
-                <iframe
-                  title="test"
-                  src="https://drive.google.com/file/d/1H3JcyrNywZXPqWU5VKsia8QUaOdxS_qG/preview"
-                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
-                  allow="autoplay"
-                ></iframe>
-              </div>
-            </div>
+            <PDFViewer
+              title="test"
+              src="https://drive.google.com/file/d/1H3JcyrNywZXPqWU5VKsia8QUaOdxS_qG/preview"
+            />
           </div>
         </div>
-      </main>
+      </section>
       <header className="bg-white drop-shadow-lg dark:bg-gray-800 duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white">
@@ -48,22 +43,16 @@ function TestDocs(props) {
           </h1>
         </div>
       </header>
-      <main className="rows-2">
+      <section className="rows-2">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
           <div className="px-4 sm:px-0">
-            <div className="border-4 border-dashed border-gray-400 bg-slate-100 rounded-lg h-96 dark:border-gray-700 dark:bg-gray-900 ">
-              <div className="w-full h-full overflow-hidden">
-                <iframe
-                  title="final_round"
-                  src="https://drive.google.com/file/d/1Ej7HUMZttzFpUPiSao7OCo2AcO5b8dvc/preview"
-                  className="w-full h-full border-4 border-gray-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
-                  allow="autoplay"
-                ></iframe>
-              </div>
-            </div>
+            <PDFViewer
+              title="final_round"
+              src="https://drive.google.com/file/d/1Ej7HUMZttzFpUPiSao7OCo2AcO5b8dvc/preview"
+            />
           </div>
         </div>
-      </main>
+      </section>
 
       {/* <header className="bg-white drop-shadow-lg dark:bg-gray-800 duration-150">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
@@ -91,5 +80,3 @@ function TestDocs(props) {
     </div>
   );
 }
-
-export default TestDocs;

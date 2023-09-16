@@ -38,7 +38,7 @@ const MEMEImages = [
   },
 ];
 
-function Sample(props) {
+export default function MEME(props) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay(),
     AutoHeight(),
@@ -63,14 +63,14 @@ function Sample(props) {
     <div
       className={
         (props.dark ? "dark" : "") +
-        " min-h-screen bg-slate-200 dark:bg-gray-900 duration-150 "
+        " min-h-screen bg-slate-100 dark:bg-gray-900 duration-150 "
       }
     >
       <Navbar page="meme" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg bg-[url('/public/meme/meme-bg.png')] bg-cover">
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 ">
-          <h1 className="text-4xl lg:text-5xl font-extrabold text-white text-center">
+          <h1 className="text-4xl font-extrabold text-white text-center">
             Monmouth Exploratory Math Expo
           </h1>
         </div>
@@ -85,42 +85,61 @@ function Sample(props) {
             />
           </div>
           <div className="flex flex-col md:col-span-4 text-gray-900 dark:text-gray-200 gap-4">
-            <p className="font-extrabold text-4xl">What is MEME?</p>
-            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
-                <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
+            <div className="inline font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-red-600 dark:border-red-600">
+              What is MEME?
+            </div>
+            <div className="border border-b-2 border-t-0 border-x-0  dark:border-gray-800 duration-150"></div>
+            <div className="relative">
+              <div className="w-4 absolute  overflow-hidden   inline-block">
+                <div className="h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
               </div>
-              <div>
-                Every spring, OMMC hosts the Monmouth Exploratory Math Expo
-                (MEME) event, where we present various speakers in mathematics,
-                holding conferences and panels, and provide a hub for people all
-                over to learn and enjoy.
+              <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
+                  <UserGroupIcon className="h-8 w-8" aria-hidden="true" />
+                </div>
+                <div>
+                  Every spring, OMMC hosts the Monmouth Exploratory Math Expo
+                  (MEME) event, where we present various speakers in
+                  mathematics, holding conferences and panels, and provide a hub
+                  for people all over to learn and enjoy.
+                </div>
               </div>
             </div>
-            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
-                <VariableIcon className="h-8 w-8" aria-hidden="true" />
+            <div className="relative">
+              <div className="w-4 absolute  overflow-hidden   inline-block">
+                <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
               </div>
-              <div>
-                Previous OMMC events have all been online, due to the COVID-19
-                pandemic. At OMMC, we are deeply passionate about advancing math
-                and problem solving education by creating exciting, engaging,
-                and inspirational events and resources.
+              <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
+                  <VariableIcon className="h-8 w-8" aria-hidden="true" />
+                </div>
+                <div>
+                  Previous OMMC events have all been online, due to the COVID-19
+                  pandemic. At OMMC, we are deeply passionate about advancing
+                  math and problem solving education by creating exciting,
+                  engaging, and inspirational events and resources.
+                </div>
               </div>
             </div>
-            <div className="flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg">
-              <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
-                <LocationMarkerIcon className="h-8 w-8" aria-hidden="true" />
+
+            <div className="relative">
+              <div className="w-4 absolute  overflow-hidden   inline-block">
+                <div className=" h-16 bg-red-600 dark:bg-red-700 rotate-45 transform origin-top-left"></div>
               </div>
-              <div>
-                This year, we hosted an in-person event in order to reach and
-                motivate people in our local community to become better
-                thinkers, and give them a magical experience with mathematics
-                that they will hopefully remember for a lifetime.
+              <div className="ml-6 flex gap-4 text-gray-800 lg:items-center dark:text-gray-200 border-2  border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4">
+                <div className="flex items-center justify-center p-4 h-16 w-20 bg-gradient-to-br from-red-500 to-red-600 rounded-lg text-white">
+                  <LocationMarkerIcon className="h-8 w-8" aria-hidden="true" />
+                </div>
+                <div>
+                  This year, we hosted an in-person event in order to reach and
+                  motivate people in our local community to become better
+                  thinkers, and give them a magical experience with mathematics
+                  that they will hopefully remember for a lifetime.
+                </div>
               </div>
             </div>
           </div>
-          <div className="  md:col-span-6 text-gray-800 dark:text-gray-400 border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 drop-shadow-lg ">
+          <div className="md:col-span-6 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 ">
             <div className=" text-gray-800 dark:text-gray-200">
               <p className="font-extrabold text-3xl  pb-2">MEME 2023</p>
               <p className="mb-3">
@@ -130,11 +149,12 @@ function Sample(props) {
                 included Dr. Min Xu, The Beauty Of Math, and our surprise
                 impromptu speaker Po Shen Loh!
               </p>
+              {/*Carousel*/}
               <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto ">
-                <div className="w-full embla " ref={emblaRef}>
-                  <div className="flex flex-row items-start gap-4 px-4 embla__container">
+                <div className="w-full embla h-full" ref={emblaRef}>
+                  <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
                     {MEMEImages.map((image: any) => (
-                      <div className=" bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
+                      <div className="h-full bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
@@ -168,5 +188,3 @@ function Sample(props) {
     </div>
   );
 }
-
-export default Sample;

@@ -12,7 +12,7 @@ import Sponsorship from "./Pages/Sponsorship.tsx";
 import Test22 from "./Pages/Documents/Test_22.tsx";
 import Test23 from "./Pages/Documents/Test_23.tsx";
 
-import Problem from "./Pages/Problem.tsx";
+import POTD from "./Pages/POTD.tsx";
 import AMC from "./Pages/Documents/AMC.tsx";
 
 import Footer from "./Components/Footer.js";
@@ -73,7 +73,7 @@ function App() {
         ></Route>
         <Route
           path="problem-of-the-month"
-          element={<Problem dark={dark} setDark={setDark} />}
+          element={<POTD dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="meme"
