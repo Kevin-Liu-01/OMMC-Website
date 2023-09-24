@@ -66,7 +66,7 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Mahith Gottipati",
     role: "Head of Content Creation",
-    bio: "Mahith Gottipati is a 9th grader at Quail Valley Middle School. He is the head of content creation (along with Justin Lee) for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess.",
+    bio: 'Mahith is a sophomore from Texas. He has qualified for the AIME twice and has placed well in several other contests. Apart from mathematics, he enjoys coding, playing table tennis, and playing chess. You can find him on lichess under the handle "mathimathz," where he plays (a little too much) bullet.',
   },
   {
     id: 8,
@@ -177,16 +177,6 @@ const members = [
     role: "Problem Committee",
     bio: "Neal is a highschool senior and geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. He has attended MOP and is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
   },
-  {
-    id: 20,
-    name: "Mahith Gottipati",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Mahith Gottipati",
-    role: "Problem Committee",
-    bio: "Mahith Gottipati is a sophomore and member of the Problem Committee for OMMC. Some of his achievements are qualifying for the AIME and getting multiple first places in MathLeague's. You’ll find him on AoPS with the username rocketsri, where he, along with Justin Lee and Evan Chang run Holiday Problems. Outside of mathematics, he enjoys doing science bowl (and is a team captain for his school) and playing chess under the handle mathimathz on lichess.",
-  },
-
   {
     id: 21,
     name: "Ritwin Narra",
