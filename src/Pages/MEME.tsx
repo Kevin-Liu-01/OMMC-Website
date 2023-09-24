@@ -22,7 +22,7 @@ const MEMEImages = [
   },
   {
     src: "/meme/meme2.jpg",
-    caption: "How to Learn (and love) Probabilistic Thinking by Dr. Min Xu",
+    caption: "How to Learn (and love) Probabilistic Thinking",
   },
   {
     src: "/meme/meme3.jpg",
@@ -154,27 +154,27 @@ export default function MEME(props) {
                 <div className="w-full embla h-full" ref={emblaRef}>
                   <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
                     {MEMEImages.map((image: any) => (
-                      <div className="h-full bg-gray-100 dark:bg-gray-700  bg-cover embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-6 p-8 shadow-lg">
+                      <div className="h-72 md:h-full bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
                           key={image.src}
                           className="flex flex-row items-center gap-2 mt-1 text-xl font-extrabold sm:text-2xl sm:tracking-tight rounded-md"
                         />
-                        <p className="mt-2 dark:text-white text-black font-bold">
+                        <p className="mt-2 text-general dark:text-white text-black font-bold">
                           {image.caption}
                         </p>
                       </div>
                     ))}{" "}
                   </div>
                   <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 left-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 left-2 "
                     onClick={scrollPrev}
                   >
                     <ArrowLeftIcon className="h-6 w-6" />
                   </button>
                   <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 right-2 "
+                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 right-2 "
                     onClick={scrollNext}
                   >
                     <ArrowRightIcon className="h-6 w-6" />

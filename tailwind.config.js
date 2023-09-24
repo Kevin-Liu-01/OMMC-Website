@@ -11,6 +11,9 @@ module.exports = {
       transitionProperty: {
         height: "height",
       },
+      text: {
+        general: ["generalsans", "sans-serif"],
+      },
       screens: {
         tiny: "413px",
         // => @media (min-width: 576px) { ... }

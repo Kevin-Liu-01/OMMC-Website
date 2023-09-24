@@ -8,7 +8,7 @@ export default function PDFViewer(props) {
         <iframe
           title={props.title}
           src={props.src}
-          className="w-full h-full border-4 border-slate-100 dark:border-gray-400 rounded-lg bg-gray-300 drop-shadow-lg"
+          className="w-full h-full border-4 border-slate-100 dark:border-gray-900 rounded-lg bg-gray-300 drop-shadow-lg"
           allow="autoplay"
         ></iframe>
       </div>
