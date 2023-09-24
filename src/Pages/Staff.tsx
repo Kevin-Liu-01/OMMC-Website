@@ -166,7 +166,7 @@ const members = [
     imageSrc: "/staff/default.png",
     imageAlt: "Chris Bao",
     role: "Problem Committee",
-    bio: "Chris Bao is a senior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
+    bio: "Chris Bao is a junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
   },
   {
     id: 19,
