@@ -61,6 +61,15 @@ const members = [
   },
   {
     id: 7,
+    name: "Ananya Vuppala",
+    href: "#",
+    imageSrc: "/staff/ananya.jpeg",
+    imageAlt: "Ananya Vuppala",
+    role: "Head of Outreach",
+    bio: "Ananya is currently a senior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
+  },
+  {
+    id: 8,
     name: "Mahith Gottipati",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -69,7 +78,7 @@ const members = [
     bio: 'Mahith is a sophomore from Texas. He has qualified for the AIME twice and has placed well in several other contests. Apart from mathematics, he enjoys coding, playing table tennis, and playing chess. You can find him on lichess under the handle "mathimathz," where he plays (a little too much) bullet.',
   },
   {
-    id: 8,
+    id: 9,
     name: "Tanishq Pauskar",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -78,7 +87,7 @@ const members = [
     bio: "Tanishq Pauskar is a junior who enjoys solving and writing math problems. He is particularly fond of the subject combinatorics. Over the past few months, Tanishq has worked to test solve the OMMC exam. He has qualified for the USAJMO 3 times, becoming a USAJMO winner in 2022. In his spare time, he enjoy writing math problems and playing board games such as chess and connect 4.",
   },
   {
-    id: 9,
+    id: 10,
     name: "Aprameya Tripathy",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -86,16 +95,6 @@ const members = [
     role: "Head of Content Revision",
     bio: "Aprameya Tripathy is a high school sophomore who works as a testsolver at OMMC. He has attended MOP and is a one time JMO qualifier, and in his free time, you can find him testing out new recipes or exploring geometry configurations. He hopes to bake a croquembouche one day.",
   },
-  {
-    id: 10,
-    name: "Ananya Vuppala",
-    href: "#",
-    imageSrc: "/staff/ananya.jpeg",
-    imageAlt: "Ananya Vuppala",
-    role: "Head of Outreach",
-    bio: "Ananya is currently a senior at Marine Academy of Science and Technology in Highlands, NJ. She is on OMMC's social media and outreach team, and helps out with making flyers and exploring social media design. She's a math tutor for students in elementary and middle school, and loves working with students to be able to work on their strengths and weaknesses and be part of their learning experience. A few of her hobbies include playing lacrosse, designing content, hiking, exploring finance, and many more. Ananya loves meeting new people and trying new things!",
-  },
-
   {
     id: 11,
     name: "Vinay Singamsetty",
