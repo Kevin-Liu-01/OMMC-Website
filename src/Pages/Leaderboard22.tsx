@@ -24,7 +24,7 @@ export default function Leaderboard22(props) {
         </div>
       </header>
       <div className="max-w-7xl mx-auto md:px-8 px-4 pb-10 mt-10 ">
-        <div className="overflow-auto drop-shadow-lg rounded-2xl bg-slate-500 border border-slate-300">
+        <div className="overflow-auto drop-shadow-lg rounded-2xl bg-slate-500 border border-slate-300 dark:border-slate-700">
           <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead className="text-xs text-gray-700 border-b dark:border-gray-700 uppercase bg-slate-50 dark:bg-gray-800 dark:text-gray-400">
               <tr>
