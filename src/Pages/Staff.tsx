@@ -222,6 +222,15 @@ const members = [
     role: "Content Contributor",
     bio: "Rohan is a junior in California who works for OMMC as a content contributor. He attended MOP and started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
   },
+  {
+    id: 25,
+    name: "Amogh Akella",
+    href: "#",
+    imageSrc: "/staff/amogh.png",
+    imageAlt: "Amogh Akella",
+    role: "Content Contributor",
+    bio: "Amogh Akella is a sophomore at Westwood High School in Austin, Texas. He is a USAJMO qualifier and honorable mention, and a 4-time AIME qualifier. He is also a problem writer for numerous contests such as OMMC and Integirls. In his free time, he enjoys doing combinatorics, playing sports such as soccer and cricket, playing chess, coding, and playing the piano. You can find him on discord at hgomamogh and on AoPS at mathboy100.",
+  },
 ];
 export default function Staff(props) {
   return (
