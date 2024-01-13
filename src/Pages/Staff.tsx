@@ -29,7 +29,7 @@ const members = [
     imageSrc: "/staff/kevin.png",
     imageAlt: "Kevin Liu",
     role: "Co-Founder, CTO",
-    bio: "Kevin is a senior at High Technology High School in Lincroft, New Jersey. He attended the Governor's School of Engineering and Technology in New Jersey and is currently an SWE intern at Bloomberg LP. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the chief technical officer for OMMC, handling the online aspect of the competition, including the official OMMC Website, Test Portal, and OMMC Atlas. He uses the latest frontend/backend languages and technologies including Next13, Typescript, React, and Tailwind. He also enjoys participating in college hackathons like PennApps at the University of Pennsylvania.",
+    bio: "Kevin is a senior at High Technology High School in Lincroft, New Jersey. He attended the Governor's School of Engineering and Technology in New Jersey and is currently an SWE intern at Bloomberg LP. He cofounded OMMC with Evan Chang in September of 2020, and currently works as the Chief Technology Officer for OMMC, handling the online aspect of the competition, including the official OMMC Website, Test Portal, and OMMC Atlas. He uses the latest frontend/backend languages and technologies including Next13, Typescript, React, and Tailwind. He also enjoys participating in college hackathons like PennApps at the University of Pennsylvania.",
   },
   {
     id: 4,
