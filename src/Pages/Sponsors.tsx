@@ -102,23 +102,20 @@ export default function Sponsors(props) {
           color1="from-amber-400"
           color2="to-amber-300"
           color3="bg-amber-500"
-          style1=""
-          style2=""
-          style3=""
         />
         <Sponsor
           title="Silver Tier"
           sponsors={silverSponsors}
-          color1="indigo-200"
-          color2="indigo-100"
-          color3="indigo-300"
+          color1="from-indigo-200"
+          color2="to-indigo-100"
+          color3="bg-indigo-300"
         />
         <Sponsor
           title="Bronze Tier"
           sponsors={bronzeSponsors}
-          color1="amber-700"
-          color2="amber-600"
-          color3="amber-800"
+          color1="from-amber-700"
+          color2="to-amber-600"
+          color3="bg-amber-800"
         />
       </div>
     </div>
