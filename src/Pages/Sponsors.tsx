@@ -1,6 +1,7 @@
 import "../App.css";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
+import Sponsor from "../Components/Sponsor";
 import React from "react";
 
 const goldSponsors = [
@@ -9,61 +10,70 @@ const goldSponsors = [
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
+    desc: "",
   },
   {
     id: "empty",
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
+    desc: "",
   },
   {
     id: "empty",
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
-  },
-];
-
-const silverSponsors = [
-  {
-    id: 1,
-    href: "https://www.janestreet.com/",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/760189295067004962/976149016087756800/unknown.png",
-    imageAlt: "Jane Street",
-  },
-  {
-    id: "empty",
-    href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
-  },
-  {
-    id: "empty",
-    href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
+    desc: "",
   },
 ];
 
 const bronzeSponsors = [
   {
     id: 1,
+    href: "https://www.janestreet.com/",
+    imageSrc:
+      "https://cdn.discordapp.com/attachments/760189295067004962/976149016087756800/unknown.png",
+    imageAlt: "Jane Street",
+    desc: "Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving. Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. Our growth comes from hiring and training amazing people and giving them the tools they need to innovate. Our culture is casual and our careers are intensely rewarding.    ",
+  },
+  {
+    id: "empty",
+    href: "",
+    imageSrc: "/sponsors/none.png",
+    imageAlt: "",
+    desc: "",
+  },
+  {
+    id: "empty",
+    href: "",
+    imageSrc: "/sponsors/none.png",
+    imageAlt: "",
+    desc: "",
+  },
+];
+
+const silverSponsors = [
+  {
+    id: 1,
     href: "https://www.sparc.camp/",
     imageSrc: "/sponsors/sparc.webp",
     imageAlt: "Sparc",
+    desc: "SPARC (Summer Program for Applied Rationality and Cognition) is an immersive 10 day program for 15-19 year olds keen to learn more advanced quantitative skills and apply them to better understand the world and themselves. The curriculum covers a wide range of subjects from causal modeling to decision theory to cognitive science. It's typically hosted in late July in California.",
   },
   {
     id: "empty",
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
+    desc: "",
   },
   {
     id: "empty",
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
+    desc: "",
   },
 ];
 
@@ -84,76 +94,29 @@ export default function Sponsors(props) {
           </h1>
         </div>
       </header>
-      <div className="grid grid-rows-3 gap-4 max-w-2xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="p-4 bg-gradient-to-r from-amber-400 to-amber-300 rounded-2xl drop-shadow-lg">
-          <h3 className="pb-4 text-3xl font-extrabold text-gray-800">
-            Gold Tier
-          </h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3">
-            {goldSponsors.map((sponsor) =>
-              sponsor.id !== "empty" ? (
-                <a key={sponsor.id} href={sponsor?.href} className="group  ">
-                  <div className="bg-amber-500 bg-opacity-50 flex self-center w-full items-center  align-center justify-center group-hover:scale-[1.02] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain">
-                    <img
-                      src={sponsor.imageSrc}
-                      alt={sponsor.imageAlt}
-                      className="w-64 h-36 md:h-40 object-contain rounded-xl"
-                    />
-                  </div>
-                </a>
-              ) : (
-                <div className="bg-amber-500 bg-opacity-50 flex self-center w-full items-center h-36 md:h-40 align-center justify-center rounded-lg overflow-hidden object-contain"></div>
-              )
-            )}
-          </div>
-        </div>
-
-        <div className="p-4 bg-gradient-to-r from-indigo-200 to-indigo-100 rounded-2xl drop-shadow-lg">
-          <h3 className="text-3xl font-extrabold text-gray-800 pb-4">
-            Silver Tier
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3">
-            {silverSponsors.map((sponsor) =>
-              sponsor.id !== "empty" ? (
-                <a key={sponsor.id} href={sponsor.href} className="group  ">
-                  <div className="bg-indigo-300 bg-opacity-50 flex self-center w-full items-center  align-center justify-center group-hover:scale-[1.02] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain">
-                    <img
-                      src={sponsor?.imageSrc}
-                      alt={sponsor?.imageAlt}
-                      className="w-64 h-36 md:h-40 object-contain rounded-xl"
-                    />
-                  </div>
-                </a>
-              ) : (
-                <div className="bg-indigo-300 bg-opacity-50 flex self-center w-full items-center h-36 md:h-40 align-center justify-center rounded-lg overflow-hidden object-contain"></div>
-              )
-            )}
-          </div>
-        </div>
-
-        <div className="p-4 bg-gradient-to-r from-amber-700 to-amber-600 rounded-2xl drop-shadow-lg">
-          <h3 className="pb-4 text-3xl font-extrabold text-gray-900">
-            Bronze Tier
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3">
-            {bronzeSponsors.map((sponsor) =>
-              sponsor.id !== "empty" ? (
-                <a key={sponsor.id} href={sponsor?.href} className="group  ">
-                  <div className="bg-amber-800 bg-opacity-50 flex self-center w-full items-center  align-center justify-center group-hover:scale-[1.02] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain">
-                    <img
-                      src={sponsor.imageSrc}
-                      alt={sponsor.imageAlt}
-                      className="w-64 h-36 md:h-40 object-contain rounded-xl"
-                    />
-                  </div>
-                </a>
-              ) : (
-                <div className="bg-amber-800 bg-opacity-50 flex self-center w-full items-center h-36 md:h-40 align-center justify-center rounded-lg overflow-hidden object-contain"></div>
-              )
-            )}
-          </div>
-        </div>
+      <div className="grid grid-rows-3 gap-6 max-w-2xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+        <Sponsor
+          title="Gold Tier"
+          sponsors={goldSponsors}
+          color1="amber-400"
+          color2="amber-300"
+          color3="amber-500"
+        />
+        <Sponsor
+          title="Silver Tier"
+          sponsors={silverSponsors}
+          color1="indigo-200"
+          color2="indigo-100"
+          color3="indigo-300"
+        />
+        <Sponsor
+          title="Bronze Tier"
+          sponsors={bronzeSponsors}
+          color1="amber-700"
+          color2="amber-600"
+          color3="amber-800"
+        />
       </div>
     </div>
   );
