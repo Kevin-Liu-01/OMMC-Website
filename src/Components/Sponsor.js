@@ -14,10 +14,12 @@ export default function Sponsor(props) {
           sponsor.id !== "empty" ? (
             <a key={sponsor.id} href={sponsor.href} className="group">
               <div
-                className={`grid ${props.color3} bg-opacity-50 self-center w-full items-center align-center justify-center group-hover:scale-[1.02] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain`}
+                className={`grid ${props.color3} bg-opacity-50 self-center w-full items-center align-center justify-center group-hover:scale-[1.01] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain`}
               >
                 <div
-                  className={`p-4 col-start-1 row-start-1 z-5 h-36 md:h-40 overflow-auto opacity-0 hover:opacity-100 z-10 ${props.color3} scrollbar`}
+                  className={`p-4 col-start-1 row-start-1 z-5 h-36 md:h-40 overflow-auto shadow-inner font-semibold opacity-0 ${
+                    props.title !== "Bronze Tier" && "hover:opacity-100"
+                  } z-10 ${props.color3} scrollbar duration-150`}
                 >
                   {sponsor.desc}
                 </div>

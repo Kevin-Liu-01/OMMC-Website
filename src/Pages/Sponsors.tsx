@@ -35,7 +35,7 @@ const bronzeSponsors = [
     imageSrc:
       "https://cdn.discordapp.com/attachments/760189295067004962/976149016087756800/unknown.png",
     imageAlt: "Jane Street",
-    desc: "Jane Street is a quantitative trading firm with a unique focus on technology and collaborative problem solving. Our trading is based on our own proprietary models and on busy days we engage in over a million trades. Technology is at the core of how we approach trading, and we consider ourselves as much a technology company as a trading firm. Our growth comes from hiring and training amazing people and giving them the tools they need to innovate. Our culture is casual and our careers are intensely rewarding.    ",
+    desc: "",
   },
   {
     id: "empty",
