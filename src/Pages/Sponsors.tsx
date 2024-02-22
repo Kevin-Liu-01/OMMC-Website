@@ -32,16 +32,15 @@ const bronzeSponsors = [
   {
     id: 1,
     href: "https://www.janestreet.com/",
-    imageSrc:
-      "https://cdn.discordapp.com/attachments/760189295067004962/976149016087756800/unknown.png",
+    imageSrc: "/sponsors/Jane_Street.png",
     imageAlt: "Jane Street",
     desc: "",
   },
   {
-    id: "empty",
-    href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
+    id: "2",
+    href: "https://recursivedragon.com/",
+    imageSrc: "/sponsors/Recursive_Dragon.png",
+    imageAlt: "Recursive Dragon",
     desc: "",
   },
   {
