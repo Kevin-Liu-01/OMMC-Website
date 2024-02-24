@@ -6,6 +6,7 @@ import Staff from "./Pages/Staff.tsx";
 import Leaderboard22 from "./Pages/Leaderboard22.tsx";
 import Leaderboard23 from "./Pages/Leaderboard23.tsx";
 import REPS from "./Pages/REPS.tsx";
+import MEME from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
 import Sponsorship from "./Pages/Sponsorship.tsx";
 
@@ -78,6 +79,10 @@ function App() {
         <Route
           path="reps"
           element={<REPS dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="meme"
+          element={<MEME dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="*"
