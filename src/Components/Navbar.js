@@ -24,7 +24,7 @@ const navigation = [
     href: "https://www.bonfire.com/store/ommc-merch/",
     current: true,
   },
-  { name: "MEME", href: "/MEME", current: true, page: "meme" },
+  { name: "REPS", href: "/REPS", current: true, page: "reps" },
 
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
 
@@ -135,7 +135,7 @@ export default function Navbar(props) {
                 >
                   <img
                     className="w-14 "
-                    src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
+                    src="/favicon.png"
                     alt="OMMCLogo"
                     href="/"
                   />

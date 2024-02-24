@@ -34,7 +34,7 @@ export default function NotFound(props) {
           </div>
           <div className="relative md:mt-0 mt-12">
             <img
-              src="https://cdn.discordapp.com/attachments/1051864478918131732/1070074375694450808/nVLtbk0czrH8.png"
+              src="/error.webp"
               className="select-none w-72 md:w-96 mx-auto object-contain relative z-10"
               alt="404"
             />
