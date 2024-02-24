@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="my-auto flex flex-col mr-4 md:mr-5 relative">
           <img
             className="w-20 h-20 z-10"
-            src="https://cdn.discordapp.com/attachments/1044744976942243880/1045383726756003880/OMMC-Logo_1.png"
+            src="/favicon.png"
             alt="OMMCLogo-Footer"
             href="/"
           />

@@ -25,22 +25,22 @@ export default function Banner() {
               />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">OMMC Year 3 has concluded!</span>
+              <span className="md:hidden">REPS 2024 by OMMC is coming up!</span>
               <span className="hidden md:inline">
-                OMMC Year 3 has finished!
+                Rutgers Expo in Problem Solving 2024 by OMMC is coming up!
               </span>
             </p>
           </div>
           <div className="order-3 grid grid-cols-2 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto sm:flex sm:flex-row">
-            <a
+            {/* <a
               href="https://ommc-test-portal.vercel.app/"
               className="hover:bg-red-100 dark:hover:bg-[#921717] transform duration-150 ease-in-out  flex items-center 
               justify-center px-3 mr-2 py-2 rounded-lg shadow-sm text-sm font-medium text-red-800 border-transparent dark:text-white bg-white dark:bg-red-800 select-none"
             >
               <ExternalLinkIcon className="h-4 w-4 mr-1" /> Test Portal
-            </a>
+            </a> */}
             <a
-              href="https://artofproblemsolving.com/community/c5h3050037p27478188"
+              href="https://www.ommcofficial.org/REPS"
               className="hover:bg-red-100 dark:hover:bg-[#921717] transform duration-150 ease-in-out  flex items-center 
               justify-center px-4 py-2 rounded-lg shadow-sm text-sm font-medium text-red-800 border-transparent dark:text-white bg-white dark:bg-red-800 select-none "
             >
