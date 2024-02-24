@@ -183,11 +183,11 @@ export default function MEME(props) {
                 Beauty Of Math, and our surprise impromptu speaker Po Shen Loh!
               </p>
               {/*Carousel*/}
-              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto">
+              <div className="relative px-0 max-h-full py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto">
                 <div className="w-full embla h-full" ref={emblaRef}>
                   <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
                     {REPSImages.map((image: any) => (
-                      <div className="h-120 bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
+                      <div className="h-full bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
