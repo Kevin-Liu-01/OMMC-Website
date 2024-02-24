@@ -144,9 +144,9 @@ export default function MEME(props) {
                 </div>
               </div>
             </div>
-            <div className="col-span-6 ">
+            <div className="col-span-6 relative">
               <div className="border border-b-2 border-t-0 border-x-0  dark:border-gray-800 duration-150"></div>
-              <div className=" dark:text-gray-200 border-2 mt-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-xl p-4">
+              <div className="overflow-hidden dark:text-gray-200 border-2 mt-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-xl p-4">
                 <p className="font-extrabold text-3xl  pb-2">Logistics</p>
                 <p className="mb-3">
                   REPS 2024 will be held at the Science and Engineering Resource
@@ -154,17 +154,18 @@ export default function MEME(props) {
                   111,117,118, on April 7th, 2024, from 1-7PM EST. The address
                   is 96 Frelinghuysen Rd, Piscataway, NJ 08854.
                 </p>
-                <iframe
-                  className="rounded-md overflow-hidden border-gray-200 dark:border-gray-900 border-2"
-                  title="REPS 2024 Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.3486121817082!2d-74.46399501907499!3d40.52261266929816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c70d74aba1dd%3A0x52c84edb693c6460!2sScience%20and%20Engineering%20Resource%20Center!5e0!3m2!1sen!2sus!4v1708738570047!5m2!1sen!2sus"
-                  width="600"
-                  height="450"
-                  // style="border:0;"
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <iframe
+                    className="flex rounded-md overflow-hidden border-gray-200 dark:border-gray-900 border-2 col-span-1 h-72 sm:h-96 w-full"
+                    title="REPS 2024 Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.3486121817082!2d-74.46399501907499!3d40.52261266929816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c70d74aba1dd%3A0x52c84edb693c6460!2sScience%20and%20Engineering%20Resource%20Center!5e0!3m2!1sen!2sus!4v1708738570047!5m2!1sen!2sus"
+                    // style="border:0;"
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                  {/* <div className="flex rounded-md overflow-hidden border-gray-200 dark:border-gray-900 border-2 "></div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -182,11 +183,11 @@ export default function MEME(props) {
                 Beauty Of Math, and our surprise impromptu speaker Po Shen Loh!
               </p>
               {/*Carousel*/}
-              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto ">
+              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto">
                 <div className="w-full embla h-full" ref={emblaRef}>
                   <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
                     {REPSImages.map((image: any) => (
-                      <div className="h-72 md:h-full bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
+                      <div className="h-120 bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
                         <img
                           src={image.src}
                           alt={image.src}
