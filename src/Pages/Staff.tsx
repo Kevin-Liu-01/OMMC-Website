@@ -26,7 +26,7 @@ const members = [
     id: 3,
     name: "Alexander Wang",
     href: "#",
-    imageSrc: "/staff/default.png",
+    imageSrc: "/staff/alexander.png",
     imageAlt: "Alexander Wang",
     role: " Future CEO",
     bio: "Alexander is a sophomore who will succeed Evan as the CEO for OMMC. He currently works as a Content Contributor for OMMC. He is an IMO Gold Medalist and has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
@@ -134,10 +134,10 @@ const members = [
     id: 15,
     name: "Pranshu Suyal",
     href:"#",
-    imageSrc: "/staff/default.png",
+    imageSrc: "/staff/pranshu.png",
     imageAlt: "Pranshu Suyal",
     role: "Website Developer",
-    bio: "Pranshu is currently a junior at High Technology High School, NJ and will succeed Kevin as the Head of Web Development for OMMC. He is an avid web developer fluent in the latest web frameworks, including React, TypeScript,and Next, as well as general-purpose languages like Python, Java, and C++. He enjoys competitive programming and is also an AIME qualifier."
+    bio: "Pranshu is currently a junior at High Technology High School, NJ and will succeed Kevin as the Head of Web Development for OMMC. He is an avid web developer fluent in the latest web frameworks, including React, TypeScript, and Next, as well as general-purpose languages like Python, Java, and C++. He enjoys competitive programming and is also an AIME qualifier."
   },
   {
     id: 16,
