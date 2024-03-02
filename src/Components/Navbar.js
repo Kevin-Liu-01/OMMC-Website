@@ -71,10 +71,10 @@ const mobileNavigation = [
   },
   { name: "POTM", href: "/problem-of-the-month", current: true, page: "potm" },
   {
-    name: "Monmouth Exploratory Math Expo",
-    href: "/MEME",
+    name: "Rutgers Exposition in Problem Solving",
+    href: "/REPS",
     current: true,
-    page: "meme",
+    page: "reps",
   },
   { name: "Sample Problems", href: "/sample", current: true, page: "samples" },
 
