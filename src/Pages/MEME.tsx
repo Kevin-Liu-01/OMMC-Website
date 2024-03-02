@@ -5,14 +5,10 @@ import {
   UserGroupIcon,
   VariableIcon,
   LocationMarkerIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
 } from "@heroicons/react/outline";
-import React, { useEffect, useCallback } from "react";
+import React from "react";
+import OMMCCarousel from "../Components/Carousel";
 
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
-import AutoHeight from "embla-carousel-auto-height";
 // import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
 
 const MEMEImages = [
@@ -39,26 +35,6 @@ const MEMEImages = [
 ];
 
 export default function MEME(props) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay(),
-    AutoHeight(),
-    // WheelGesturesPlugin(),
-  ]);
-
-  useEffect(() => {
-    if (emblaApi) {
-      console.log(emblaApi.slideNodes()); // Access API
-    }
-  }, [emblaApi]);
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
-
   return (
     <div
       className={
@@ -139,47 +115,22 @@ export default function MEME(props) {
               </div>
             </div>
           </div>
-          <div className="md:col-span-6 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-xl p-4 ">
+          <div className="md:col-span-6 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-[1rem] p-4 ">
             <div className=" text-gray-800 dark:text-gray-200">
-              <p className="font-extrabold text-3xl  pb-2">MEME 2023</p>
+              <p className="font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-red-600 dark:border-red-600  mb-2">
+                Monmouth Exploratory Math Exposition (MEME) 2023
+              </p>
               <p className="mb-3">
-                MEME 2023 was held at Bell Works, in Holmdel, on Sunday, April
-                2nd, 2023, from 4-8 PM EST. Events included several breakout
-                sessions and games like an Estimathon, and guest speakers
-                included Dr. Min Xu, The Beauty Of Math, and our surprise
-                impromptu speaker Po Shen Loh!
+                Last year in 2023, we held a similar in person event at a more
+                local level. The Monmouth Exploratory Math Exposition 2023 was
+                held at Bell Works, in Holmdel, on Sunday, April 2nd, 2023, from
+                4-8 PM EST. Events included several breakout sessions and games
+                like an Estimathon, and guest speakers included Dr. Min Xu, The
+                Beauty Of Math, and our surprise impromptu speaker Po Shen Loh!
               </p>
               {/*Carousel*/}
-              <div className="relative px-0 py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto ">
-                <div className="w-full embla h-full" ref={emblaRef}>
-                  <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
-                    {MEMEImages.map((image: any) => (
-                      <div className="h-72 md:h-full bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
-                        <img
-                          src={image.src}
-                          alt={image.src}
-                          key={image.src}
-                          className="flex flex-row items-center gap-2 mt-1 text-xl font-extrabold sm:text-2xl sm:tracking-tight rounded-md"
-                        />
-                        <p className="mt-2 text-general dark:text-white text-black font-bold">
-                          {image.caption}
-                        </p>
-                      </div>
-                    ))}{" "}
-                  </div>
-                  <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 left-2 "
-                    onClick={scrollPrev}
-                  >
-                    <ArrowLeftIcon className="h-6 w-6" />
-                  </button>
-                  <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 right-2 "
-                    onClick={scrollNext}
-                  >
-                    <ArrowRightIcon className="h-6 w-6" />
-                  </button>
-                </div>
+              <div className="relative p-4 bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl">
+                <OMMCCarousel REPSImages={MEMEImages} />
               </div>
             </div>
           </div>
