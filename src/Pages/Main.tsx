@@ -28,11 +28,11 @@ export default function Main(props) {
       <Navbar page="main" dark={props.dark} setDark={props.setDark} />
       <Banner />
 
-      <section className="relative duration-150">
+      <section className="relative duration-150 bg-white dark:bg-gray-900">
         <div className="max-w-7xl mx-auto ">
-          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full ">
+          <div className="relative z-10 pb-8 bg-white dark:bg-gray-900 duration-150 2xl:pb-20 lg:pb-12 lg:max-w-[44rem] lg:w-full">
             <svg
-              className="hidden lg:block absolute right-0 inset-y-0 h-full w-56 text-white  duration-150 dark:text-gray-900 transform translate-x-1/2"
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-56 text-white duration-150 dark:text-gray-900 transform translate-x-1/2"
               fill="currentColor"
               viewBox="0 0 100 100"
               preserveAspectRatio="none"

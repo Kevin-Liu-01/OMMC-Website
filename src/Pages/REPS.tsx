@@ -53,7 +53,7 @@ export default function MEME(props) {
       <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="md:grid-cols-6 flex-col flex md:grid gap-6">
           <div className="md:col-span-6 md:grid md:grid-cols-6 gap-4 text-gray-800 dark:text-gray-400 ">
-            <div className="drop-shadow-lg md:col-span-2 mb-4 md:mb-0 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-center bg-cover bg-[url('/public/meme/meme-hero.jpg')]">
+            <div className="md:col-span-2 mb-4 md:mb-0 md:mr-2 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-center bg-cover bg-[url('/public/meme/meme-hero.jpg')]">
               <img
                 src="/favicon.png"
                 className="w-12 mt-36 md:mt-0 sm:w-24 m-4"
@@ -167,7 +167,7 @@ export default function MEME(props) {
                 Beauty Of Math, and our surprise impromptu speaker Po Shen Loh!
               </p>
               {/*Carousel*/}
-              <div className="relative p-4 bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl">
+              <div className="relative p-2 sm:p-4 bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl h-[42rem]">
                 <OMMCCarousel REPSImages={REPSImages} />
               </div>
             </div>

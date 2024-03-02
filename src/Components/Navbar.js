@@ -96,9 +96,6 @@ const mobileNavigation = [
     current: true,
     page: "amc",
   },
-
-  // { name: "Portal", href: "/portal", current: true, page: },
-  // { name: "Retreival", href: "/retreival", current: true, page: },
 ];
 
 function classNames(...classes) {
