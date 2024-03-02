@@ -2,17 +2,17 @@ import { Carousel } from "@material-tailwind/react";
 import React from "react";
 
 const MainImages = [
-  { src: "/main/main1.jpg", caption: "" },
-  { src: "/main/main2.jpg", caption: "" },
-  { src: "/main/main3.jpg", caption: "" },
-  { src: "/main/main4.jpg", caption: "" },
-  { src: "/main/main5.jpg", caption: "" },
-  { src: "/main/main6.jpg", caption: "" },
-  { src: "/main/main7.jpg", caption: "" },
-  { src: "/main/main8.jpg", caption: "" },
-  { src: "/main/main9.jpg", caption: "" },
-  { src: "/main/main10.jpg", caption: "" },
-  { src: "/main/main11.jpg", caption: "" },
+  { src: "/main/main1.jpg" },
+  { src: "/main/main2.jpg" },
+  { src: "/main/main3.jpg" },
+  { src: "/main/main4.jpg" },
+  { src: "/main/main5.jpg" },
+  { src: "/main/main6.jpg" },
+  { src: "/main/main7.JPG" },
+  { src: "/main/main8.JPG" },
+  { src: "/main/main9.JPG" },
+  { src: "/main/main10.JPG" },
+  { src: "/main/main11.JPG" },
 ];
 
 export default function MainCarousel() {
