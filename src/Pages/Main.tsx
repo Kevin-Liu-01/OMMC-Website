@@ -14,6 +14,7 @@ import {
 } from "@heroicons/react/outline";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
+import MainCarousel from "../Components/MainCarousel";
 import React from "react";
 
 export default function Main(props) {
@@ -115,18 +116,19 @@ export default function Main(props) {
           </div>
         </div>
         <div className="relative lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-gray-900 ">
-          <div className="w-11 absolute overflow-hidden lg:hidden inline-block">
+          <div className="w-11 absolute overflow-hidden lg:hidden inline-block z-10">
             <div className="h-16 bg-white dark:bg-gray-900 rotate-45 transform origin-top-right"></div>
           </div>
-          <img
+          {/* <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full select-none lg:dark:opacity-60 "
             src="https://wallpaperaccess.com/full/931292.png"
             alt="Formulas"
             loading="lazy"
-          />
+          /> */}
+          <MainCarousel />
 
-          <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900 "></div>
-          <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block">
+          {/* <div className="absolute left-0 right-0 lg:right-1/2 xl:right-3/4 top-0 bottom-0 inset-0 opacity-[10%] transform-gpu animate-blob1 rounded-full blur-2xl bg-red-900"></div> */}
+          <div className="w-11 absolute right-0 bottom-0 overflow-hidden lg:hidden inline-block z-10">
             <div className=" h-16  bg-slate-100 dark:bg-[#182133] rotate-45 transform origin-bottom-left"></div>
           </div>
         </div>

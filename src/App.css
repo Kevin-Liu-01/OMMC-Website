@@ -102,7 +102,7 @@ body {
   }
 
   body::-webkit-scrollbar-thumb {
-    @apply bg-gray-500 dark:bg-gray-700;
+    @apply bg-gray-400 dark:bg-gray-700;
 
     border-radius: 0.5rem;
     border: 3px solid;
@@ -110,7 +110,7 @@ body {
   }
 
   body::-webkit-scrollbar-thumb:hover {
-    @apply bg-gray-400 dark:bg-gray-800;
+    @apply bg-gray-500 dark:bg-gray-800;
   }
 
   body::-webkit-scrollbar-corner {

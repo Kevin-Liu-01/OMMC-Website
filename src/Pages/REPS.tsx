@@ -5,15 +5,10 @@ import {
   UserGroupIcon,
   VariableIcon,
   LocationMarkerIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
 } from "@heroicons/react/outline";
-import React, { useEffect, useCallback } from "react";
+import React from "react";
 
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
-import AutoHeight from "embla-carousel-auto-height";
-// import { WheelGesturesPlugin } from "embla-carousel-wheel-gestures";
+import OMMCCarousel from "../Components/Carousel";
 
 const REPSImages = [
   {
@@ -39,26 +34,6 @@ const REPSImages = [
 ];
 
 export default function MEME(props) {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay(),
-    AutoHeight(),
-    // WheelGesturesPlugin(),
-  ]);
-
-  useEffect(() => {
-    if (emblaApi) {
-      console.log(emblaApi.slideNodes()); // Access API
-    }
-  }, [emblaApi]);
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
-
   return (
     <div
       className={
@@ -77,7 +52,7 @@ export default function MEME(props) {
       </header>
       <main className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="md:grid-cols-6 flex-col flex md:grid gap-6">
-          <div className="md:col-span-6 md:grid md:grid-cols-6 gap-4 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-[1rem] p-4 ">
+          <div className="md:col-span-6 md:grid md:grid-cols-6 gap-4 text-gray-800 dark:text-gray-400 ">
             <div className="drop-shadow-lg md:col-span-2 mb-4 md:mb-0 flex justify-end items-end border border-gray-200 dark:border-gray-800 rounded-xl bg-center bg-cover bg-[url('/public/meme/meme-hero.jpg')]">
               <img
                 src="/favicon.png"
@@ -165,6 +140,15 @@ export default function MEME(props) {
                     referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                   {/* <div className="flex rounded-md overflow-hidden border-gray-200 dark:border-gray-900 border-2 "></div> */}
+                  <iframe
+                    title="REPS 2024 Registration Form"
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSey-grNhA5pzu7r_-c0YJtEVU6UI4mPlWQx7aOULYiBAiX0tA/viewform?embedded=true"
+                    className="flex rounded-md overflow-hidden border-gray-200 dark:border-gray-800 border-2 col-span-1 h-72 sm:h-96 w-full bg-gray-200 dark:bg-gray-600"
+                    width="640"
+                    height="3814"
+                  >
+                    Loading…
+                  </iframe>
                 </div>
               </div>
             </div>
@@ -183,36 +167,8 @@ export default function MEME(props) {
                 Beauty Of Math, and our surprise impromptu speaker Po Shen Loh!
               </p>
               {/*Carousel*/}
-              <div className="relative px-0 max-h-full py-4 overflow-x-hidden bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl mx-auto">
-                <div className="w-full embla h-full" ref={emblaRef}>
-                  <div className="flex flex-row items-start gap-4 px-4 embla__container h-full">
-                    {REPSImages.map((image: any) => (
-                      <div className="h-full bg-gray-100 dark:bg-gray-700 embla__slide min-w-0 relative flex-[0_0_100%] sm:flex-[0_0_50%] justify-center bg-secondary rounded-lg pb-3 px-3 sm:px-6 p-4 sm:p-8 shadow-lg">
-                        <img
-                          src={image.src}
-                          alt={image.src}
-                          key={image.src}
-                          className="flex flex-row items-center gap-2 mt-1 text-xl font-extrabold sm:text-2xl sm:tracking-tight rounded-md"
-                        />
-                        <p className="mt-2 text-general dark:text-white text-black font-bold">
-                          {image.caption}
-                        </p>
-                      </div>
-                    ))}{" "}
-                  </div>
-                  <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__prev bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 left-2 "
-                    onClick={scrollPrev}
-                  >
-                    <ArrowLeftIcon className="h-6 w-6" />
-                  </button>
-                  <button
-                    className="hover:animate-pulse absolute z-10 p-3 duration-150 transform -translate-y-1/2 rounded-full embla__next bg-gray-100 dark:bg-gray-600 hover:bg-gray-300 dark:hover:bg-gray-600 dark:hover:text-red-500 top-1/2 right-2 "
-                    onClick={scrollNext}
-                  >
-                    <ArrowRightIcon className="h-6 w-6" />
-                  </button>
-                </div>
+              <div className="relative p-4 bg-[url('/public/meme/meme-bg.png')] rounded-lg md:max-w-7xl">
+                <OMMCCarousel REPSImages={REPSImages} />
               </div>
             </div>
           </div>
