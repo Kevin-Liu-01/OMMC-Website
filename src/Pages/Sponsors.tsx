@@ -37,13 +37,6 @@ const bronzeSponsors = [
     desc: "",
   },
   {
-    id: "2",
-    href: "https://recursivedragon.com/",
-    imageSrc: "/sponsors/Recursive_Dragon.png",
-    imageAlt: "Recursive Dragon",
-    desc: "",
-  },
-  {
     id: "empty",
     href: "",
     imageSrc: "/sponsors/none.png",
