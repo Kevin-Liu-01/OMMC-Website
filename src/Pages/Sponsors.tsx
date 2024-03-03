@@ -43,6 +43,13 @@ const bronzeSponsors = [
     imageAlt: "",
     desc: "",
   },
+  {
+    id: "empty",
+    href: "",
+    imageSrc: "/sponsors/none.png",
+    imageAlt: "",
+    desc: "",
+  },
 ];
 
 const silverSponsors = [
