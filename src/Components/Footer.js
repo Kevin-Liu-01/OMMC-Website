@@ -214,7 +214,7 @@ export default function Footer() {
 
           <div className="text-gray-800 dark:text-gray-300 pb-8 ">
             <div className="mb-6">
-              <div className="font-semibold">© 2023 Copyright: OMMC™</div>
+              <div className="font-semibold">© 2024 Copyright: OMMC™</div>
 
               <p className="  text-xs flex justify-left mt-2 mb-3 ">
                 Made by Kevin Liu for OMMC
