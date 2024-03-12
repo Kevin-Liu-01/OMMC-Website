@@ -6,11 +6,11 @@ import React from "react";
 
 const goldSponsors = [
   {
-    id: "empty",
+    id: 1,
     href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
-    desc: "",
+    imageSrc: "/sponsors/Citadel.png",
+    imageAlt: "Citadel",
+    desc: "Citadel is one of the world's leading alternative investment firms, pursuing superior long-term returns for the world's preeminent public and private institutions. Citadel Securities is the next-generation capital markets firm, delivering critical liquidity and helping shape tomorrow's markets.    ",
   },
   {
     id: "empty",
@@ -37,10 +37,10 @@ const bronzeSponsors = [
     desc: "",
   },
   {
-    id: "2",
-    href: "https://recursivedragon.com/",
-    imageSrc: "/sponsors/Recursive_Dragon.png",
-    imageAlt: "Recursive Dragon",
+    id: "empty",
+    href: "",
+    imageSrc: "/sponsors/none.png",
+    imageAlt: "",
     desc: "",
   },
   {
