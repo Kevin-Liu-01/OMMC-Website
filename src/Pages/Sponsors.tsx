@@ -8,16 +8,16 @@ const goldSponsors = [
   {
     id: 1,
     href: "",
-    imageSrc: "/sponsors/Citadel.png",
-    imageAlt: "Citadel",
-    desc: "Citadel is one of the world's leading alternative investment firms, pursuing superior long-term returns for the world's preeminent public and private institutions. Citadel Securities is the next-generation capital markets firm, delivering critical liquidity and helping shape tomorrow's markets.    ",
+    imageSrc: "/sponsors/nontrivial.webp",
+    imageAlt: "Non-Trivial",
+    desc: "An 8-week online fellowship for young people aged 14-20 to start an impactful research, policy, or entrepreneurial project. $30,000 in funding.",
   },
   {
-    id: "empty",
+    id: 2,
     href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
-    desc: "",
+    imageSrc: "/sponsors/Citadel.png",
+    imageAlt: "Citadel",
+    desc: "Citadel is one of the world's leading alternative investment firms, pursuing superior long-term returns for the world's preeminent public and private institutions. Citadel Securities is the next-generation capital markets firm, delivering critical liquidity and helping shape tomorrow's markets.",
   },
   {
     id: "empty",
