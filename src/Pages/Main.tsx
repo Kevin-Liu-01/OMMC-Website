@@ -238,7 +238,7 @@ export default function Main(props) {
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500 dark:text-gray-400">
                   The Final Round of the contest is held
-                  {" (10 questions, proof)"}
+                  {" (7 questions, proof)"}
                 </p>
               </li>
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
