@@ -219,7 +219,7 @@ export default function Main(props) {
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  May 12th - May 24th
+                  May 19th – May 26th
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   Main Round
@@ -231,7 +231,7 @@ export default function Main(props) {
               <li className="mb-10 ml-4 text-white bg-gray-100 dark:bg-[#1d263a] border-2 border-gray-200 dark:border-[#182133] rounded-xl p-2">
                 <div className="absolute w-3 h-3 bg-gray-300 rounded-full mt-1.5 -left-[0.415rem] border border-white dark:border-gray-900 "></div>
                 <time className="mb-1 text-sm font-normal leading-none text-red-700 dark:text-red-600">
-                  May 26th - May 29th
+                  May 28th – May 30th
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-300 ">
                   Final Round
