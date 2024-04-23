@@ -25,9 +25,9 @@ export default function Banner() {
               />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">REPS 2024 by OMMC is coming up!</span>
+              <span className="md:hidden">OMMC Year 4 is coming up!</span>
               <span className="hidden md:inline">
-                Rutgers Expo in Problem Solving 2024 by OMMC is coming up!
+                OMMC Year 4 is coming up!
               </span>
             </p>
           </div>
@@ -40,7 +40,7 @@ export default function Banner() {
               <ExternalLinkIcon className="h-4 w-4 mr-1" /> Test Portal
             </a> */}
             <a
-              href="https://www.ommcofficial.org/REPS"
+              href="https://artofproblemsolving.com/community/c5h3306582_cash__raffle_prizes_ommc_year_4"
               className="hover:bg-red-100 dark:hover:bg-[#921717] transform duration-150 ease-in-out  flex items-center 
               justify-center px-4 py-2 rounded-lg shadow-sm text-sm font-medium text-red-800 border-transparent dark:text-white bg-white dark:bg-red-800 select-none "
             >
