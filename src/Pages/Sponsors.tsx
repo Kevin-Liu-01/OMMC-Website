@@ -28,30 +28,6 @@ const goldSponsors = [
   },
 ];
 
-const bronzeSponsors = [
-  {
-    id: 1,
-    href: "https://www.janestreet.com/",
-    imageSrc: "/sponsors/Jane_Street.png",
-    imageAlt: "Jane Street",
-    desc: "",
-  },
-  {
-    id: "empty",
-    href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
-    desc: "",
-  },
-  {
-    id: "empty",
-    href: "",
-    imageSrc: "/sponsors/none.png",
-    imageAlt: "",
-    desc: "",
-  },
-];
-
 const silverSponsors = [
   {
     id: 1,
@@ -69,6 +45,51 @@ const silverSponsors = [
   },
   {
     id: "empty",
+    href: "",
+    imageSrc: "/sponsors/none.png",
+    imageAlt: "",
+    desc: "",
+  },
+];
+
+const bronzeSponsors = [
+  {
+    id: 1,
+    href: "https://www.janestreet.com/",
+    imageSrc: "/sponsors/Jane_Street.png",
+    imageAlt: "Jane Street",
+    desc: "",
+  },
+  {
+    id: 2,
+    href: "https://www.3blue1brown.com/",
+    imageSrc: "/sponsors/3b1b.png",
+    imageAlt: "3blue1brown",
+    desc: "",
+  },
+  {
+    id: 3,
+    href: "https://www.desmos.com/",
+    imageSrc: "/sponsors/desmos.png",
+    imageAlt: "Desmos",
+    desc: "",
+  },
+  {
+    id: 4,
+    href: "https://artofproblemsolving.com/online",
+    imageSrc: "/sponsors/AoPS.png",
+    imageAlt: "AoPS",
+    desc: "",
+  },
+  {
+    id: 5,
+    href: "https://www.wolframalpha.com/",
+    imageSrc: "/sponsors/wolfram.png",
+    imageAlt: "Wolfram",
+    desc: "",
+  },
+  {
+    id: 6,
     href: "",
     imageSrc: "/sponsors/none.png",
     imageAlt: "",
@@ -94,7 +115,7 @@ export default function Sponsors(props) {
         </div>
       </header>
 
-      <div className="grid grid-rows-3 gap-6 max-w-2xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="flex flex-col gap-6 max-w-2xl mx-auto py-8 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
         <Sponsor
           title="Gold Tier"
           sponsors={goldSponsors}

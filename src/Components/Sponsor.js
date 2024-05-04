@@ -14,14 +14,16 @@ export default function Sponsor(props) {
           sponsor.id !== "empty" ? (
             <a key={sponsor.id} href={sponsor.href} className="group">
               <div
-                className={`grid ${props.color3} bg-opacity-50 self-center w-full items-center align-center justify-center group-hover:scale-[1.01] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain`}
+                className={`grid ${props.color3} bg-opacity-50 p-2 self-center w-full items-center align-center justify-center group-hover:scale-[1.01] transform duration-150 ease-in-out rounded-lg overflow-hidden object-contain`}
               >
                 <div
-                  className={`p-4 col-start-1 row-start-1 z-5 h-36 md:h-40 overflow-auto shadow-inner font-semibold opacity-0 ${
+                  className={`col-start-1 row-start-1 z-10 h-36 md:h-40 overflow-auto rounded shadow-inner font-semibold duration-150 opacity-0 ${
                     props.title !== "Bronze Tier" && "hover:opacity-100"
-                  } z-10 ${props.color3} scrollbar duration-150`}
+                  } ${props.color3}`}
                 >
-                  {sponsor.desc}
+                  <div className="overflow-auto scrollbar p-4 h-full w-full">
+                    {sponsor.desc}
+                  </div>
                 </div>
                 <img
                   src={sponsor?.imageSrc}
@@ -32,7 +34,7 @@ export default function Sponsor(props) {
             </a>
           ) : (
             <div
-              className={`${props.color3} bg-opacity-50 flex self-center w-full items-center h-36 md:h-40 align-center justify-center rounded-lg overflow-hidden object-contain`}
+              className={`${props.color3} bg-opacity-50 flex self-center w-full items-center h-40 md:h-44 align-center justify-center rounded-lg overflow-hidden object-contain `}
             ></div>
           )
         )}
