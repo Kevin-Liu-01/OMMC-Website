@@ -37,8 +37,8 @@ const currentMembers = [
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Sagarika Yagnyeshwaran",
-    role: "Head of Content Creation",
-    bio: 'Mahith is a junior from Texas. He has qualified for the AIME three times and has placed well in several other contests. Apart from mathematics, he enjoys physics, coding, and playing table tennis and chess. You can find him on chess.com under the handle "rocketsrimsg," where he plays (a little too much) puzzle rush.',
+    role: "Head of Outreach",
+    bio: "Sagarika is a high school junior in Manalapan High School's Science and Engineering Program. She is OMMC's Head of Outreach and makes flyers, posters, and other social media content. She is a math tutor and is predominantly interested in statistics. In her free time, she plays piano and has won various international competition for it, including the chance to perform at Carnegie hall. A few of her interests include finance, politics, music, and reading. Sagarika is always open to trying new things and meeting all kinds of people!",
   },
   {
     id: 5,
