@@ -76,9 +76,17 @@ const currentMembers = [
     role: "Content Creation",
     bio: "Ritwin is currently a junior in California and a Test Solver for OMMC. Ritwin has qualified for USACO camp and has qualified for the AIME since 7th grade, and his math accomplishments include a 72 on USAMTS and a 24 on BAMO (one point under Honorable Mention). In school, he teaches both programming and math. Apart from math, he loves coding: he's a USACO Platinum participant and reached Codeforces Master. Also, he likes cubing, especially the Square-1, and aims for a sub-20 3x3 average.",
   },
-
   {
     id: 9,
+    name: "Catherine Ji",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Catherine Ji",
+    role: "Outreach",
+    bio: "Catherine is a high school sophmore from Georgia. She is on OMMC’s outreach team, and is passionate about designing social media content and engaging with the math community. She loves mathematical problem solving, and is especially fond of geometry. Outside of math, she is also an archer and a singer. She has won prizes at multiple international vocal competitions and has performed at Carnegie Hall. In her free time, she enjoys baking, curating music, and reading Agatha Christie.",
+  },
+  {
+    id: 10,
     name: "Isaac Chen",
     href: "#",
     imageSrc: "/staff/isaac.png",
@@ -87,7 +95,7 @@ const currentMembers = [
     bio: "Isaac Chen is a junior at Princeton Day School in Princeton, NJ, and attended MOP. He contributes problems to OMMC and other contests such as the Online Youth Mathematics Competition. Isaac is a RSI qualifier, one-time USAJMO qualifier, one-time AMC 10 DHR awardee, and two-time AIME qualifier. He also placed 17th overall at CMIMC Math 2022 and 5th overall at 2021 NJ MATHCOUNTS States. Outside of math, Isaac spends his time playing and watching basketball, coding, and walking around Princeton University’s beautiful campus with his friends.",
   },
   {
-    id: 10,
+    id: 11,
     name: "Vinay Singamsetty",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -96,7 +104,7 @@ const currentMembers = [
     bio: "Vinay is a junior in California. He is a developer for OMMC and contributed greatly to the testing portal and website. He is an avid developer and is skilled at developing web applications focused on responsive design, positive UX/UI, SEO and more. He is fluent in React/Next, Vue/Nuxt, JS/HTML/CSS, Sass and general purpose languages like Node JS, Python, C++, C, C#, Java, and more. He's good at developing algorithms and vital coding concepts such as control flow, program structure, versioning, debugging, and formatting. He is also a math enthusiast, achieving honor roll on AMC 8 previously and is currently working on honing his math skills.    ",
   },
   {
-    id: 11,
+    id: 12,
     name: "Vikram Sarkar",
     href: "#",
     imageSrc: "/staff/vikram.jpg",
@@ -106,7 +114,7 @@ const currentMembers = [
   },
 
   {
-    id: 12,
+    id: 13,
     name: "Calvin Wang",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -115,7 +123,7 @@ const currentMembers = [
     bio: "Calvin is a sophomore in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
   },
   {
-    id: 13,
+    id: 14,
     name: "Chris Bao",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -125,7 +133,7 @@ const currentMembers = [
   },
 
   {
-    id: 14,
+    id: 15,
     name: "Bryan Guo",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -135,7 +143,7 @@ const currentMembers = [
   },
 
   {
-    id: 15,
+    id: 16,
     name: "Rohan Bodke",
     href: "#",
     imageSrc: "/staff/default.png",
