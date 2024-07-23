@@ -247,8 +247,8 @@ export default function Staff(props) {
           </h1>
           <button
             onClick={() => setShowCurrent(!showCurrent)}
-            className="ml-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 duration-150"
-          >
+            className="ml-4 px-4 py-2 bg-red-800 text-white dark:bg-white dark:text-red-800 rounded-lg shadow-sm hover:bg-[#921717] dark:hover:bg-red-100 duration-150 ease-in-out"
+            >
             {showCurrent ? "Past Staff" : "Current Staff"}
           </button>
         </div>
@@ -262,4 +262,5 @@ export default function Staff(props) {
       </div>
     </div>
   );
+  
 }
