@@ -152,7 +152,7 @@ const pastMembers = [
     href: "#",
     imageSrc: "/staff/evan.png",
     imageAlt: "Evan Chang",
-    bio: "Evan Chang is an incoming freshman at MIT. In 2023, he was a USAMO Gold Medalist and placed 12th out of all students nationwide.  He was a MOP camper in 2022 and 2023 and is a SPARC camper in 2023. He is an intern for LIVE by Po Shen Loh. Evan also currently studies piano and music composition.",
+    bio: "Evan Chang is an incoming freshman at MIT and was the previous CEO for OMMC. In 2023, he was a USAMO Gold Medalist and placed 12th out of all students nationwide.  He was a MOP camper in 2022 and 2023 and is a SPARC camper in 2023. He is an intern for LIVE by Po Shen Loh. Evan also currently studies piano and music composition.",
   },
   {
     id: 2,
