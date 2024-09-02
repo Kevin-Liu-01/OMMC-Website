@@ -62,10 +62,10 @@ const currentMembers = [
     id: 7,
     name: "Aprameya Tripathy",
     href: "#",
-    imageSrc: "/staff/default.png",
+    imageSrc: "/staff/aprameya.jpg",
     imageAlt: "Aprameya Tripathy",
     role: "Head of Content Revision",
-    bio: "Aprameya Tripathy is a high school sophomore who works as a testsolver at OMMC. He has attended MOP and is a one time JMO qualifier, and in his free time, you can find him testing out new recipes or exploring geometry configurations. He hopes to bake a croquembouche one day.",
+    bio: "Aprameya Tripathy is a high school senior who works as the head of content revision at OMMC. He has attended MOP twice and is a USAMO gold medalist. In his free time, you can find him baking various confections, writing geometry problems, and teaching math to others.",
   },
   {
     id: 8,
