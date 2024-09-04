@@ -237,15 +237,10 @@ const pastMembers = [
 ];
 
 export default function Staff(props) {
-  const [showCurrent, setShowCurrent] = useState(true);
+  const [activeTab, setActiveTab] = useState("current");
 
   return (
-    <div
-      className={
-        (props.dark ? "dark" : "") +
-        " min-h-screen bg-slate-100 dark:bg-gray-900 duration-150"
-      }
-    >
+    <div className={(props.dark ? "dark " : "") + "min-h-screen bg-slate-100 dark:bg-gray-900 duration-150"}>
       <Navbar page="staff" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg duration-150 bg-white dark:bg-[#182133]">
@@ -253,18 +248,34 @@ export default function Staff(props) {
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-slate-100">
             Staff
           </h1>
-          <button
-            onClick={() => setShowCurrent(!showCurrent)}
-            className="ml-4 px-4 py-2 bg-red-800 text-white dark:bg-white dark:text-red-800 rounded-lg shadow-sm hover:bg-[#921717] dark:hover:bg-red-100 duration-150 ease-in-out"
+          <div className="flex rounded-lg overflow-hidden border border-red-800 dark:border-white">
+            <button
+              className={`px-4 py-2 text-sm font-medium transition-colors duration-200 ${
+                activeTab === "current"
+                  ? "bg-red-800 text-white dark:bg-white dark:text-red-800"
+                  : "bg-white text-red-800 hover:bg-red-100 dark:bg-[#182133] dark:text-white dark:hover:bg-gray-800"
+              }`}
+              onClick={() => setActiveTab("current")}
             >
-            {showCurrent ? "Past Staff" : "Current Staff"}
-          </button>
+              Current
+            </button>
+            <button
+              className={`px-4 py-2 text-sm font-medium transition-colors duration-200 ${
+                activeTab === "past"
+                  ? "bg-red-800 text-white dark:bg-white dark:text-red-800"
+                  : "bg-white text-red-800 hover:bg-red-100 dark:bg-[#182133] dark:text-white dark:hover:bg-gray-800"
+              }`}
+              onClick={() => setActiveTab("past")}
+            >
+              Former
+            </button>
+          </div>
         </div>
       </header>
       <div className="w-full mx-auto max-w-7xl px-4 md:px-10 pt-10">
         <div className="mt-6 grid grid-cols-1 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {(showCurrent ? currentMembers : pastMembers).map((member) => (
-            <Profile member={member} />
+          {(activeTab === "current" ? currentMembers : pastMembers).map((member) => (
+            <Profile key={member.id} member={member} />
           ))}
         </div>
       </div>
