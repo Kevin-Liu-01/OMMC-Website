@@ -11,7 +11,7 @@ const currentMembers = [
     imageSrc: "/staff/alexander.png",
     imageAlt: "Alexander Wang",
     role: "CEO",
-    bio: "Alexander is a sophomore and is the CEO for OMMC. He is an IMO Gold Medalist and has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
+    bio: "Alexander is a junior and is the CEO for OMMC. He is an IMO Gold Medalist and has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
   },
   {
     id: 2,
