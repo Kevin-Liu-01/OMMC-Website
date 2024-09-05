@@ -6,7 +6,7 @@ We provide an annual original high-quality math competition, in addition to vari
 
 🔗 Join 6,000+ other competitors and students on [Discord](https://discord.com/invite/htASFYcn?utm_source=Discord%20Widget&utm_medium=Connect)! We highly recommend competitors join our Community Discord for the latest updates on OMMC. 
 
-#OMMC Ecosystem
+# OMMC Ecosystem
 
 The OMMC Official website is written in Javascript utilizing React, TypeScript, and Tailwind.css.
 The website can be found here: http://www.ommcofficial.org/
@@ -19,7 +19,7 @@ The scale of OMMC means that we provide several apps to facilitate competitions 
 
 🚧 OMMC [Sample Portal](https://ommc-sample-portal.vercel.app/): Demo Test Portal for trying out OMMC problems. Uses OMMC 2023 Sample Problem Set 1. Created using T3.
 
-Directory
+# Directory
 
 - Pages: All pages as seen on site
 - Reusable Elements: Navbar, Banner, Footer that appear on each page
