@@ -1,10 +1,23 @@
 # Online Monmouth Math Competition
 
-OMMC is a 501c3 accredited organization that provides accessible,
-high-quality mathematics materials and educational projects online.
+The Online Monmouth Math Competition, or OMMC, is a 501c3 accredited nonprofit organization which aims to give talented high school and middle school students an exciting and engaging way to develop their skills in mathematics.
+
+We provide an annual original high-quality math competition, in addition to various educational materials and a community Discord server. Our competition is available to all students who are 18 or younger.
+
+🔗 Join 6,000+ other competitors and students on [Discord](https://discord.com/invite/htASFYcn?utm_source=Discord%20Widget&utm_medium=Connect)! We highly recommend competitors join our Community Discord for the latest updates on OMMC. 
+
+#OMMC Ecosystem
 
 The OMMC Official website is written in Javascript utilizing React, TypeScript, and Tailwind.css.
 The website can be found here: http://www.ommcofficial.org/
+
+The scale of OMMC means that we provide several apps to facilitate competitions and training. Find them below:
+
+📙 OMMC [Atlas](https://ommc-atlas.vercel.app/): OMMC Atlas is a comprehensive database of all OMMC Year 1 questions. Use it to practice and prepare for your next OMMC competition!
+
+📝 OMMC [Test Portal](https://ommc-test-portal.vercel.app/): Official secure test taking portal for OMMC Year 3-4 competitions.
+
+🚧 OMMC [Sample Portal](https://ommc-sample-portal.vercel.app/): Demo Test Portal for trying out OMMC problems. Uses OMMC 2023 Sample Problem Set 1. Created using T3.
 
 Directory
 
