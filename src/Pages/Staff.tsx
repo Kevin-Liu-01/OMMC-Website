@@ -11,7 +11,7 @@ const currentMembers = [
     imageSrc: "/staff/alexander.png",
     imageAlt: "Alexander Wang",
     role: "CEO",
-    bio: "Alexander is a junior and is the CEO for OMMC. He is an IMO Gold Medalist and has achieved Distinguished Honor Roll on the AMC 10/12 multiple times. He has qualified for USAJMO 3 times, and placed overall rank 1 in USAJMO out of all contestants in 2022. He has also qualified for MATHCOUNTS Nationals two times. He is also a member of the selective Lehigh ARML Fire Team. He will be attending the prestigious MOP program this summer. You can find him on AoPS with the nickname DottedCaculator.",
+    bio: "Alexander is currently a junior at Millburn High School. He is a 2-time IMO Gold Medalist in 2023 and 2024. He won a gold medal at RMM 2023 and APMO 2024. He is a 2-time USAMO Gold Medalist and obtained a perfect score in 2023. He attended the prestigious MOP program from 2022-2024. He attended the MIT PRIMES-USA math research program in 2024. In his spare time, he enjoys playing sports, especially tennis.",
   },
   {
     id: 2,
@@ -92,7 +92,16 @@ const currentMembers = [
     imageSrc: "/staff/isaac.png",
     imageAlt: "Isaac Chen",
     role: "Content Contributor",
-    bio: "Isaac Chen is a junior at Princeton Day School in Princeton, NJ, and attended MOP. He contributes problems to OMMC and other contests such as the Online Youth Mathematics Competition. Isaac is a RSI qualifier, one-time USAJMO qualifier, one-time AMC 10 DHR awardee, and two-time AIME qualifier. He also placed 17th overall at CMIMC Math 2022 and 5th overall at 2021 NJ MATHCOUNTS States. Outside of math, Isaac spends his time playing and watching basketball, coding, and walking around Princeton University’s beautiful campus with his friends.",
+    bio: "Isaac Chen is a senior at Princeton Day School in Princeton, NJ, who works as a content contributor for OMMC. He has contributed original problems to OMMC and helped organize the 2024 Rutgers Exposition in Problem Solving (REPS). Isaac is a 2023 USAJMO Top Winner, 2024 USAMO Silver Medalist, and attended MOP 2023. He also proudly captains the nationally renowned Lehigh Valley Math Team. Last summer, Isaac attended Research Science Institute (RSI) 2024 and conducted research in discrete geometry. He loves spreading his passion for problem solving through other outlets, including as a host of The Curious Cube, the official American Mathematics Competitions (AMC) student podcast sponsored by the Mathematical Association of America (MAA). Outside of math, Isaac enjoys hanging out with friends, playing and watching basketball, high-quality writing, learning to cook, and speedcubing.",
+  },
+  {
+    id: 11,
+    name: "Andrew Lin",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Andrew Lin",
+    role: "Content Contributor",
+    bio: "Andrew Lin is a senior from New Jersey who officially writes problems for OMMC. He has qualified for MOP three times and is a USAMO gold medalist. In addition, he has achieved top-ten finishes at HMMT and ARML, and is part of the Lehigh Valley Fire team. He goes by bluelinfish on AoPS and Discord. Outside of math, he spends too much of his time playing card games.",
   },
   {
     id: 11,
