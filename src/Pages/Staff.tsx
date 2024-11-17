@@ -273,7 +273,7 @@ const currentMembers = [
     imageSrc: "/staff/default.png",
     imageAlt: "Vihaan Gupta",
     role: "Content Contributor",
-    bio: "I am a current freshman who qualified for USA(J)MO for the first time last year. I participated on the SFBA/NorCal A1 team in ARML, and I enjoy participating in various competitions (as well as writing a few).",
+    bio: "Vihaan is a current freshman who qualified for USA(J)MO for the first time last year. He participated on the SFBA/NorCal A1 team in ARML, and he enjoys participating in various competitions (as well as writing a few).",
   },
   {
     id: 29,
