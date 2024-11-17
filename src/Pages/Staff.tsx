@@ -20,7 +20,7 @@ const currentMembers = [
     imageSrc: "/staff/default.png",
     imageAlt: "Charles Zhang",
     role: "Head of Logistics",
-    bio: 'Charles is a junior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.',
+    bio: "Charles is a junior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.",
   },
   {
     id: 3,
@@ -119,9 +119,8 @@ const currentMembers = [
     imageSrc: "/staff/vikram.jpg",
     imageAlt: "Vikram Sarkar",
     role: "Content Contributor",
-    bio: "Vikram Sarkar is a test solver for the OMMC team and is currently a sophomore. His achievements include 2 times Mathcounts Nationals Qualifier (top 56 / top 25% this year), and USAJMO Winner. He likes listening to EDM and various artists, and also likes video games.",
+    bio: "Vikram Sarkar is a test solver for the OMMC team and is currently a junior. His achievements include qualifying for the USA Junior Math Olympiad (USAJMO) three times and qualifying for the prestigious Math Olympiad Program (MOP) in 2024. Outside of math, he likes playing video games, listening to music, and coding.",
   },
-
   {
     id: 13,
     name: "Calvin Wang",
@@ -140,7 +139,6 @@ const currentMembers = [
     role: "Problem Committee",
     bio: "Chris Bao is a junior at the Davidson Academy of Nevada. He has qualified for the USAJMO three times and the USAMO in 2023. He has also participated in MOP 2022 and MOP 2023. Besides math, Chris also plays chess, piano, and works on coding a chess engine in his free time.",
   },
-
   {
     id: 15,
     name: "Bryan Guo",
@@ -150,7 +148,6 @@ const currentMembers = [
     role: "Content Contributor",
     bio: "Bryan Guo is a problem contributor for the OMMC team and is currently in a sophomore. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
-
   {
     id: 16,
     name: "Rohan Bodke",
@@ -159,6 +156,133 @@ const currentMembers = [
     imageAlt: "Rohan Bodke",
     role: "Content Contributor",
     bio: "Rohan is a junior in California who works for OMMC as a content contributor. He attended MOP and started math contests in 2018, when he was in sixth grade. Since then, he has qualified for the AIME three times, and the USAJMO twice, winning it in 2022. He was also part of California's MATHCOUNTS team in 2021, and was sixteenth place at nationals. In addition to math, he likes to play chess and other board games, both with his friends and online. He also enjoys doing extremely weird things no one else would do, such as reading WP:UA. He was a top 20 player in the now-defunct mobile game _Big Bang Racing_.",
+  },
+  {
+    id: 16,
+    name: "Sargam Mondal",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Sargam Mondal",
+    role: "Content Contributor",
+    bio: "Sargam is a senior at the Edison Academy Magnet School. She is an avid competitor in math competitions, having placed 1st, 2nd, and 3rd at ARML in 2023, 2022, and 2024 respectively. Additionally, she is a two-time PUMaC Division A Individual Finalist, placed in the top 50 at HMMT February subject tests, and ranked in the top 10 at Girls in Math at Yale. She is also a participant in the MIT PRIMES-USA program. Outside of math competitions, she is very interested in algebraic geometry.",
+  },
+  {
+    id: 17,
+    name: "Andrew Brahms",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Andrew Brahms",
+    role: "Content Contributor",
+    bio: "Andrew is a senior from New Jersey. He is a researcher under the MIT PRIMES-USA Program and USAJMO Honorable Mention. He has qualified for the AIME five times and made Distinguished Honor Roll for the AMC 10. Outside of math, Andrew enjoys swimming and bicycling. ",
+  },
+  {
+    id: 18,
+    name: "Daniel Jeelani",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Daniel Jeelani",
+    role: "Content Contributor",
+    bio: "Daniel is a Senior at Gulf Asian English School in UAE, he has been studying for Physics and Math Olympiads since Junior Year, he mostly works at non-profit organizations and strives to improve them with my help. currently he is the CEO/Founder of Online Integration Bee, CHRO at Futracode, Outreach Officer at Finward, Fundraising Director at STEMIVERSE and finally Web Content Manager at ViSTEM; an organization with 1,600+ students aiming to educate high school students in the field of stem and computer science. ",
+  },
+  {
+    id: 19,
+    name: "Yuyang Zhang",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Yuyang Zhang",
+    role: "Content Contributor",
+    bio: "Yuyang Zhang is a senior in Vermont. He has achieved Distinguished Honor Roll on the AMC 10 in his freshman and sophomore year, and qualified for the 2022 USAJMO. He is currently the captain of his high school math team that has won 5 years consecutively in his state. Besides math, he also really enjoy playing tennis in his free time. ",
+  },
+  {
+    id: 20,
+    name: "Rohan Garg",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Rohan Garg",
+    role: "Content Contributor",
+    bio: "Rohan is a junior in the Bay Area. He has qualified for AIME 4 times, USAJMO once, and USAMO once, getting a Bronze medal. He got a perfect score on the AMC 10 and a 13 on AIME. He is a researcher under the MIT PRIMES-USA program. Apart from math, he does competitive programming and is a Platinum contestant and a Master on codeforces. ",
+  },
+  {
+    id: 21,
+    name: "Jennifer Hu",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Jennifer Hu",
+    role: "Content Contributor",
+    bio: "Jennifer is a high school junior from Indiana. Jennifer is a 2-time AIME Qualifier and a MPfG Qualifier, and she also attended the G2 Math Program in 2024. She tutors various math topics to middle-high school students, and especially enjoys geometry. Jennifer also enjoys studying chemistry, crocheting, and listening to music in her spare time. ",
+  },
+  {
+    id: 22,
+    name: "Culver Kwan",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Culver Kwan",
+    role: "Content Contributor",
+    bio: "Culver is a junior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both. ",
+  },
+  {
+    id: 23,
+    name: "Jiya Dani",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Jiya Dani",
+    role: "Content Contributor",
+    bio: "Jiya is a junior in Texas and is a problem writer and test solver for OMMC. She is also an Athemath teacher, and attended MOP 2024, Ross 2023, and is currently doing mathematics research through the MIT PRIMES-USA program. In her free time, she enjoys tinkering with electronics and playing or listening to calm guitar music.",
+  },
+  {
+    id: 24,
+    name: "Tarun Rapaka",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Tarun Rapaka",
+    role: "Content Contributor",
+    bio: "Tarun is a sophomore from The Woodlands, Texas. In 2024 he qualified for the USAJMO and got Honors, 2 points shy of the MOP cutoff. He is also a 3-time AIME qualifier, a 2023 AMC 10 perfect scorer, a 2-time ARML Team High Scorer, and a USAMTS Silver medalist. He was an attendee of Canada/USA Mathcamp 2024. In his spare time, he likes to work on hard Olympiad geometry problems. His hobbies include piano, rock climbing, and speed cubing.",
+  },
+  {
+    id: 25,
+    name: "Casi",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Casi",
+    role: "Content Contributor",
+    bio: "Casi is a 10th grader from Oregon. She qualified for USAJMO for the first time last year. She really enjoys solving math problems, especially number theory. In her spare time, she likes to solve math puzzles, play the piano, and exercise.",
+  },
+  {
+    id: 26,
+    name: "Akshaj Arora",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Akshaj Arora",
+    role: "Content Contributor",
+    bio: "Akshaj is freshman at Northview High School in Georgia. His math achievements include USAJMO Honors, 3x MATHCOUNTS Nationals, and Distinguished Honor Roll in AMC-10. Apart from Math, he loves programming and knows JavaScript, Typescript, Python, and C++. He also plays Clarinet and video games in his free time.",
+  },
+  {
+    id: 27,
+    name: "Eric Guo",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Eric Guo",
+    role: "Content Contributor",
+    bio: "Eric is a freshman from High Technology High School in New Jersey. He has qualified for AIME since 7th grade and has achieved other distinctions such as AMC10, 8 DHR and is the 2023 JHMMC winner. His favorite math subject is algebra, followed by geometry. Besides math he enjoys tennis, coding, physics, current events, and chatting on Discord with friends. He is also a big geography fan and qualified for Geography Bee Nationals in 2023. You can find him on AOPS as eg4334 or on Discord as eric4334.",
+  },
+
+  {
+    id: 28,
+    name: "Vihaan Gupta",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Vihaan Gupta",
+    role: "Content Contributor",
+    bio: "I am a current freshman who qualified for USA(J)MO for the first time last year. I participated on the SFBA/NorCal A1 team in ARML, and I enjoy participating in various competitions (as well as writing a few).",
+  },
+  {
+    id: 29,
+    name: "Sanjay",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Sanjay",
+    role: "Content Contributor",
+    bio: "Sanjay is an 8th grader in Florida. He has worked with several math competitions in the past, such as AMC, AIME, and MathCounts. He also enjoys coding, especially USACO problems. He has experience in C++, Java, Javascript, HTML, and Python. Other than that, he likes to play basketball, play table tennis, and swim. He is aiming for a sub 25 second 50 freestyle. Also, he has won the Duos Cash Cup on Fortnite a total of 3 times, with all of them being consecutive. This year, he wants to make USACO Gold, make AIME and USAJMO, and make the ARML B or A team for Florida.",
   },
 ];
 
@@ -249,7 +373,12 @@ export default function Staff(props) {
   const [activeTab, setActiveTab] = useState("current");
 
   return (
-    <div className={(props.dark ? "dark " : "") + "min-h-screen bg-slate-100 dark:bg-gray-900 duration-150"}>
+    <div
+      className={
+        (props.dark ? "dark " : "") +
+        "min-h-screen bg-slate-100 dark:bg-gray-900 duration-150"
+      }
+    >
       <Navbar page="staff" dark={props.dark} setDark={props.setDark} />
       <Banner />
       <header className="drop-shadow-lg duration-150 bg-white dark:bg-[#182133]">
@@ -283,12 +412,13 @@ export default function Staff(props) {
       </header>
       <div className="w-full mx-auto max-w-7xl px-4 md:px-10 pt-10">
         <div className="mt-6 grid grid-cols-1 md:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {(activeTab === "current" ? currentMembers : pastMembers).map((member) => (
-            <Profile key={member.id} member={member} />
-          ))}
+          {(activeTab === "current" ? currentMembers : pastMembers).map(
+            (member) => (
+              <Profile key={member.id} member={member} />
+            )
+          )}
         </div>
       </div>
     </div>
   );
-  
 }
