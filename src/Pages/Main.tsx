@@ -147,8 +147,7 @@ export default function Main(props) {
                 Who are we?
               </p>
               <p className="mt-4 mb-3 max-w-2xl text-xl text-gray-500 dark:text-gray-400 ">
-                We are currently led by Evan Chang, Ishaan Akula, and Bill Fei,
-                who serve as the directors.
+                We are currently led by Alexander Wang, who serves as the CEO.
               </p>
             </div>
             <div className="mt-8 flex bg-[#fcfeff] dark:bg-[#222d41] rounded-xl pr-2 py-3 md:ml-5">
