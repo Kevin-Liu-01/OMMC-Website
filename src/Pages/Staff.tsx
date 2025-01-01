@@ -17,7 +17,7 @@ const currentMembers = [
     id: 2,
     name: "Charles Zhang",
     href: "#",
-    imageSrc: "/staff/default.png",
+    imageSrc: "/staff/charles.jpeg",
     imageAlt: "Charles Zhang",
     role: "Head of Logistics",
     bio: "Charles is a junior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.",
