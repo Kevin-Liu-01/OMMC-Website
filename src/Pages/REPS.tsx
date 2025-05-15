@@ -126,7 +126,7 @@ export default function MEME(props) {
                 <p className="mb-3">
                   REPS 2025 will be held at the Science and Engineering Resource
                   Center at Rutgers University New Brunswick in Auditoriums
-                  111, 118, 209, on April 19th, 2025, from 1-6PM EST. The address
+                  111, 118, 209, on June 7th, 2025, from 1-6PM EST. The address
                   is 96 Frelinghuysen Rd, Piscataway, NJ 08854.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
