@@ -93,7 +93,7 @@ export default function Main(props) {
                 <div className="mt-5 sm:mt-12 sm:flex ">
                   <div className="sm:mr-4 hover:scale-105 transform duration-150 ease-in-out ">
                     <a
-                      href="https://artofproblemsolving.com/community/c5h3050037p27478188"
+                      href="https://artofproblemsolving.com/community/c5h3556611_main_round_starts_may_17_ommc_year_5"
                       className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium 
                       rounded-xl shadow text-white bg-gradient-to-r from-red-700 to-red-800 md:py-4 md:text-lg select-none"
                     >
