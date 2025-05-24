@@ -5,6 +5,7 @@ import Sponsors from "./Pages/Sponsors.tsx";
 import Staff from "./Pages/Staff.tsx";
 import Leaderboard22 from "./Pages/Leaderboard22.tsx";
 import Leaderboard23 from "./Pages/Leaderboard23.tsx";
+import Leaderboard24 from "./Pages/Leaderboard24.tsx";
 import REPS from "./Pages/REPS.tsx";
 import MEME from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
@@ -12,6 +13,7 @@ import Sponsorship from "./Pages/Sponsorship.tsx";
 
 import Test22 from "./Pages/Documents/Test_22.tsx";
 import Test23 from "./Pages/Documents/Test_23.tsx";
+import Test24 from "./Pages/Documents/Test_24.tsx";
 
 import POTD from "./Pages/POTD.tsx";
 import AMC from "./Pages/Documents/AMC.tsx";
@@ -61,12 +63,20 @@ function App() {
           element={<Leaderboard23 dark={dark} setDark={setDark} />}
         ></Route>
         <Route
+          path="2024-leaderboard"
+          element={<Leaderboard24 dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
           path="2022-documents"
           element={<Test22 dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="2023-documents"
           element={<Test23 dark={dark} setDark={setDark} />}
+        ></Route>
+        <Route
+          path="2024-documents"
+          element={<Test24 dark={dark} setDark={setDark} />}
         ></Route>
         <Route
           path="ommc-amc"
