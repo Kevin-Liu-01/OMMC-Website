@@ -17,7 +17,7 @@ export default function Leaderboard24(props) {
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
             <p className="text-red-700 dark:text-red-600 inline duration-150">
-              OMMC 2023{" "}
+              OMMC 2024{" "}
             </p>{" "}
             Leaderboard
           </h1>
@@ -78,8 +78,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">NO I GOT A C</div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">NO I GOT A C</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Allan Yuan, Channing Yang, Ava Berenji, Jiahe Liu
@@ -90,8 +90,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">Tractor </div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">Tractor </div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Andrew Lin, Allen Wang, Linus Tang
@@ -102,8 +102,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">l bozo + cope + ratio (lemma)</div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">l bozo + cope + ratio (lemma)</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Chris Chen, Sepehr Golsefidy, Rohan Mallick, Kai Yi
@@ -114,8 +114,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">The Cheshire Kats</div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">The Cheshire Kats</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Andrew Li, Aditya Pahuja, Noam Pasman, Daniel Potievsky
@@ -126,8 +126,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">reddy to win</div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">reddy to win</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Kiran Reddy, Liam Reddy, Aarush Khare, Jordan Lefkowitz
@@ -138,8 +138,8 @@ export default function Leaderboard24(props) {
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap "
                 >
-                  <div className="font-bold ml-2 inline-block">🥇 </div>{" "}
-                  <div className="inline-block text-xs">Meal Enjoyers</div>
+                  <div className="text-lg inline-block">🥇 </div>{" "}
+                  <div className="inline-block">Meal Enjoyers</div>
                 </th>
                 <td className="sm:px-6 px-3 py-5">
                   Culver Kwan, Drew Michael Terren, Akash Thiagarajan, Sebastian Chase
@@ -159,7 +159,7 @@ export default function Leaderboard24(props) {
                   Benjamin Fu, Alansha Jiang, Daniel Ge, Aryan Agrawal
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -173,7 +173,7 @@ export default function Leaderboard24(props) {
                   Ben
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -187,7 +187,7 @@ export default function Leaderboard24(props) {
                   Lucas Qi, Tony Zhang, Milind Sharma, Tarun Rapaka
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -201,7 +201,7 @@ export default function Leaderboard24(props) {
                   Alex Sun, Edward Chen, Edward Li, Raymond Zhao
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -215,7 +215,7 @@ export default function Leaderboard24(props) {
                   Arnav Iyengar, Grisham Paimagam, Oron Wang, Weian Xie
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -229,7 +229,7 @@ export default function Leaderboard24(props) {
                   Eric Wang, Shixun Song, Yollengo Feng, Shengdao Ke
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -243,7 +243,7 @@ export default function Leaderboard24(props) {
                   Zongshu Wu, Paixiao Seeluangsawa, Abby Trinh, Ivan Neduzhyi
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -257,7 +257,7 @@ export default function Leaderboard24(props) {
                   Anay Aggarwal, Arjun Agarwal, Shreyan Paliwal, Kai Yamashita
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
@@ -271,7 +271,7 @@ export default function Leaderboard24(props) {
                   Kevin Yang, Thanh Can, Rachel Chen, Aryan Saha
                 </td>
               </tr>
-              <tr className="bg-white dark:bg-[#192231]">
+              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-800">
                 <th
                   scope="row"
                   className="sm:px-6 px-3 py-5 font-medium text-gray-900 dark:text-white whitespace-nowrap"
