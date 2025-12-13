@@ -274,15 +274,6 @@ const currentMembers = [
     role: "Content Contributor",
     bio: "Vihaan is a current sophomore who qualified for USA(J)MO for the first time last year. He participated on the SFBA/NorCal A1 team in ARML, and he enjoys participating in various competitions (as well as writing a few).",
   },
-  {
-    id: 31,
-    name: "Sanjay",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Sanjay",
-    role: "Content Contributor",
-    bio: "Sanjay is a 9th grader in Florida. He has worked with several math competitions in the past, such as AMC, AIME, and MathCounts. He also enjoys coding, especially USACO problems. He has experience in C++, Java, Javascript, HTML, and Python. Other than that, he likes to play basketball, play table tennis, and swim. He is aiming for a sub 25 second 50 freestyle. Also, he has won the Duos Cash Cup on Fortnite a total of 3 times, with all of them being consecutive. This year, he wants to make USACO Gold, make AIME and USAJMO, and make the ARML B or A team for Florida.",
-  },
 ];
 
 const pastMembers = [
