@@ -11,7 +11,7 @@ const currentMembers = [
     imageSrc: "/staff/alexander.png",
     imageAlt: "Alexander Wang",
     role: "CEO",
-    bio: "Alexander is currently a junior at Millburn High School. He is a 2-time IMO Gold Medalist in 2023 and 2024. He won a gold medal at RMM 2023 and APMO 2024. He is a 2-time USAMO Gold Medalist and obtained a perfect score in 2023. He attended the prestigious MOP program from 2022-2024. He attended the MIT PRIMES-USA math research program in 2024. In his spare time, he enjoys playing sports, especially tennis.",
+    bio: "Alexander is currently a senior at Millburn High School. He is a 3-time IMO Gold Medalist in 2023, 2024, and 2025. He won a gold medal at RMM 2023 and APMO 2024. He is a 3-time USAMO Gold Medalist and obtained a perfect score in 2023. He attended the prestigious MOP program from 2022-2025. He attended the MIT PRIMES-USA math research program in 2024 and 2025. In his spare time, he enjoys playing sports, especially tennis.",
   },
   {
     id: 2,
