@@ -70,6 +70,8 @@ export default function OMMCCarouselNoCaption(props) {
             src={image.src}
             className="h-full w-full object-cover"
           />
+          <div className="absolute bottom-0 left-0 w-full h-0 bg-black/50 text-center text-xs sm:text-base">
+          </div>
         </div>
       ))}
     </Carousel>
