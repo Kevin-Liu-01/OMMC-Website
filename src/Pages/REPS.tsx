@@ -33,6 +33,46 @@ const REPSImages = [
   },
 ];
 
+
+const REPS2025Images = [
+  {
+    src: "/reps/reps1.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps2.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps3.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps4.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps5.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps6.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps7.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps8.jpg",
+    caption: "",
+  },
+  {
+    src: "/reps/reps9.jpg",
+    caption: "",
+  },
+];
+
 export default function MEME(props) {
   return (
     <div
@@ -124,15 +164,15 @@ export default function MEME(props) {
               <div className="overflow-hidden dark:text-gray-200 border-2 mt-4 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 rounded-xl p-4">
                 <p className="font-extrabold text-3xl  pb-2">Logistics</p>
                 <p className="mb-3">
-                  REPS 2025 will be held at the Science and Engineering Resource
+                  REPS 2026 will be held at the Science and Engineering Resource
                   Center at Rutgers University New Brunswick in Auditoriums
-                  111, 118, 209, on June 7th, 2025, from 1-6PM EST. The address
+                  111, 117, and 118, on May 2nd, 2026, from 10 AM-6 PM EDT. The address
                   is 96 Frelinghuysen Rd, Piscataway, NJ 08854.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <iframe
                     className="flex rounded-md overflow-hidden border-gray-200 dark:border-gray-900 border-2 col-span-1 h-72 sm:h-96 w-full"
-                    title="REPS 2025 Location"
+                    title="REPS 2026 Location"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.3486121817082!2d-74.46399501907499!3d40.52261266929816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3c70d74aba1dd%3A0x52c84edb693c6460!2sScience%20and%20Engineering%20Resource%20Center!5e0!3m2!1sen!2sus!4v1708738570047!5m2!1sen!2sus"
                     // style="border:0;"
                     allowFullScreen={true}
@@ -161,13 +201,33 @@ export default function MEME(props) {
               </div>
             </div>
           </div>
+
+          <div className="md:col-span-6 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-[1rem] p-4 ">
+            <div className=" text-gray-800 dark:text-gray-200">
+              <p className="font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-red-600 dark:border-red-600  mb-2">
+                Rutgers Expo in Problem Solving (REPS) 2025
+              </p>
+              <p className="mb-3">
+                The Rutgers Expo in Problem Solving 2025 was
+                held at the Science and Engineering Resource Center at Rutgers University on June 7th, 2025, from
+                1-6 PM EDT. Events included several breakout sessions and games
+                like an Estimathon, and guest speakers included Richard Rusczyk, Christian Yongwhan Lim, and Dr. Yang Liu!
+              </p>
+              {/*Carousel*/}
+              <div className="relative p-2 sm:p-4 rounded-lg md:max-w-7xl h-[42rem]">
+                <OMMCCarousel REPSImages={REPS2025Images} />
+              </div>
+            </div>
+          </div>
+
+          
           <div className="md:col-span-6 text-gray-800 dark:text-gray-400 border-2 border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 rounded-[1rem] p-4 ">
             <div className=" text-gray-800 dark:text-gray-200">
               <p className="font-extrabold text-3xl lg:border-l-[10px] lg:pl-3 border-red-600 dark:border-red-600  mb-2">
                 Monmouth Exploratory Math Exposition (MEME) 2023
               </p>
               <p className="mb-3">
-                Last year in 2023, we held a similar in person event at a more
+                In 2023, we held a similar in person event at a more
                 local level. The Monmouth Exploratory Math Exposition 2023 was
                 held at Bell Works, in Holmdel, on Sunday, April 2nd, 2023, from
                 4-8 PM EST. Events included several breakout sessions and games
