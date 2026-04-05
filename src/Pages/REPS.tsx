@@ -9,7 +9,6 @@ import {
 import React from "react";
 
 import OMMCCarousel from "../Components/Carousel";
-import OMMCCarouselNoCaption from "../Components/Carousel";
 
 const REPSImages = [
   {
@@ -216,7 +215,7 @@ export default function MEME(props) {
               </p>
               {/*Carousel*/}
               <div className="relative p-2 sm:p-4 rounded-lg md:max-w-7xl h-[42rem]">
-                <OMMCCarouselNoCaption REPSImages={REPS2025Images} />
+                <OMMCCarousel REPSImages={REPS2025Images} />
               </div>
             </div>
           </div>
