@@ -189,14 +189,14 @@ export default function MEME(props) {
                   >
                     Loading…
                   </iframe>
-                  {/*
+                  {
                   <iframe
                     title={"REPS Itinerary"}
-                    src={"/documents/REPS_Itinerary_1.pdf"}
+                    src={"/documents/REPS_Itinerary_2.pdf"}
                     className="h-72 sm:h-96 w-full border-2 border-gray-200 dark:border-gray-800 rounded-lg bg-gray-300 drop-shadow-lg col-span-1 sm:col-span-2"
                     allow="autoplay"
                   ></iframe>
-                  */}
+                  }
                 </div>
               </div>
             </div>
