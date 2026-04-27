@@ -168,6 +168,8 @@ export default function MEME(props) {
                   Center at Rutgers University New Brunswick in Auditoriums
                   111, 117, and 118, on May 2nd, 2026, from 11 AM-5 PM EDT. The address
                   is 96 Frelinghuysen Rd, Piscataway, NJ 08854.
+
+                  Please park in parking lots 53, 53A, 60A, or 60B and fill out the Rutgers parking permit form: https://parkingbase.com/c/rutgers/d/3676664?eventId=7b7bd40e-9bac-4700-96e7-397ce7b7bd20
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <iframe
