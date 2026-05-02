@@ -167,7 +167,7 @@ export default function MEME(props) {
                   REPS 2026 will be held at the Science and Engineering Resource
                   Center at Rutgers University New Brunswick in Auditoriums
                   111, 117, and 118, on May 2nd, 2026, from 11 AM-5 PM EDT. The address
-                  is 96 Frelinghuysen Rd, Piscataway, NJ 08854.
+                  is 118 Frelinghuysen Rd, Piscataway, NJ 08854.
 
                   Please park in parking lots 53, 53A, 60A, or 60B and fill out the Rutgers parking permit form: <a href="https://parkingbase.com/c/rutgers/d/3676664?eventId=7b7bd40e-9bac-4700-96e7-397ce7b7bd20">https://parkingbase.com/c/rutgers/d/3676664?eventId=7b7bd40e-9bac-4700-96e7-397ce7b7bd20</a>
                 </p>
