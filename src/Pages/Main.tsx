@@ -249,8 +249,7 @@ export default function Main(props) {
                   Conclusion of Competition
                 </h3>
                 <p className="mb-2 text-base font-normal text-gray-500  dark:text-gray-400">
-                  Discussion opened. Solutions released, winners announced,
-                  <div>and prizes sent out to winners.</div>
+                  Discussion opened, solutions released, and winners announced.
                 </p>
               </li>
               <li className="ml-4">
