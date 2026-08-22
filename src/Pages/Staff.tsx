@@ -149,15 +149,6 @@ const currentMembers = [
     bio: "Eric is a sophomore from High Technology High School in New Jersey. He has qualified for AIME since 7th grade and has achieved other distinctions such as AMC10, 8 DHR and is the 2023 JHMMC winner. His favorite math subject is algebra, followed by geometry. Besides math he enjoys tennis, coding, physics, current events, and chatting on Discord with friends. He is also a big geography fan and qualified for Geography Bee Nationals in 2023. You can find him on AOPS as eg4334 or on Discord as eric4334.",
   },
   {
-    id: 23,
-    name: "Bryan Guo",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Bryan Guo",
-    role: "Content Contributor",
-    bio: "Bryan Guo is a problem contributor for the OMMC team and is currently a junior. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
-  },
-  {
     id: 27,
     name: "Tarun Rapaka",
     href: "#",
@@ -392,6 +383,15 @@ const pastMembers = [
     imageAlt: "Vikram Sarkar",
     role: "Content Contributor",
     bio: "Vikram Sarkar is a test solver for the OMMC team. His achievements include qualifying for the USA Junior Math Olympiad (USAJMO) three times and qualifying for the prestigious Math Olympiad Program (MOP) in 2024. Outside of math, he likes playing video games, listening to music, and coding.",
+  },
+  {
+    id: 24,
+    name: "Bryan Guo",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Bryan Guo",
+    role: "Content Contributor",
+    bio: "Bryan Guo is a problem contributor for the OMMC team and is currently a junior. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
 ];
 
