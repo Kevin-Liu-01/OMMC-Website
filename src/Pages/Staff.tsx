@@ -50,15 +50,6 @@ const currentMembers = [
     bio: "Catherine is a high school junior from Georgia. She is on OMMC’s outreach team, and is passionate about designing social media content and engaging with the math community. She loves mathematical problem solving, and is especially fond of geometry. Outside of math, she is also an archer and a singer. She has won prizes at multiple international vocal competitions and has performed at Carnegie Hall. In her free time, she enjoys baking, curating music, and reading Agatha Christie.",
   },
   {
-    id: 6,
-    name: "Royce Yao",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Royce Yao",
-    role: "Content Contributor",
-    bio: "Royce is curently a senior from University High School. They are a 2-time Olympiad qualifier and attended the MOP program in 2025. Currently, in their free time, among other things, they like to play celeste and do pencil puzzles, among other goofy things."
-  },
-  {
     id: 7,
     name: "Tiger Li",
     href: "#",
@@ -95,15 +86,6 @@ const currentMembers = [
     bio: "Eddy is a sophomore from Parkland High School in Pennsylvania. He has qualified for AIME four times, JMO once, Mathcounts Nationals twice, and was one of the top 20 students at the ARML competition in 2025. Out of all the subjects, he enjoys number theory and algebra the most. He also enjoys piano, tennis, and wasting time online watching ping pong or clash royale."
   },
   {
-    id: 11,
-    name: "Arjun Agarwal",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Arjun Agarwal",
-    role: "Content Contributor",
-    bio: " Arjun is a senior from Portland, Oregon. He is an active participant in math competitions and has qualified for the USAJMO getting an honorable mention. He is also a 1x gold medalist and 3x silver medalist in the USAMTS getting a near perfect score of 74 twice. In addition, he enjoys doing math research, participating in the MIT-PRIMES USA program twice in 2024 and 2025. He has also attended multiple math camps, Ross Ohio (2023), the Canada-USA Mathcamp (2024, 2025), and the APEX-maths program in Romania (2025). Besides math, he enjoys playing the piano, chess, and card games with his friends at camps and competitions. He has been playing Clash Royale for six years in which he mains classic logbait."
-  },
-  {
     id: 12,
     name: "Andrew Chai",
     href: "#",
@@ -129,15 +111,6 @@ const currentMembers = [
     imageAlt: "Darren Han",
     role: "Content Contributor",
     bio: "Darren is currently a junior at Westwood High School. He attended MOP in 2025 and won a gold medal on the USAMO. He qualified for the USAMO twice and USAJMO twice. He is also a researcher under the MIT PRIMES-USA program. Apart from math, he enjoys physics, competitive programming, playing the violin, and listening to music."
-  },
-  {
-    id: 15,
-    name: "Tony Zhang",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Tony Zhang",
-    role: "Content Contributor",
-    bio: "Tony is a senior from Richmond, Virginia, and has participated in math competitions since 2017. He is a 5x AIME qualifier, 3x USA(J)MO qualifier and most recently earned a bronze medal (1 point off silver) on the 2025 USAMO. His worst and probably least favorite subject is geometry. He is also a 2x Canada/USA Mathcamp attendee. Besides math, Tony also likes solving and writing puzzles, playing the piano, playing chess, and swimming. He is also interested in geography and weather. You can find him on AoPS and discord at plang2008."
   },
   {
     id: 16,
@@ -167,15 +140,6 @@ const currentMembers = [
     bio: "Keshav is a high school sophomore from Oregon. He has gotten a silver medal on the USAMO and qualified for MOP 2025. He has qualified for the AIME 4 times, and placed silver on USAMTS. His hobbies outside of math include coding, solving puzzles, and swimming."
   },
   {
-    id: 19,
-    name: "Culver Kwan",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Culver Kwan",
-    role: "Content Contributor",
-    bio: "Culver is a senior at Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024 and got bronze and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both. ",
-  },
-  {
     id: 20,
     name: "Eric Guo",
     href: "#",
@@ -194,15 +158,6 @@ const currentMembers = [
     bio: "Vikram Sarkar is a test solver for the OMMC team and is currently a senior. His achievements include qualifying for the USA Junior Math Olympiad (USAJMO) three times and qualifying for the prestigious Math Olympiad Program (MOP) in 2024. Outside of math, he likes playing video games, listening to music, and coding.",
   },
   {
-    id: 22,
-    name: "Calvin Wang",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Calvin Wang",
-    role: "Content Contributor",
-    bio: "Calvin is a senior in Virginia who has participated in various math competitions such as AIME and MATHCOUNTS. He made AIME since 6th grade, got a perfect score in AMC8 in 6th grade, was the runner up in MATHCOUNTS Nationals in 8th grade, and has been actively doing many math competitions. Calvin enjoys many forms of math, and wants others to enjoy them, too. He is an active member on Discord(going by jatloe) and AoPS(going by cj13609517288). In his free time, Calvin enjoys playing and making puzzles, playing games, and wasting time on Discord.",
-  },
-  {
     id: 23,
     name: "Bryan Guo",
     href: "#",
@@ -219,24 +174,6 @@ const currentMembers = [
     imageAlt: "Rohan Garg",
     role: "Content Contributor",
     bio: "Rohan is a junior in the Bay Area. He has qualified for AIME 4 times, USAJMO once, and USAMO once, getting a Bronze medal. He got a perfect score on the AMC 10 and a 13 on AIME. He is a researcher under the MIT PRIMES-USA program. Apart from math, he does competitive programming and is a Platinum contestant and a Master on codeforces. ",
-  },
-  {
-    id: 25,
-    name: "Jennifer Hu",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Jennifer Hu",
-    role: "Content Contributor",
-    bio: "Jennifer is a high school senior from Indiana. Jennifer is a 2-time AIME Qualifier and a MPfG Qualifier, and she also attended the G2 Math Program in 2024. She tutors various math topics to middle-high school students, and especially enjoys geometry. Jennifer also enjoys studying chemistry, crocheting, and listening to music in her spare time. ",
-  },
-  {
-    id: 26,
-    name: "Jiya Dani",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Jiya Dani",
-    role: "Content Contributor",
-    bio: "Jiya is a senior in Texas and is a problem writer and test solver for OMMC. She is also an Athemath teacher, and attended MOP 2024, Ross 2023, and is currently doing mathematics research through the MIT PRIMES-USA program. In her free time, she enjoys tinkering with electronics and playing or listening to calm guitar music.",
   },
   {
     id: 27,
@@ -455,6 +392,15 @@ const pastMembers = [
     imageSrc: "/staff/default.png",
     imageAlt: "Neal Yan",
     bio: "Neal is a geometry addict hailing from Wisconsin, serving as a problem writer / testsolver / marketer for OMMC. He has attended MOP and is also the chief math officer of the regional organization known as Youth EUCLID Association. In math contests, he's made USA(J)MO since 8th grade, and has achieved multiple individual top fives at collegiate math tournaments like BMT, SMT, and JHMT. During most of the day, he enjoys solving and attempting to write olympiad problems, grinding OTIS, spamming / calling friends on Discord, listening to electronic songs, and blogging on AoPS under the username 'crazyeyemoody907'.",
+  },
+  {
+    id: 22,
+    name: "Culver Kwan",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Culver Kwan",
+    role: "Content Contributor",
+    bio: "Culver graduated from Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024, 2025, 2026 and got bronze, silver, gold, and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both. ",
   },
 ];
 
