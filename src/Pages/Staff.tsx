@@ -149,15 +149,6 @@ const currentMembers = [
     bio: "Eric is a sophomore from High Technology High School in New Jersey. He has qualified for AIME since 7th grade and has achieved other distinctions such as AMC10, 8 DHR and is the 2023 JHMMC winner. His favorite math subject is algebra, followed by geometry. Besides math he enjoys tennis, coding, physics, current events, and chatting on Discord with friends. He is also a big geography fan and qualified for Geography Bee Nationals in 2023. You can find him on AOPS as eg4334 or on Discord as eric4334.",
   },
   {
-    id: 21,
-    name: "Vikram Sarkar",
-    href: "#",
-    imageSrc: "/staff/vikram.jpg",
-    imageAlt: "Vikram Sarkar",
-    role: "Content Contributor",
-    bio: "Vikram Sarkar is a test solver for the OMMC team and is currently a senior. His achievements include qualifying for the USA Junior Math Olympiad (USAJMO) three times and qualifying for the prestigious Math Olympiad Program (MOP) in 2024. Outside of math, he likes playing video games, listening to music, and coding.",
-  },
-  {
     id: 23,
     name: "Bryan Guo",
     href: "#",
@@ -401,6 +392,15 @@ const pastMembers = [
     imageAlt: "Culver Kwan",
     role: "Content Contributor",
     bio: "Culver graduated from Diocesan Boys' School in Hong Kong. He enjoys both mathematics and programming, and participates in olympiads for both of them. He participated in IMO 2023, 2024, 2025, 2026 and got bronze, silver, gold, and silver medals respectively, and got a silver medal at IOI 2024. His peak rank on Codeforces is Grandmaster. He has also done research on graph theory in the summer leading up to his sophomore year. He likes writing both math problems and informatics problems, and has set a number of quality problems in both. ",
+  },
+  {
+    id: 23,
+    name: "Vikram Sarkar",
+    href: "#",
+    imageSrc: "/staff/vikram.jpg",
+    imageAlt: "Vikram Sarkar",
+    role: "Content Contributor",
+    bio: "Vikram Sarkar is a test solver for the OMMC team. His achievements include qualifying for the USA Junior Math Olympiad (USAJMO) three times and qualifying for the prestigious Math Olympiad Program (MOP) in 2024. Outside of math, he likes playing video games, listening to music, and coding.",
   },
 ];
 
