@@ -158,15 +158,6 @@ const currentMembers = [
     bio: "Bryan Guo is a problem contributor for the OMMC team and is currently a junior. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
   },
   {
-    id: 24,
-    name: "Rohan Garg",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Rohan Garg",
-    role: "Content Contributor",
-    bio: "Rohan is a junior in the Bay Area. He has qualified for AIME 4 times, USAJMO once, and USAMO once, getting a Bronze medal. He got a perfect score on the AMC 10 and a 13 on AIME. He is a researcher under the MIT PRIMES-USA program. Apart from math, he does competitive programming and is a Platinum contestant and a Master on codeforces. ",
-  },
-  {
     id: 27,
     name: "Tarun Rapaka",
     href: "#",
