@@ -11,7 +11,7 @@ const currentMembers = [
     imageSrc: "/staff/default.png",
     imageAlt: "Eric Guo",
     role: "CEO",
-    bio: "Eric is a junior from High Technology High School in New Jersey. He attended MOP and Canada/USA Mathcamp in 2025. He also participates in the MIT PRIMES research program. Outside of math, he enjoys physics and talking to people on discord. You can find him on AOPS as eg4334 or on Discord as eric4334.",
+    bio: "Eric is a junior from High Technology High School in New Jersey. He attended MOP and Canada/USA Mathcamp in 2026. He also participates in the MIT PRIMES research program. Outside of math, he enjoys physics and talking to people on discord. You can find him on AOPS as eg4334 or on Discord as eric4334.",
   },
   {
     id: 2,
