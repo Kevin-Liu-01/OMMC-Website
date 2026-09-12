@@ -5,22 +5,13 @@ import React, { useState } from "react";
 
 const currentMembers = [
   {
-    id: 1,
-    name: "Alexander Wang",
+    id: 20,
+    name: "Eric Guo",
     href: "#",
-    imageSrc: "/staff/alexander.png",
-    imageAlt: "Alexander Wang",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Eric Guo",
     role: "CEO",
-    bio: "Alexander is currently a senior at Millburn High School. He is a 3-time IMO Gold Medalist in 2023, 2024, and 2025. He won a gold medal at RMM 2023 and APMO 2024. He is a 3-time USAMO Gold Medalist and obtained a perfect score in 2023. He attended the prestigious MOP program from 2022-2025. He attended the MIT PRIMES-USA math research program in 2024 and 2025. In his spare time, he enjoys playing sports, especially tennis.",
-  },
-  {
-    id: 2,
-    name: "Charles Zhang",
-    href: "#",
-    imageSrc: "/staff/charles.jpeg",
-    imageAlt: "Charles Zhang",
-    role: "Head of Logistics",
-    bio: "Charles is a senior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.",
+    bio: "Eric is a junior from High Technology High School in New Jersey. He attended MOP and Canada/USA Mathcamp in 2025. He also participates in the MIT PRIMES research program. Outside of math, he enjoys physics and talking to people on discord. You can find him on AOPS as eg4334 or on Discord as eric4334.",
   },
   {
     id: 3,
@@ -140,15 +131,6 @@ const currentMembers = [
     bio: "Keshav is a high school sophomore from Oregon. He has gotten a silver medal on the USAMO and qualified for MOP 2025. He has qualified for the AIME 4 times, and placed silver on USAMTS. His hobbies outside of math include coding, solving puzzles, and swimming."
   },
   {
-    id: 20,
-    name: "Eric Guo",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Eric Guo",
-    role: "Content Contributor",
-    bio: "Eric is a sophomore from High Technology High School in New Jersey. He has qualified for AIME since 7th grade and has achieved other distinctions such as AMC10, 8 DHR and is the 2023 JHMMC winner. His favorite math subject is algebra, followed by geometry. Besides math he enjoys tennis, coding, physics, current events, and chatting on Discord with friends. He is also a big geography fan and qualified for Geography Bee Nationals in 2023. You can find him on AOPS as eg4334 or on Discord as eric4334.",
-  },
-  {
     id: 27,
     name: "Tarun Rapaka",
     href: "#",
@@ -202,6 +184,15 @@ const pastMembers = [
     imageSrc: "/staff/ishaan.png",
     imageAlt: "Ishaan Akula",
     bio: "Ishaan is a student at Stanford University. He cofounded OMMC with Evan Chang in September of 2020, and worked as a director for OMMC and handled the partnership and impact aspect of the competition, including work with sponsors, partners, and donors. He was awarded Honorable Mention for Environmental Science in the Jersey Shore Science Fair. He won 1st place at the state-wide regional bee, qualifying for the National Scripps Spelling Bee. He specializes in UI/UX design and mobile app development using Flutter programming. Furthermore, he is actively involved in the Performing Arts, demonstrating leadership and acting skills in school musicals and performing with his a cappella group, 'Tech-appella.'",
+  },
+  {
+    id: 1,
+    name: "Alexander Wang",
+    href: "#",
+    imageSrc: "/staff/alexander.png",
+    imageAlt: "Alexander Wang",
+    role: "CEO",
+    bio: "Alexander is currently a senior at Millburn High School. He is a 3-time IMO Gold Medalist in 2023, 2024, and 2025. He won a gold medal at RMM 2023 and APMO 2024. He is a 3-time USAMO Gold Medalist and obtained a perfect score in 2023. He attended the prestigious MOP program from 2022-2025. He attended the MIT PRIMES-USA math research program in 2024 and 2025. In his spare time, he enjoys playing sports, especially tennis.",
   },
   {
     id: 3,
@@ -392,6 +383,15 @@ const pastMembers = [
     imageAlt: "Bryan Guo",
     role: "Content Contributor",
     bio: "Bryan Guo is a problem contributor for the OMMC team and is currently a junior. He has achieved Distinguished Honor Roll on the AMC 10 several times, and qualified for the 2022 USAJMO. He is a two-time USAMTS silver medalist and has participated in the A2 team for SD ARML. In the 2022 AMC cycle, he achieved a perfect score on the AMC 10. Apart from math, he enjoys playing tennis and talking on Discord.",
+  },
+  {
+    id: 2,
+    name: "Charles Zhang",
+    href: "#",
+    imageSrc: "/staff/charles.jpeg",
+    imageAlt: "Charles Zhang",
+    role: "Head of Logistics",
+    bio: "Charles is a senior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.",
   },
 ];
 
