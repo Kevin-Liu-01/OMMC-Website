@@ -53,6 +53,18 @@ const solutions = [
     page: "testdocs24",
   },
   {
+  name: "OMMC 2025",
+  href: "/2025-documents",
+  current: true,
+  page: "testdocs25",
+  },
+  {
+  name: "OMMC 2026",
+  href: "/2026-documents",
+  current: true,
+  page: "testdocs26",
+  },
+  {
     name: "OMMC AMC",
     href: "/ommc-amc",
     current: true,
