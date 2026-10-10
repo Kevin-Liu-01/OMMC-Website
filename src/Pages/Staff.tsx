@@ -24,24 +24,15 @@ const currentMembers = [
   },
   {
     id: 3,
-    name: "Mahith Gottipati",
+    name: "Keshav Karumbunathan",
     href: "#",
     imageSrc: "/staff/default.png",
-    imageAlt: "Mahith Gottipati",
-    role: "Head of Content Creation",
-    bio: 'Mahith is a senior from Texas. He has qualified for the AIME three times and has placed well in several other contests. Apart from mathematics, he enjoys physics, coding, and playing table tennis and chess. You can find him on chess.com under the handle "rocketsrimsg," where he plays (a little too much) puzzle rush. ',
+    imageAlt: "Keshav Karumbunathan",
+    role: "Head of Content Contributor",
+    bio: "Keshav is a high school sophomore from Oregon. He has gotten a silver medal on the USAMO and qualified for MOP 2025. He has qualified for the AIME 4 times, and placed silver on USAMTS. His hobbies outside of math include coding, solving puzzles, and swimming."
   },
   {
     id: 4,
-    name: "Sagarika Yagnyeshwaran",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Sagarika Yagnyeshwaran",
-    role: "Head of Outreach",
-    bio: "Sagarika is a high school senior in Manalapan High School's Science and Engineering Program. She is OMMC's Head of Outreach and makes flyers, posters, and other social media content. She is a math tutor and is predominantly interested in statistics. In her free time, she plays piano and has won various international competition for it, including the chance to perform at Carnegie hall. A few of her interests include finance, politics, music, and reading. Sagarika is always open to trying new things and meeting all kinds of people!",
-  },
-  {
-    id: 5,
     name: "Catherine Ji",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -50,7 +41,7 @@ const currentMembers = [
     bio: "Catherine is a high school junior from Georgia. She is on OMMC’s outreach team, and is passionate about designing social media content and engaging with the math community. She loves mathematical problem solving, and is especially fond of geometry. Outside of math, she is also an archer and a singer. She has won prizes at multiple international vocal competitions and has performed at Carnegie Hall. In her free time, she enjoys baking, curating music, and reading Agatha Christie.",
   },
   {
-    id: 6,
+    id: 5,
     name: "Tiger Li",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -59,7 +50,7 @@ const currentMembers = [
     bio: "Tiger is a sophomore from Canada. He has qualified for the AIME 6 times, and the CMO, APMO, and USAJMO three times each. He won Top Honors on 2025 JMO with a perfect score, a Bronze medal on 2025 IMO with a score of 21, and a Silver medal on 2025 APMO with a score of 22. In his free time, he plays too many video games and reads way too much manga. Unfortunately, he has never had a perfect score on the AMC 8 or Gauss contests."
   },
   {
-    id: 7,
+    id: 6,
     name: "Ethan Imanuel",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -68,7 +59,7 @@ const currentMembers = [
     bio: "Ethan is currently a freshman at Chatham High School in New Jersey. He has qualified the JMO twice and MATHCOUNTS Nationals twice. Apart from math, he enjoys coding, playing trombone, fencing, and playing videogames in his free time."
   },
   {
-    id: 8,
+    id: 7,
     name: "Eddy Zhang",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -77,7 +68,7 @@ const currentMembers = [
     bio: "Eddy is a sophomore from Parkland High School in Pennsylvania. He has qualified for AIME four times, JMO once, Mathcounts Nationals twice, and was one of the top 20 students at the ARML competition in 2025. Out of all the subjects, he enjoys number theory and algebra the most. He also enjoys piano, tennis, and wasting time online watching ping pong or clash royale."
   },
   {
-    id: 9,
+    id: 8,
     name: "Andrew Chai",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -86,7 +77,7 @@ const currentMembers = [
     bio: "Andrew is a junior from New Jersey. He has qualified for the AIME 3 times and for the USAJMO two times, getting Honors last year. Andrew especially likes olympiad combinatorics and geometry problems. Aside from math, he likes to swim and play the piano."
   },
   {
-    id: 10,
+    id: 9,
     name: "Rayoon Kim",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -95,16 +86,7 @@ const currentMembers = [
     bio: "Rayoon is a sophomore from Lower Merion High School in Pennsylvania. He has qualified for AIME since 7th grade and has achieved other distinctions such as AMC10, 8 DHR and has placed top 25 in mathcounts. His favorite math subject is algebra, followed by algebra disguised in a geometry problem. Besides math he loves esports, gaming, reading, and discord. Message him on lostriptide on discord."
   },
   {
-    id: 11,
-    name: "Darren Han",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Darren Han",
-    role: "Content Contributor",
-    bio: "Darren is currently a junior at Westwood High School. He attended MOP in 2025 and won a gold medal on the USAMO. He qualified for the USAMO twice and USAJMO twice. He is also a researcher under the MIT PRIMES-USA program. Apart from math, he enjoys physics, competitive programming, playing the violin, and listening to music."
-  },
-  {
-    id: 12,
+    id: 10,
     name: "Kevin Long",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -113,7 +95,7 @@ const currentMembers = [
     bio: "Kevin's a MOP attendee from New Jersey. He's a freshman currently and hopes to go to IMO someday."
   },
   {
-    id: 13,
+    id: 11,
     name: "Arjun Suresh",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -122,16 +104,7 @@ const currentMembers = [
     bio: "Arjun is a sophomore at Middleton High School in Wisconsin. He is a two-time AIME qualifier and received honors on USAJMO in 2025. Apart from math, he enjoys listening to music, writing, and occasionally playing tennis."
   },
   {
-    id: 14,
-    name: "Keshav Karumbunathan",
-    href: "#",
-    imageSrc: "/staff/default.png",
-    imageAlt: "Keshav Karumbunathan",
-    role: "Content Contributor",
-    bio: "Keshav is a high school sophomore from Oregon. He has gotten a silver medal on the USAMO and qualified for MOP 2025. He has qualified for the AIME 4 times, and placed silver on USAMTS. His hobbies outside of math include coding, solving puzzles, and swimming."
-  },
-  {
-    id: 15,
+    id: 12,
     name: "Tarun Rapaka",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -140,7 +113,7 @@ const currentMembers = [
     bio: "Tarun is a junior from The Woodlands, Texas. In 2024 he qualified for the USAJMO and got Honors, 2 points shy of the MOP cutoff. He is also a 3-time AIME qualifier, a 2023 AMC 10 perfect scorer, a 2-time ARML Team High Scorer, and a USAMTS Silver medalist. He was an attendee of Canada/USA Mathcamp 2024. In his spare time, he likes to work on hard Olympiad geometry problems. His hobbies include piano, rock climbing, and speed cubing.",
   },
   {
-    id: 16,
+    id: 13,
     name: "Casi",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -149,7 +122,7 @@ const currentMembers = [
     bio: "Casi is an 11th grader from Oregon. She qualified for USAJMO for the first time last year. She really enjoys solving math problems, especially number theory. In her spare time, she likes to solve math puzzles, play the piano, and exercise.",
   },
   {
-    id: 17,
+    id: 14,
     name: "Akshaj Arora",
     href: "#",
     imageSrc: "/staff/default.png",
@@ -158,13 +131,76 @@ const currentMembers = [
     bio: "Akshaj is a sophomore at Northview High School in Georgia. His math achievements include USAJMO Honors, 3x MATHCOUNTS Nationals, and Distinguished Honor Roll in AMC-10. Apart from Math, he loves programming and knows JavaScript, Typescript, Python, and C++. He also plays Clarinet and video games in his free time.",
   },
   {
-    id: 18,
+    id: 15,
     name: "Vihaan Gupta",
     href: "#",
     imageSrc: "/staff/default.png",
     imageAlt: "Vihaan Gupta",
     role: "Content Contributor",
     bio: "Vihaan is a current sophomore who qualified for USA(J)MO for the first time last year. He participated on the SFBA/NorCal A1 team in ARML, and he enjoys participating in various competitions (as well as writing a few).",
+  },
+  {
+    id: 16,
+    name: "Eden He",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Eden He",
+    role: "Content Contributor",
+    bio: "Eden is a senior at Garnet Valley High School who attended MOP in 2025. He is a participant on the Lehigh Valley ARML Fire team, and enjoys playing chess and tractor in his spare time.",
+  },
+  {
+    id: 17,
+    name: "Krithik Manoharan",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Krithik Manoharan",
+    role: "Content Contributor",
+    bio: "Krithik is a current sophomore from Houston, TX. He has qualified to AIME 4 times and USA(J)MO 3 times, and attended MOP in 2026. Out of all of the subjects, he enjoys algebra the most: he won top 10 in PuMAC Algebra twice, top 10 in HMMT February Algebra once, and won 1st in the 2026 CMIMC Algebra round. He also hosts his own math competition, KNMC, which reached over 350 participants. Aside from math, he enjoys puzzles and card games (especially fish).",
+  },
+  {
+    id: 18,
+    name: "Joshua Liu",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Joshua Liu",
+    role: "Content Contributor",
+    bio: "I’m Joshua, I’m a junior at Cherry Creek High School in Colorado. My favorite math subject is probably NT. When I’m not doing math I enjoy swimming, listening to music, and watching sports.",
+  },
+  {
+    id: 19,
+    name: "Luca Pieleanu",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Luca Pieleanu",
+    role: "Content Contributor",
+    bio: "Luca is currently a junior at Sharon High School in Massachusetts. He has qualified for USAJMO twice in 8th grade and 9th grade and USAMO once in 10th grade. He is also part of the MIT PRIMES math research program. Aside from math, he does research in statistical physics and network science and has an Erdős number of 4. You can find him on AoPS as lpieleanu.",
+  },
+  {
+    id: 20,
+    name: "Ben Jump",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Ben Jump",
+    role: "Content Contributor",
+    bio: "Ben is a Senior from Cincinnati Ohio. He has qualified for the AIME since 2023, eventually receiving USAJMO Honors in 2025, and USAMO Bronze in 2026. He attended SUMaC in 2026. Inside of math he is a combinatorics antimain. Outside of Math, he enjoys running XC and track, playing game pigeon word hunt, and being with friends.",
+  },
+  {
+    id: 21,
+    name: "Adam Smith",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Adam Smith",
+    role: "Content Contributor",
+    bio: "Adam is a junior attending Hershey High School in Pennsylvania. He has qualified for AIME three times and JMO once, and he attended MOP in 2026. He also enjoys playing the trumpet, studying math and science, playing chess, and playing frisbee. He also participates in FRC, Science Olympiad, his school chess club, marching band, and helping out the MATHCOUNTS team! Find him as adammith_ on Discord.",
+  },
+  {
+    id: 22,
+    name: "Lam To",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Lam To",
+    role: "Content Contributor",
+    bio: "Lam is a high school junior at Bergen County Academies. He has qualified for USAMO, missing a bronze medal by 1 point, and hopes to get his revenge and make MOP next year.",
   },
 ];
 
@@ -392,6 +428,33 @@ const pastMembers = [
     imageAlt: "Charles Zhang",
     role: "Head of Logistics",
     bio: "Charles is a senior in Southern California, and is the Head of Logistics for OMMC.  He is a 4-time Math Olympiad qualifier, and has scored 11 on the AIME 4 years in a row.  He is a researcher under the MIT PRIMES-USA program, and an attendee of Ross Indiana 2023 and SPARC 2024.  In his free time, he likes to play difficult 2017-2018 indie games, such as Hollow Knight, Celeste, and Cuphead.",
+  },
+  {
+    id: 27,
+    name: "Mahith Gottipati",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Mahith Gottipati",
+    role: "Head of Content Creation",
+    bio: 'Mahith is a senior from Texas. He has qualified for the AIME three times and has placed well in several other contests. Apart from mathematics, he enjoys physics, coding, and playing table tennis and chess. You can find him on chess.com under the handle "rocketsrimsg," where he plays (a little too much) puzzle rush. ',
+  },
+  {
+    id: 28,
+    name: "Sagarika Yagnyeshwaran",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Sagarika Yagnyeshwaran",
+    role: "Head of Outreach",
+    bio: "Sagarika is a high school senior in Manalapan High School's Science and Engineering Program. She is OMMC's Head of Outreach and makes flyers, posters, and other social media content. She is a math tutor and is predominantly interested in statistics. In her free time, she plays piano and has won various international competition for it, including the chance to perform at Carnegie hall. A few of her interests include finance, politics, music, and reading. Sagarika is always open to trying new things and meeting all kinds of people!",
+  },
+  {
+    id: 29,
+    name: "Darren Han",
+    href: "#",
+    imageSrc: "/staff/default.png",
+    imageAlt: "Darren Han",
+    role: "Content Contributor",
+    bio: "Darren is currently a junior at Westwood High School. He attended MOP in 2025 and won a gold medal on the USAMO. He qualified for the USAMO twice and USAJMO twice. He is also a researcher under the MIT PRIMES-USA program. Apart from math, he enjoys physics, competitive programming, playing the violin, and listening to music."
   },
 ];
 
