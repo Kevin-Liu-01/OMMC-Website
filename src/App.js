@@ -14,6 +14,8 @@ import Sponsorship from "./Pages/Sponsorship.tsx";
 import Test22 from "./Pages/Documents/Test_22.tsx";
 import Test23 from "./Pages/Documents/Test_23.tsx";
 import Test24 from "./Pages/Documents/Test_24.tsx";
+import Test25 from "./Pages/Documents/Test_25.tsx";
+import Test26 from "./Pages/Documents/Test_26.tsx";
 
 import POTD from "./Pages/POTD.tsx";
 import AMC from "./Pages/Documents/AMC.tsx";
@@ -103,6 +105,15 @@ function App() {
           path="sponsorship_prospectus"
           element={<Sponsorship dark={dark} setDark={setDark} />}
         ></Route>
+        <Route
+          path="2025-documents"
+          element={<Test25 dark={dark} setDark={setDark} />}
+        />
+
+        <Route
+          path="2026-documents"
+          element={<Test26 dark={dark} setDark={setDark} />}
+        />
       </Routes>
       <Footer />
     </div>
