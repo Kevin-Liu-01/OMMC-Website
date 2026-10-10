@@ -26,7 +26,7 @@ export default function TestDocs(props) {
           <div className="px-4 sm:px-0">
             <PDFViewer
               title="test"
-              src="https://drive.google.com/file/d/1CGVLK9rDdm5LCD9VFSDYXnOgSGD0p3xn/view?usp=sharing"
+              src="https://drive.google.com/file/d/1CGVLK9rDdm5LCD9VFSDYXnOgSGD0p3xn/view"
             />
           </div>
         </div>
