@@ -26,7 +26,7 @@ export default function Banner() {
             </span>
             <p className="ml-3 font-medium text-white truncate">
               <span className="md:hidden">OMMC Year 6!</span>
-              <span className="hidden md:inline">The OMMC Year 6 Main Round is happening now! You have until September 19 to submit!</span>
+              <span className="hidden md:inline">OMMC Year 6 has concluded! Results are coming soon. </span>
             </p>
           </div>
           <div className="order-3 gap-2 grid mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto sm:flex sm:flex-row">
