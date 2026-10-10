@@ -26,7 +26,7 @@ export default function TestDocs(props) {
           <div className="px-4 sm:px-0">
             <PDFViewer
               title="test"
-              src="https://drive.google.com/file/d/1CvPUeIUbIeEJQb-6tqKNKjWD27bK_XLP/view"
+              src="https://drive.google.com/file/d/1CvPUeIUbIeEJQb-6tqKNKjWD27bK_XLP/preview"
             />
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function TestDocs(props) {
           <div className="px-4 sm:px-0">
             <PDFViewer
               title="final_round"
-              src="https://drive.google.com/file/d/10C_oBJeR00iVCpTIPc_-_ZGPpqIZTZMt/view"
+              src="https://drive.google.com/file/d/10C_oBJeR00iVCpTIPc_-_ZGPpqIZTZMt/preview"
             />
           </div>
         </div>
