@@ -6,6 +6,7 @@ import Staff from "./Pages/Staff.tsx";
 import Leaderboard22 from "./Pages/Leaderboard22.tsx";
 import Leaderboard23 from "./Pages/Leaderboard23.tsx";
 import Leaderboard24 from "./Pages/Leaderboard24.tsx";
+import Leaderboard26 from "./Pages/Leaderboard26.tsx";
 import REPS from "./Pages/REPS.tsx";
 import MEME from "./Pages/MEME.tsx";
 import NotFound from "./Pages/Error.tsx";
@@ -68,6 +69,10 @@ function App() {
           path="2024-leaderboard"
           element={<Leaderboard24 dark={dark} setDark={setDark} />}
         ></Route>
+          <Route
+          path="2026-leaderboard"
+          element={<Leaderboard26 dark={dark} setDark={setDark} />}
+        />
         <Route
           path="2022-documents"
           element={<Test22 dark={dark} setDark={setDark} />}
