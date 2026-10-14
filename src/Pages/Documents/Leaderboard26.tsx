@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
 import React from "react";
 
-export default function Leaderboard24(props) {
+export default function Leaderboard26(props) {
   return (
     <div
       className={
@@ -17,7 +17,7 @@ export default function Leaderboard24(props) {
         <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white duration-150">
             <p className="text-red-700 dark:text-red-600 inline duration-150">
-              OMMC 2024{" "}
+              OMMC 2026{" "}
             </p>{" "}
             Leaderboard
           </h1>
